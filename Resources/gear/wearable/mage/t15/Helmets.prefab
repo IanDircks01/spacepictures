@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1611343728773235
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4830290424337788}
+  - component: {fileID: 114882713387617140}
+  m_Layer: 15
+  m_Name: Helmets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1563055068848125
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4342906062233085}
+  m_Layer: 15
+  m_Name: Head_JNT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1082622294118004
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4662531826550229}
+  - component: {fileID: 137906132000385923}
+  m_Layer: 15
+  m_Name: Mage_T15_Helmet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4830290424337788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611343728773235}
+  m_LocalRotation: {x: 0.13820745, y: -0, z: -0, w: 0.9904033}
+  m_LocalPosition: {x: -14.191223, y: 7.7984247, z: 3.786562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4342906062233085}
+  - {fileID: 4662531826550229}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 15.888265, y: -0, z: 0}
+--- !u!114 &114882713387617140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611343728773235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1826217829, guid: 5d05e6cf052ebe03378bb63449ec7ba6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  slotType: 2
+  equipType: 0
+  weaponJointType: 0
+  keepSlotDefault: 0
+  subAttachers: []
+  weaponJointAttachable: {fileID: 0}
+  weaponJointAngles: {x: 0, y: 0, z: 0}
+  activeOnlyOnLocalClient: []
+  bakedClothColliders: []
+  attachedGo: {fileID: 0}
+  forceAttachAsNonSkinned: 0
+  ignoreThisWearableSet: 0
+  wearableSetConfig: {fileID: 11400000, guid: 4380c1efd61c7024c90d5622e8caae0b, type: 2}
+  wearableExtras: []
+--- !u!4 &4342906062233085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563055068848125}
+  m_LocalRotation: {x: -0.13820745, y: 0, z: -0, w: 0.9904033}
+  m_LocalPosition: {x: -0, y: 0.10107117, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4830290424337788}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -15.888265, y: -0, z: 0}
+--- !u!4 &4662531826550229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082622294118004}
+  m_LocalRotation: {x: -0.13820745, y: -0, z: -0, w: 0.9904033}
+  m_LocalPosition: {x: 0, y: -1.7247897, z: 0.50698876}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4830290424337788}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -15.888265, y: 0, z: 0}
+--- !u!137 &137906132000385923
+SkinnedMeshRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082622294118004}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 491c9d6ea7e57b24da5f24ca73c92e5c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 6df77135b0356304a9febc5ed3dc613f, type: 2}
+  m_Bones:
+  - {fileID: 4342906062233085}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4342906062233085}
+  m_AABB:
+    m_Center: {x: 0.00019033253, y: 0.13306254, z: 0.012289375}
+    m_Extent: {x: 0.12541273, y: 0.21175689, z: 0.1752913}
+  m_DirtyAABB: 0

@@ -1,0 +1,786 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 476873850, guid: 5d05e6cf052ebe03378bb63449ec7ba6, type: 3}
+  m_Name: Monster Rarity Manager
+  m_EditorClassIdentifier:
+  goodAlignment: {fileID: 11400000, guid: 8cca045616b776e4cb5ef957d0342f81, type: 2}
+  evilAlignment: {fileID: 11400000, guid: b511afbcbeb5ff147b833598948aa628, type: 2}
+  hostileNeutralAlignment: {fileID: 11400000, guid: 749b3838154c69148b0165e90cbf32a1, type: 2}
+  monsterModKeys:
+  - mod: {fileID: 11400000, guid: d26fb73aa4e398848a4af6ed831d7c60, type: 2}
+    key: -322731068
+  - mod: {fileID: 11400000, guid: 8e0db0432a0d1d74986479f6fd04b3b1, type: 2}
+    key: -1045585051
+  - mod: {fileID: 11400000, guid: ed72f68b5e1aee6439670fad0aea6f7a, type: 2}
+    key: -1632758906
+  - mod: {fileID: 11400000, guid: de2c09d92c8806748b9129caab5ef873, type: 2}
+    key: 306934490
+  - mod: {fileID: 11400000, guid: 634bb78ebbeddc64ba85b66de6544350, type: 2}
+    key: -604097669
+  - mod: {fileID: 11400000, guid: ffce3fdce62df30489d1c4b7c3f7b432, type: 2}
+    key: 57745952
+  - mod: {fileID: 11400000, guid: e8593e6646d8a164288be08cb0730150, type: 2}
+    key: 224656179
+  - mod: {fileID: 11400000, guid: 427ea42a94fc1da4da9a15ad81648457, type: 2}
+    key: -2054817134
+  - mod: {fileID: 11400000, guid: 191df323e1bc4bd4d87bdfbc235a221d, type: 2}
+    key: -1085371403
+  - mod: {fileID: 11400000, guid: 656545d72f420be48a15a742d85947e4, type: 2}
+    key: 1363583488
+  - mod: {fileID: 11400000, guid: 7a69d5ed19ee054439bb585bd8aaf785, type: 2}
+    key: -517513786
+  - mod: {fileID: 11400000, guid: 9e56a253eef24b543b05a43efeefba67, type: 2}
+    key: 1560953675
+  - mod: {fileID: 11400000, guid: e9536a2b5c4727745a54ce665dfc6322, type: 2}
+    key: 1399876432
+  - mod: {fileID: 11400000, guid: 24040b747c4c61f43a6aa5d40934357c, type: 2}
+    key: -1203599032
+  - mod: {fileID: 11400000, guid: 85dcd150acf0e9245bbb236462ebee0b, type: 2}
+    key: 811894951
+  - mod: {fileID: 11400000, guid: 6c91838fc1a4ffe4b9638c9f7dc1ca88, type: 2}
+    key: 353842574
+  - mod: {fileID: 11400000, guid: 994964cb280775f4c84a039281bbabeb, type: 2}
+    key: -946015842
+  - mod: {fileID: 11400000, guid: 6388aac86a4c4d048acda90da98d0a25, type: 2}
+    key: -2029792515
+  - mod: {fileID: 11400000, guid: 679e64afbf830434c8804b0ce0f8dcf2, type: 2}
+    key: -1195204636
+  - mod: {fileID: 11400000, guid: aa4e2897649cfae45bfdf2f47c723039, type: 2}
+    key: -2124180550
+  - mod: {fileID: 11400000, guid: d0b94b3a0f9c5744a9685596840c0491, type: 2}
+    key: 1755045344
+  - mod: {fileID: 11400000, guid: 4ae42b47b6ab10640aba3bfd3d1cff58, type: 2}
+    key: 1112269701
+  - mod: {fileID: 11400000, guid: 38d0302afe490e84994fc6c9b1f8b865, type: 2}
+    key: -1692602632
+  - mod: {fileID: 11400000, guid: a3f6be59806b66942a5fd4b385a4b9b4, type: 2}
+    key: 2001234073
+  - mod: {fileID: 11400000, guid: 7c743efde01323544a1e520519be2bdf, type: 2}
+    key: 1416270981
+  - mod: {fileID: 11400000, guid: 9fa08dc72c4d3d74fa0c010dba920094, type: 2}
+    key: 1125798762
+  - mod: {fileID: 11400000, guid: 42b319e7c6e62be44b8601f6ef1a30dc, type: 2}
+    key: 270336751
+  - mod: {fileID: 11400000, guid: 81745604b4e130e4aaff03d91c085908, type: 2}
+    key: -1471042848
+  - mod: {fileID: 11400000, guid: 190b57e24112f0f4b9a896cbac433e01, type: 2}
+    key: 1548077751
+  - mod: {fileID: 11400000, guid: f820b1292ba321048979a555f5d5df53, type: 2}
+    key: 97542194
+  - mod: {fileID: 11400000, guid: fcee0d84cb3442d479d6badbca2c1578, type: 2}
+    key: 436766509
+  - mod: {fileID: 11400000, guid: 97c0d3283c0b8d84eacd3a19e905c947, type: 2}
+    key: 914584647
+  - mod: {fileID: 11400000, guid: 9cb0b012f8f734e4fa8605f2372c0e48, type: 2}
+    key: 1637438630
+  - mod: {fileID: 11400000, guid: 34233852e9320a247bc188920672407c, type: 2}
+    key: 1411187465
+  - mod: {fileID: 11400000, guid: d1a5bda33366bf044aedecfd54ced76e, type: 2}
+    key: 47571318
+  - mod: {fileID: 11400000, guid: 719bc7205a69b3e49a2908bd1f56db68, type: 2}
+    key: 697317105
+  - mod: {fileID: 11400000, guid: 99c0d6dc5ca574144965d76bff5db3b3, type: 2}
+    key: 1129572312
+  - mod: {fileID: 11400000, guid: 4b18709fa0ed1414da1e968371a06a06, type: 2}
+    key: 1585849904
+  - mod: {fileID: 11400000, guid: b8062ca3cfd686e4cb7a38c5f305f544, type: 2}
+    key: 1409839285
+  - mod: {fileID: 11400000, guid: c7ec6e627a412034f8dc4b7fbf391673, type: 2}
+    key: -112275782
+  - mod: {fileID: 11400000, guid: 780965f19c28fb44382eb8d0fd20a92c, type: 2}
+    key: 347098981
+  - mod: {fileID: 11400000, guid: 413b5e07128e1464da42f000a9c4e0b8, type: 2}
+    key: -1668395002
+  - mod: {fileID: 11400000, guid: 9e03a0fc385ca0c4dbda3a588ecb80b4, type: 2}
+    key: 1657126563
+  - mod: {fileID: 11400000, guid: 717c55d126e56dd4bb9027eb2e3e70c7, type: 2}
+    key: -1561256433
+  - mod: {fileID: 11400000, guid: 047cf73a3c032124e924ff53b42396a4, type: 2}
+    key: 1196662420
+  - mod: {fileID: 11400000, guid: e849007d1d7a1864fa8e134cb47af4c8, type: 2}
+    key: -1157727059
+  - mod: {fileID: 11400000, guid: 9c9892ba2ea02f04b85787218b296b6d, type: 2}
+    key: 160056725
+  - mod: {fileID: 11400000, guid: 78640000971ebe348b2dc8573b57d399, type: 2}
+    key: -435038260
+  - mod: {fileID: 11400000, guid: 5847a2cf0e97e1141b903ae25058facb, type: 2}
+    key: -1154090973
+  - mod: {fileID: 11400000, guid: 796e830c7b17182479bb3ddc5ec31481, type: 2}
+    key: 1535872040
+  - mod: {fileID: 11400000, guid: 3f407e20f0883734fb97022a57c8cfb4, type: 2}
+    key: -458706505
+  - mod: {fileID: 11400000, guid: f814bb5fdd1dfb546b60c9d61e0ced40, type: 2}
+    key: -1140837002
+  - mod: {fileID: 11400000, guid: 6c7379de072bff449b7f333597c9777b, type: 2}
+    key: -342549790
+  - mod: {fileID: 11400000, guid: fdb7fd397b568104cb2e71a3250de8ad, type: 2}
+    key: -2104002010
+  - mod: {fileID: 11400000, guid: 74d159190e554a7419530722a3ab3e23, type: 2}
+    key: 1427804494
+  - mod: {fileID: 11400000, guid: 826ea22768dcd3a469dbca8b93f7d53a, type: 2}
+    key: -891644656
+  - mod: {fileID: 11400000, guid: ae02f954dd18379418cbbf2d9d5472e1, type: 2}
+    key: 1809354121
+  - mod: {fileID: 11400000, guid: 7ef2a829efa17524b9f41d519cdcfd28, type: 2}
+    key: -1663869435
+  - mod: {fileID: 11400000, guid: 9cc01f4141d53d8449de0089da4c45d2, type: 2}
+    key: -1109381623
+  - mod: {fileID: 11400000, guid: 4ff127ec18ba41a4f9b3fbff548aa7b2, type: 2}
+    key: 1959323345
+  - mod: {fileID: 11400000, guid: 44ce6c0f468fdca4f9b81c5aacce8224, type: 2}
+    key: -244138319
+  - mod: {fileID: 11400000, guid: 6f8a75f122bd4694f98b1adc2ab85581, type: 2}
+    key: 1928296247
+  - mod: {fileID: 11400000, guid: 6b558745abfac6748b07fa0369473041, type: 2}
+    key: 1138624745
+  - mod: {fileID: 11400000, guid: d24131b036b8d8a4ebff9f075b2a3013, type: 2}
+    key: 1216051904
+  - mod: {fileID: 11400000, guid: 3b48eec56453bb240b4e834482a9b785, type: 2}
+    key: 1443410939
+  - mod: {fileID: 11400000, guid: b3d1525e2b1f05748828702a0e18551f, type: 2}
+    key: 1016913560
+  - mod: {fileID: 11400000, guid: ae1874b9e530b9040a721d52e2ce305f, type: 2}
+    key: -615381376
+  - mod: {fileID: 11400000, guid: 13df638aa0c7d86418dd9e178ecfb127, type: 2}
+    key: -1682517552
+  - mod: {fileID: 11400000, guid: 2d9381cb261ee99489d217fd4efd7723, type: 2}
+    key: 337708522
+  - mod: {fileID: 11400000, guid: 8bdbc663e422616459ddb0b36e073ede, type: 2}
+    key: -2083652283
+  - mod: {fileID: 11400000, guid: 59226bf4ffc5fe247a935c2d69e75363, type: 2}
+    key: 1856238405
+  - mod: {fileID: 11400000, guid: a8d7ac95135a68c4a9396609931fd70b, type: 2}
+    key: 1606307660
+  - mod: {fileID: 11400000, guid: c67ee648481e1ae41a76d40362bb59b0, type: 2}
+    key: 1050737947
+  - mod: {fileID: 11400000, guid: 58786dd8061081a44b243019241c9380, type: 2}
+    key: 1003401704
+  - mod: {fileID: 11400000, guid: 88bfc6baa3b38be42950b642876036ba, type: 2}
+    key: 1374445253
+  - mod: {fileID: 11400000, guid: aa2883c17b63c0c4cbfc252b8c1f5e62, type: 2}
+    key: 1499659716
+  - mod: {fileID: 11400000, guid: fe040259f6bd63d4da59e1fe69079195, type: 2}
+    key: -1908711135
+  - mod: {fileID: 11400000, guid: d836581e2443c86429c8150ab417dd44, type: 2}
+    key: -1782923815
+  - mod: {fileID: 11400000, guid: a2c565a943ef1544cb8273cde4fab915, type: 2}
+    key: 880775705
+  - mod: {fileID: 11400000, guid: 72c8ae6c918e66a4faf73d9a33cccb5a, type: 2}
+    key: 1337344846
+  - mod: {fileID: 11400000, guid: 955f33746859f8d4790b25a77dbfbde6, type: 2}
+    key: -475489041
+  - mod: {fileID: 11400000, guid: fafb3081c57544c4b9d1110694934f49, type: 2}
+    key: -699621054
+  - mod: {fileID: 11400000, guid: 895036e526e3ef744ad91ed662d6e34a, type: 2}
+    key: -269090453
+  - mod: {fileID: 11400000, guid: 17cc26f56c11c6c47a31abbd7af60a57, type: 2}
+    key: 211926464
+  - mod: {fileID: 11400000, guid: 757a433f0dfc10b4887b4ba50894b2b7, type: 2}
+    key: 1132170697
+  - mod: {fileID: 11400000, guid: 0e713004885910049b42dc3ef5b0d71f, type: 2}
+    key: -1041637678
+  - mod: {fileID: 11400000, guid: e56d96383ea27614086ccddfe636f6be, type: 2}
+    key: -128668492
+  - mod: {fileID: 11400000, guid: 8d69f58b95caeba4da93ca6cda319e78, type: 2}
+    key: 1509816611
+  - mod: {fileID: 11400000, guid: 864768c991a87c04891b3532cc1480b6, type: 2}
+    key: -1272420556
+  - mod: {fileID: 11400000, guid: 85f4594c22484a2408e7c521a7f70094, type: 2}
+    key: -1642806494
+  - mod: {fileID: 11400000, guid: 06b70181d0e80014191cdb6930871463, type: 2}
+    key: 776551363
+  - mod: {fileID: 11400000, guid: c59684b9dff28a542a22557d63eba677, type: 2}
+    key: 616463851
+  - mod: {fileID: 11400000, guid: 3cbc0bc6ce36e174cb883c02c1eba482, type: 2}
+    key: -727154184
+  - mod: {fileID: 11400000, guid: 5745358ed69760e4d922bbcb0b3ba4d6, type: 2}
+    key: -1425836300
+  - mod: {fileID: 11400000, guid: 0b0a109f735007546bc50bf03f642db7, type: 2}
+    key: 1580632894
+  - mod: {fileID: 11400000, guid: e8ef120dab281c04d986076c920aeffd, type: 2}
+    key: -2045434097
+  - mod: {fileID: 11400000, guid: dfd305b82ce84ec4895a8d10264b78f4, type: 2}
+    key: 1557071591
+  - mod: {fileID: 11400000, guid: d4914ca2625c2074d84090b7f8ea66a7, type: 2}
+    key: 324297367
+  - mod: {fileID: 11400000, guid: b10ad09c6bf98d7498839d7708a3c37e, type: 2}
+    key: -941987364
+  - mod: {fileID: 11400000, guid: 94a908e242f59dc41818ba13a2f17841, type: 2}
+    key: 490897223
+  - mod: {fileID: 11400000, guid: c1a6854ae11102642ba5ddf87490c821, type: 2}
+    key: 1150886571
+  - mod: {fileID: 11400000, guid: 9dbce167766c5dd4fb0e449ed32260fc, type: 2}
+    key: 253201527
+  - mod: {fileID: 11400000, guid: 2469cae31bebb8b4e9508f1af8a1361f, type: 2}
+    key: 691915270
+  - mod: {fileID: 11400000, guid: 5c1b5db7195eab84e859712294522573, type: 2}
+    key: -955180412
+  - mod: {fileID: 11400000, guid: 6be8dcc546a794b478ac88b5d64757ad, type: 2}
+    key: 1846890812
+  - mod: {fileID: 11400000, guid: 3798f82850b8c7f4ab056534764958e0, type: 2}
+    key: 443654775
+  - mod: {fileID: 11400000, guid: 52e6c76104207cc49968239d6da75b1c, type: 2}
+    key: -637814972
+  - mod: {fileID: 11400000, guid: 76ee8b0b8fdb68a47b1b061b6aabb50b, type: 2}
+    key: 1986757351
+  - mod: {fileID: 11400000, guid: 7850ac8c5808f364dac116f29d0d010f, type: 2}
+    key: -1226075678
+  - mod: {fileID: 11400000, guid: de1452243b8419b4790bdc3672bea5ce, type: 2}
+    key: 1519424920
+  - mod: {fileID: 11400000, guid: 30ddc874ea6589e4dbc6f07765ef3aff, type: 2}
+    key: 1097354172
+  - mod: {fileID: 11400000, guid: df18701dd4d371e4a9e3c2c3a8dd1230, type: 2}
+    key: -1672367438
+  - mod: {fileID: 11400000, guid: 3dee212af2ae5dd4fb3c418d225cb547, type: 2}
+    key: 580353563
+  - mod: {fileID: 11400000, guid: 01dafec630b9739408a1f0f1beadf0b0, type: 2}
+    key: 993139884
+  - mod: {fileID: 11400000, guid: 55b01c05a66d26d4485b79d630072fcd, type: 2}
+    key: 887020969
+  - mod: {fileID: 11400000, guid: 65e04bc1c9d1e1c4cbe5b9c371c72236, type: 2}
+    key: -1832650903
+  - mod: {fileID: 11400000, guid: ea7d613d26ec0284ea7e7d07b7872f2d, type: 2}
+    key: 1144461660
+  - mod: {fileID: 11400000, guid: 8a98f210939219c45889bf25a70dedb7, type: 2}
+    key: 1775463195
+  - mod: {fileID: 11400000, guid: c995e753cde1bad4d824ddbdaaa1cb42, type: 2}
+    key: 148330054
+  - mod: {fileID: 11400000, guid: a82bdf28656539a4cbb5acfc9db187a4, type: 2}
+    key: 1461003599
+  - mod: {fileID: 11400000, guid: ad6a2560ba0f37147a1a8e09cce17cd4, type: 2}
+    key: 691824534
+  - mod: {fileID: 11400000, guid: a680b36726b739a4ea2598a01dd6acd5, type: 2}
+    key: 1263392083
+  - mod: {fileID: 11400000, guid: aa8cab7611c2ba342927175c0fc6dfc7, type: 2}
+    key: 864998670
+  - mod: {fileID: 11400000, guid: 6e2ade9b99228b94abeb4af589e63691, type: 2}
+    key: 1708010233
+  - mod: {fileID: 11400000, guid: 3bdca28b6c1080a44a66fd909dc5b1ea, type: 2}
+    key: -1036701665
+  - mod: {fileID: 11400000, guid: 361f92764b59f99488aa6636ea89e372, type: 2}
+    key: 546027816
+  - mod: {fileID: 11400000, guid: c0c7bc66474ede84ea3170903dca404e, type: 2}
+    key: 1251828305
+  - mod: {fileID: 11400000, guid: 8663e299b3406fe48843ee8a209ea4bb, type: 2}
+    key: 1682555854
+  - mod: {fileID: 11400000, guid: a031c084f9351004792a2c39d784711e, type: 2}
+    key: 1355702653
+  - mod: {fileID: 11400000, guid: e013ffb21b80e2f42b1e2ef1711c8e11, type: 2}
+    key: -1524768858
+  - mod: {fileID: 11400000, guid: ad62be13085016d4794b4c95d6dfe03c, type: 2}
+    key: 1112949925
+  - mod: {fileID: 11400000, guid: 8ade40c0951ce104d95c18ebed911a4b, type: 2}
+    key: -93228094
+  - mod: {fileID: 11400000, guid: 44213e647f6067946864cfebb0a384fb, type: 2}
+    key: 373232014
+  - mod: {fileID: 11400000, guid: 6051f8a71bde4ae46acbe83b27ea59e2, type: 2}
+    key: 40398510
+  - mod: {fileID: 11400000, guid: 086f320d5e083b541b3a89d615392f87, type: 2}
+    key: 1261548903
+  - mod: {fileID: 11400000, guid: e50d278b19ac80f42a83aed10c48d814, type: 2}
+    key: 1395667905
+  - mod: {fileID: 11400000, guid: 6cbe454396c1e584a82be7a0b6dc2228, type: 2}
+    key: -1972455693
+  - mod: {fileID: 11400000, guid: cbe1b139ee24e8a41b832d0a85748d97, type: 2}
+    key: -1947417288
+  - mod: {fileID: 11400000, guid: ce89db6a69968cd448a6ac131c9742df, type: 2}
+    key: 1359751454
+  - mod: {fileID: 11400000, guid: 64022396e2144a74cb1ee7df39010a45, type: 2}
+    key: -414348043
+  - mod: {fileID: 11400000, guid: 7f1e82c020fa40644a7ea661629e77e6, type: 2}
+    key: 1929139915
+  - mod: {fileID: 11400000, guid: 30368efcf967c7a47bf84da82e516c7f, type: 2}
+    key: -895184729
+  - mod: {fileID: 11400000, guid: 6bcc4f45f997eaa498ecf92c620a6bda, type: 2}
+    key: 1509882276
+  - mod: {fileID: 11400000, guid: b12dc0e10ee15aa40bff49ebecd73c05, type: 2}
+    key: -941775363
+  - mod: {fileID: 11400000, guid: b5afa1446b268514bb9350162e5250fb, type: 2}
+    key: 492925834
+  - mod: {fileID: 11400000, guid: 8110444e065046d4fb64c5784b945d04, type: 2}
+    key: -745603743
+  - mod: {fileID: 11400000, guid: 64b23ad3790ce3841b186dfad7335a6e, type: 2}
+    key: 2015227642
+  - mod: {fileID: 11400000, guid: 5bf4864b5967dc14499bfdf4f7a6916f, type: 2}
+    key: 771191361
+  - mod: {fileID: 11400000, guid: 72dbbf150ffe6ae4ea8356d52af86325, type: 2}
+    key: 1733502538
+  - mod: {fileID: 11400000, guid: 1778bcd29ff5ba3438493af2521b7680, type: 2}
+    key: -1633752203
+  - mod: {fileID: 11400000, guid: 70082315383851f4d8edcbd17e5c2f1f, type: 2}
+    key: -705998476
+  - mod: {fileID: 11400000, guid: 124bbd12daef845449c90aed132f6374, type: 2}
+    key: -1025066733
+  - mod: {fileID: 11400000, guid: 087ffa0a98b9ca34e99aa1e70d301ee4, type: 2}
+    key: -182055170
+  - mod: {fileID: 11400000, guid: 9e49bb31784a5e64c938f6f8439429d4, type: 2}
+    key: -413840358
+  - mod: {fileID: 11400000, guid: fd37d3511864b6844bee5b7ab6902f01, type: 2}
+    key: 785792263
+  - mod: {fileID: 11400000, guid: 1845b6c989fc6724f9b7a27ac13907de, type: 2}
+    key: -717562254
+  - mod: {fileID: 11400000, guid: 1ed51253aae323749b0bc435f9b9f179, type: 2}
+    key: -1989550135
+  - mod: {fileID: 11400000, guid: d70c98eda1809e6439f2115167f94c01, type: 2}
+    key: -613687906
+  - mod: {fileID: 11400000, guid: 43addfad3e4dc0949b3f33c4d7e107cd, type: 2}
+    key: 2147337131
+  - mod: {fileID: 11400000, guid: e3851ed750878574db9dbb76a0c933ad, type: 2}
+    key: 1352714372
+  - mod: {fileID: 11400000, guid: f605690fb445f9d49b345eb20ef3d833, type: 2}
+    key: 529633213
+  - mod: {fileID: 11400000, guid: 6bba9b45573583546a4a8f8a693d03bc, type: 2}
+    key: 612996461
+  - mod: {fileID: 11400000, guid: c7f0eb69965c2c44681c54f964d552fc, type: 2}
+    key: 312897449
+  - mod: {fileID: 11400000, guid: 84ba628e036369e4e8650add5aae6c6b, type: 2}
+    key: -1064027834
+  - mod: {fileID: 11400000, guid: 3ef19f0a452328542b6e0988bdb4bf7b, type: 2}
+    key: 2018529212
+  - mod: {fileID: 11400000, guid: 55ba466722ed5b44c8d2685810034682, type: 2}
+    key: 2082747156
+  - mod: {fileID: 11400000, guid: 980651ee55bbfad468a30b28c8be7273, type: 2}
+    key: 2107785561
+  - mod: {fileID: 11400000, guid: 9ec0da69643b4a64dba8787f12592be2, type: 2}
+    key: 1982612761
+  - mod: {fileID: 11400000, guid: a67ad352b4c595240a5b1e824f969f13, type: 2}
+    key: 1477480916
+  - mod: {fileID: 11400000, guid: 3e833c43c9e40b641ac596d7cff72132, type: 2}
+    key: -1742966074
+  - mod: {fileID: 11400000, guid: faf53d4106a79a34893839249830e2cc, type: 2}
+    key: -1518046036
+  - mod: {fileID: 11400000, guid: 9b9d396b9ab54b74b8950526a07df76a, type: 2}
+    key: -985887161
+  - mod: {fileID: 11400000, guid: 374a0a57ac395ab4384b5e32e4331a93, type: 2}
+    key: 1621213521
+  - mod: {fileID: 11400000, guid: 60ba492dbee75f54893ad9cb9bdeee00, type: 2}
+    key: -901379444
+  - mod: {fileID: 11400000, guid: 7332f101a33c43a41bd0dd7b693f0823, type: 2}
+    key: -1744805853
+  - mod: {fileID: 11400000, guid: 6d6a9760357380d49bd1f2dfe34bcc54, type: 2}
+    key: -785999662
+  - mod: {fileID: 11400000, guid: 69360cd3480710040997b0538092ef4a, type: 2}
+    key: 1863307989
+  - mod: {fileID: 11400000, guid: 301afebd24cd2a54aa47303c6f27eadc, type: 2}
+    key: -1024305456
+  - mod: {fileID: 11400000, guid: 799d4eb80c0aa4441923185807130de8, type: 2}
+    key: 230814897
+  - mod: {fileID: 11400000, guid: 2034a113d17f1f246a718aca7e0cc312, type: 2}
+    key: 615870040
+  - mod: {fileID: 11400000, guid: 590b609f807d9624cba607d725b2590f, type: 2}
+    key: -1303556719
+  - mod: {fileID: 11400000, guid: 48b2a9b03c79fbf488197d076a640fa3, type: 2}
+    key: 1177893528
+  - mod: {fileID: 11400000, guid: a792bd44286a3b34ab77b458848c9a77, type: 2}
+    key: 2020905091
+  - mod: {fileID: 11400000, guid: 68dcf4f2a06cebe469fbce8df01e089f, type: 2}
+    key: 2085630121
+  - mod: {fileID: 11400000, guid: 43ad57b2afcbfab42863000b26b9f1b9, type: 2}
+    key: -1181990934
+  - mod: {fileID: 11400000, guid: 9e383f286a89b9f4a8e7370dfb63628e, type: 2}
+    key: 1327782799
+  - mod: {fileID: 11400000, guid: ea2c994be54094c4c8139061d8683b75, type: 2}
+    key: 803580248
+  - mod: {fileID: 11400000, guid: b4bb09eb03003a14c8f31da4c6cbf0f6, type: 2}
+    key: -384206397
+  - mod: {fileID: 11400000, guid: 4323b359eec265040944ffdfede04dbd, type: 2}
+    key: -645793252
+  - mod: {fileID: 11400000, guid: 70c29da13f01ae448b54a71e8cdb4836, type: 2}
+    key: -626959381
+  - mod: {fileID: 11400000, guid: 7f3ec179c31e303428518ebc268c080e, type: 2}
+    key: -1672476320
+  - mod: {fileID: 11400000, guid: 0a691ab4f5e09f94cbdbc4a6038e7167, type: 2}
+    key: -1354786736
+  - mod: {fileID: 11400000, guid: 64a7d6afc7702de42a66a44be5bbd95a, type: 2}
+    key: -1890062812
+  - mod: {fileID: 11400000, guid: bf17cffb987345e4889611efa318594c, type: 2}
+    key: -1305399899
+  - mod: {fileID: 11400000, guid: 36c55b0c2217fdf4fa118f881bf4fdc6, type: 2}
+    key: -2020323785
+  - mod: {fileID: 11400000, guid: c817ac890b10af04aa83694902aa2c96, type: 2}
+    key: -244436943
+  - mod: {fileID: 11400000, guid: 0ee19f14ea16efa438deba0e89fb8b24, type: 2}
+    key: -219398538
+  - mod: {fileID: 11400000, guid: d55c7afe7e5c52f4ab3f8127ef731bc6, type: 2}
+    key: -1355967616
+  - mod: {fileID: 11400000, guid: 9e76510bef153344fb736f7234973a2c, type: 2}
+    key: -502192837
+  - mod: {fileID: 11400000, guid: def028a2b1b417343a75990341c2fe62, type: 2}
+    key: -786579155
+  - mod: {fileID: 11400000, guid: 541fb4aac9514cb4998e77c0c9d0c981, type: 2}
+    key: 1526874437
+  - mod: {fileID: 11400000, guid: 541cbacb53a3f984290a1d0f9b9b6eec, type: 2}
+    key: 1216379182
+  - mod: {fileID: 11400000, guid: a25342d5191ee7041a340db314e50064, type: 2}
+    key: 184692304
+  - mod: {fileID: 11400000, guid: 72e2ed93747fe6c469cd5d577d6f5470, type: 2}
+    key: -639782775
+  - mod: {fileID: 11400000, guid: b403724db65dabd4583e625b4627e583, type: 2}
+    key: -620721566
+  - mod: {fileID: 11400000, guid: e9436179305ecbd47996afd12584bb3e, type: 2}
+    key: -1368012066
+  - mod: {fileID: 11400000, guid: c3e07274d05f55841aed593a9bc2e221, type: 2}
+    key: 1099020092
+  - mod: {fileID: 11400000, guid: 68b2757c589a1f04cb841037451cf5d3, type: 2}
+    key: 1026528260
+  - mod: {fileID: 11400000, guid: 8ed44a76b23ebb64ba4db02ac463ac0a, type: 2}
+    key: 1728782633
+  - mod: {fileID: 11400000, guid: eb8cf9a11e2bcbd4ab58fe0c38ecd1bc, type: 2}
+    key: 323818813
+  - mod: {fileID: 11400000, guid: bbbd7805f0699f14c8869c82644b3ddf, type: 2}
+    key: 2045105810
+  - mod: {fileID: 11400000, guid: 7aa1ffe07d57f334e887d2be09e38f77, type: 2}
+    key: -1703362230
+  - mod: {fileID: 11400000, guid: 639839d4168dc964e8ed78ac9adaf474, type: 2}
+    key: -1277787296
+  - mod: {fileID: 11400000, guid: a2a75e55da115ef449b140f2653b44d6, type: 2}
+    key: -1320105397
+  - mod: {fileID: 11400000, guid: 6111f22f29575b84998cec03e94acf84, type: 2}
+    key: -1437413620
+  - mod: {fileID: 11400000, guid: 36e2243c7d0de0844835c6d184a2cdd9, type: 2}
+    key: -1984660845
+  - mod: {fileID: 11400000, guid: 1c1e758bd0006a3459e76550b18abb46, type: 2}
+    key: -1591601355
+  - mod: {fileID: 11400000, guid: 597336674866823479ec009f9b171a57, type: 2}
+    key: -787530332
+  - mod: {fileID: 11400000, guid: bc6be5c5b12695d408ffff34e2a53c7a, type: 2}
+    key: 1204734561
+  - mod: {fileID: 11400000, guid: 64b358cf55efa604ca3a01119b439bdc, type: 2}
+    key: -1091430407
+  - mod: {fileID: 11400000, guid: 1f0e2d19b96199a4db0f60405404fb95, type: 2}
+    key: -834114601
+  - mod: {fileID: 11400000, guid: 42e258d0d797bef458e5df4552240353, type: 2}
+    key: -1442982909
+  - mod: {fileID: 11400000, guid: 156b9a431c3a5f745b74aa7ea3e6438b, type: 2}
+    key: 904850137
+  - mod: {fileID: 11400000, guid: 1329c3a5a5956db41a432ee94b9fcb7e, type: 2}
+    key: -1815179292
+  - mod: {fileID: 11400000, guid: af8f97e33e20dea42afde7f1273e3b2b, type: 2}
+    key: -485063054
+  - mod: {fileID: 11400000, guid: 44564c6a961892e4080827370d751d8f, type: 2}
+    key: -322533569
+  - mod: {fileID: 11400000, guid: 219438bb9aca0a14b8f99fea46dbe388, type: 2}
+    key: 227027676
+  - mod: {fileID: 11400000, guid: d56b56aaf7a051949abe408ce3fae53b, type: 2}
+    key: 678748928
+  - mod: {fileID: 11400000, guid: 46b679c2d5a22cc4e9d206b4e44c379c, type: 2}
+    key: 1360414046
+  - mod: {fileID: 11400000, guid: 5110ad2d2023dab4da273209249355eb, type: 2}
+    key: 1874277502
+  - mod: {fileID: 11400000, guid: 8021a69e08f12f142adfbcc91eddcc6f, type: 2}
+    key: -1244737978
+  - mod: {fileID: 11400000, guid: 5f5f569ebdd9e5a4f8345f6ca40b6359, type: 2}
+    key: 562186423
+  - mod: {fileID: 11400000, guid: 9c6eb1df012a8974ab6c50a549288eda, type: 2}
+    key: -1784196292
+  - mod: {fileID: 11400000, guid: 7a90a4ec9c7a2df45a99623f4496df39, type: 2}
+    key: -534124069
+  - mod: {fileID: 11400000, guid: d44326d4618559546ab70bf6cb2be090, type: 2}
+    key: 107123335
+  - mod: {fileID: 11400000, guid: 53759e586f9bcfb47a6e9c7e855b2158, type: 2}
+    key: -886700390
+  - mod: {fileID: 11400000, guid: 55db89c1c2dbb1a4d91cced361ad067c, type: 2}
+    key: 1474794403
+  - mod: {fileID: 11400000, guid: 8da5ad789a554b84bb27211195baa676, type: 2}
+    key: 849851841
+  - mod: {fileID: 11400000, guid: 74cebf1060bd6e74cbd76b96f793010a, type: 2}
+    key: -210985111
+  - mod: {fileID: 11400000, guid: f08d5c2c18b1f3c46ab1e0a9cf42d265, type: 2}
+    key: -243605057
+  - mod: {fileID: 11400000, guid: 61c75756fbccdca43995b47994bf5640, type: 2}
+    key: 1551425983
+  - mod: {fileID: 11400000, guid: b263bc08c692c394c8f528f71e793114, type: 2}
+    key: 1912823240
+  - mod: {fileID: 11400000, guid: 2c4af60d39810164c8a7d7957408a9bb, type: 2}
+    key: 1898184549
+  - mod: {fileID: 11400000, guid: 48f80f35057deb44887e715e31d98ece, type: 2}
+    key: 36404113
+  - mod: {fileID: 11400000, guid: 49f5163314db50e449ea6009e5dcbdbf, type: 2}
+    key: 1329740265
+  - mod: {fileID: 11400000, guid: 391ec593fb3f5994aa6bc88d02391d0e, type: 2}
+    key: 400013441
+  - mod: {fileID: 11400000, guid: 8888a65281ba26c4d919e9693ed4c9db, type: 2}
+    key: -1507184874
+  - mod: {fileID: 11400000, guid: 58d6fc2e40bc3914eb06c6f5a46a791f, type: 2}
+    key: 1907764254
+  - mod: {fileID: 11400000, guid: 0ca8f66533bffb4479bed0af2376ca75, type: 2}
+    key: -1284382844
+  - mod: {fileID: 11400000, guid: 53ce2339452c54b4ca5819aa14ef03f8, type: 2}
+    key: 1687301026
+  - mod: {fileID: 11400000, guid: c230cad6a57e7324b82c31f486fd34b8, type: 2}
+    key: -737171552
+  - mod: {fileID: 11400000, guid: 2893310e77f72d84b8daca57ae0d9b2d, type: 2}
+    key: -485444294
+  magic:
+    increasedHealth: 1.05
+    increasedHealthPerLevel: 0
+    additionalEffectiveHealthModifier: 0.7
+    increasedDamage: 0.5
+    increasedExperience: 0.5
+    increasedExperiencePerLevel: 0
+    increasedItemDrops: 1.5
+    guaranteedRareItemDrop: 0
+    hasAPrefix: 0
+    hasASuffix: 1
+    increasedSize: 0.2
+    vfx: {fileID: 0}
+    vfxScale: {x: 1, y: 1, z: 1}
+  rare:
+    increasedHealth: 1.35
+    increasedHealthPerLevel: 0.02
+    additionalEffectiveHealthModifier: 2
+    increasedDamage: 0.85
+    increasedExperience: 2
+    increasedExperiencePerLevel: 0.04
+    increasedItemDrops: 4
+    guaranteedRareItemDrop: 1
+    hasAPrefix: 1
+    hasASuffix: 1
+    increasedSize: 0.5
+    vfx: {fileID: 1990815836397898, guid: 3240ea8a447214f4ba14722ec472b194, type: 2}
+    vfxScale: {x: 0.6, y: 0.6, z: 0.6}
+  standardModPath: Assets/Scripts/Actors/Monster Mods/Monster Mod SOs/Standard Mods
+  prefixList:
+  - key: 1132170697
+  - key: -1642806494
+  - key: 776551363
+  - key: 616463851
+  - key: -727154184
+  - key: 1687301026
+  - key: 324297367
+  - key: 1150886571
+  - key: 1986757351
+  - key: -1226075678
+  - key: 1519424920
+  - key: 1097354172
+  suffixList:
+  - key: -1782923815
+  - key: 880775705
+  - key: 1337344846
+  - key: -475489041
+  - key: -699621054
+  - key: -269090453
+  - key: 211926464
+  - key: -1041637678
+  - key: -128668492
+  - key: 1509816611
+  - key: -1272420556
+  - key: -1425836300
+  - key: 1580632894
+  - key: -2045434097
+  - key: 1557071591
+  - key: -941987364
+  - key: 490897223
+  - key: 253201527
+  - key: 691915270
+  - key: -955180412
+  - key: 1846890812
+  - key: 443654775
+  - key: -637814972
+  - key: -1284382844
+  - key: -1672367438
+  - key: 580353563
+  monolithModPath: Assets/Scripts/Actors/Monster Mods/Monster Mod SOs/Monolith Mods
+  monolithMods:
+  - mod:
+      key: 160056725
+    timelineCompatibility:
+      timelineIDs: 0102030405060708090a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: -435038260
+    timelineCompatibility:
+      timelineIDs: 0102030405060708090a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: -1154090973
+    timelineCompatibility:
+      timelineIDs: 0201060708
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: -458706505
+    timelineCompatibility:
+      timelineIDs: 0102030405060708090a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: -1140837002
+    timelineCompatibility:
+      timelineIDs: 020103040506
+      differentForEmpowered: 1
+      empoweredTimelineIDs: 0406
+  - mod:
+      key: -342549790
+    timelineCompatibility:
+      timelineIDs: 010203040506070a0809
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: -2104002010
+    timelineCompatibility:
+      timelineIDs: 0201030405060708090a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: -891644656
+    timelineCompatibility:
+      timelineIDs: 02040607080a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: 1809354121
+    timelineCompatibility:
+      timelineIDs: 020103040607080a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: 1959323345
+    timelineCompatibility:
+      timelineIDs: 02010305060708090a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: -244138319
+    timelineCompatibility:
+      timelineIDs: 020103040506070a0809
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: 1928296247
+    timelineCompatibility:
+      timelineIDs: 020103040607
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: 1138624745
+    timelineCompatibility:
+      timelineIDs: 0201030405060708090a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: 1216051904
+    timelineCompatibility:
+      timelineIDs: 0201030405060708090a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: 1443410939
+    timelineCompatibility:
+      timelineIDs: 0201030407050608090a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: -615381376
+    timelineCompatibility:
+      timelineIDs: 0102030405060708090a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: -1682517552
+    timelineCompatibility:
+      timelineIDs: 01020304050607
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: 337708522
+    timelineCompatibility:
+      timelineIDs: 010406070a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: -2083652283
+    timelineCompatibility:
+      timelineIDs: 02010304060507
+      differentForEmpowered: 1
+      empoweredTimelineIDs: 030706
+  - mod:
+      key: 1856238405
+    timelineCompatibility:
+      timelineIDs: 01030506020407
+      differentForEmpowered: 1
+      empoweredTimelineIDs: 010305
+  - mod:
+      key: 1606307660
+    timelineCompatibility:
+      timelineIDs: 02010304060507
+      differentForEmpowered: 1
+      empoweredTimelineIDs: 020103
+  - mod:
+      key: 1050737947
+    timelineCompatibility:
+      timelineIDs: 02010304060507
+      differentForEmpowered: 1
+      empoweredTimelineIDs: 07
+  - mod:
+      key: 1003401704
+    timelineCompatibility:
+      timelineIDs: 0205
+      differentForEmpowered: 1
+      empoweredTimelineIDs: 05
+  - mod:
+      key: -1908711135
+    timelineCompatibility:
+      timelineIDs: 030608
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: 1535872040
+    timelineCompatibility:
+      timelineIDs: 0204070509
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: 1016913560
+    timelineCompatibility:
+      timelineIDs: 0205090a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: 1374445253
+    timelineCompatibility:
+      timelineIDs: 0102030405060708090a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: 1499659716
+    timelineCompatibility:
+      timelineIDs: 0104070a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: 1427804494
+    timelineCompatibility:
+      timelineIDs: 0102030405060708090a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: -1663869435
+    timelineCompatibility:
+      timelineIDs: 0102030405060708090a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  - mod:
+      key: -1109381623
+    timelineCompatibility:
+      timelineIDs: 0102030405060708090a
+      differentForEmpowered: 0
+      empoweredTimelineIDs:
+  modGroupDetails:
+  - modGroup: 0
+    sprite: {fileID: 21300000, guid: 7d529f0819fb44c45ab6dd35d64d2cb6, type: 2}
+  - modGroup: 1
+    sprite: {fileID: 21300000, guid: 7d529f0819fb44c45ab6dd35d64d2cb6, type: 2}
+  - modGroup: 2
+    sprite: {fileID: 21300000, guid: 95f8e944feffa3744b556304df57dbeb, type: 2}

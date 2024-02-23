@@ -1,0 +1,4180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1717961072, guid: 5d05e6cf052ebe03378bb63449ec7ba6, type: 3}
+  m_Name: VFX Manager
+  m_EditorClassIdentifier:
+  keyedArray:
+  - vfx: {fileID: 1461666996211492, guid: 23bb1480ee3524949869ebcdb125910f, type: 2}
+    key: -1759225552
+    name: ThisIsAMissingVFX
+  - vfx: {fileID: 1461666996211492, guid: 23bb1480ee3524949869ebcdb125910f, type: 2}
+    key: -1759225552
+    name: ThisIsAMissingVFX
+  - vfx: {fileID: 1484073535637201, guid: 6bcd86b482603fb43882a007dae3081f, type: 2}
+    key: 1781041703
+    name: AbyssalEchoesOnDeathVFX 1
+  - vfx: {fileID: 1236462280206381, guid: 669eb8897d5b9d645acf6695c833a359, type: 2}
+    key: 2132850566
+    name: AnomalyVFX
+  - vfx: {fileID: 1527690936726436, guid: afb69fecc8785f8488bec0c2655daf18, type: 2}
+    key: -538633896
+    name: Marsh Beetle Slam VFX
+  - vfx: {fileID: 1317481100497092, guid: 68aee56981e9e4f478685ec5cf014c69, type: 2}
+    key: 769191533
+    name: HammerOnHitVFX
+  - vfx: {fileID: 1437733210008770, guid: 7a381b0366c956d418709fa82905bc3e, type: 2}
+    key: -2072997053
+    name: Melee Hit Effect Generic
+  - vfx: {fileID: 1318432298015909, guid: 2f8dc9a742de58d4183ea5b10da6a1d5, type: 2}
+    key: 512424154
+    name: Bone Curse VFX
+  - vfx: {fileID: 1687885285231110, guid: e741fc940987ef44795bf87b26f92bef, type: 2}
+    key: -609275751
+    name: CrowLightningGoingUpVFX
+  - vfx: {fileID: 1236357796734360, guid: 93446aec8a5c6c54b9c7bd23a0ea54d4, type: 2}
+    key: 924563616
+    name: Crystal Explosion Base - Lightning (Crystallized Orchidian)
+  - vfx: {fileID: 1897262217363820, guid: afc6b1dfd6948df42be05ff161b632bf, type: 2}
+    key: -106643955
+    name: DeathSealWaveVFX
+  - vfx: {fileID: 1374846524492866, guid: 97d5a188217df764cb85fceed21b748a, type: 2}
+    key: -257032248
+    name: DesecratedFleshSlamVFX
+  - vfx: {fileID: 1100467694746172, guid: 2fe2b908f8d650d499a405b4a7911c8f, type: 2}
+    key: -1032370229
+    name: WolfActivatableVFx
+  - vfx: {fileID: 1641863689145867, guid: 5d32265783fb7d94f81c84bb925be08f, type: 2}
+    key: -435303847
+    name: DesertBeastSpikeNovaVFX
+  - vfx: {fileID: 1729250533765018, guid: bed91837a204068478a10a7e3df3e299, type: 2}
+    key: -242411963
+    name: Desert Goliath Pinch Physical Slash
+  - vfx: {fileID: 1443173967668480, guid: 4d40220401cbcf542a199409ef987cc2, type: 2}
+    key: -1465451751
+    name: DesertStingerPoisonBurst
+  - vfx: {fileID: 1192962910564333, guid: 017805df8f5588b4382723614cb09334, type: 2}
+    key: -1195052757
+    name: LightningBlastVFX
+  - vfx: {fileID: 1066689522791871, guid: e4d03e51259bb2047a8f864b96ab488f, type: 2}
+    key: -1649779778
+    name: Holy Fire Slash VFX
+  - vfx: {fileID: 1130967189784546, guid: 79f64f7a4e38fd14287930e5dd78e703, type: 2}
+    key: 1536592023
+    name: SuperHealVFX
+  - vfx: {fileID: 1000376560637454, guid: cfe1248dbf098594eb085199d202d900, type: 2}
+    key: -377079222
+    name: EarthquakeAftershockVFX
+  - vfx: {fileID: 1107940119226709, guid: c8c78c803e1f1aa49ae779446f301fa8, type: 2}
+    key: 511454379
+    name: EarthquakeSlamVFX
+  - vfx: {fileID: 1360587529898186, guid: a710e7f71c2e3b4438498468667ec534, type: 2}
+    key: 682179763
+    name: ElementalNovaOnDeathVFX
+  - vfx: {fileID: 1764381268373155, guid: 0749070796a11cf419e6c038382b74da, type: 2}
+    key: 1349824189
+    name: EmeraldNagasa 02 TailSlapVFX
+  - vfx: {fileID: 1132024239575260, guid: 185faa3825003994b8fb3841aecfd2f0, type: 2}
+    key: -935757454
+    name: EmeraldNagasa 04 Tailslash vfx
+  - vfx: {fileID: 1150397262044561, guid: 168d4bef1ed3ea94fbcfa8eef0fac130, type: 2}
+    key: -1368867967
+    name: Chain Exploding vfx
+  - vfx: {fileID: 1929892662322339, guid: 7ea5d20cd6cb9c84695d9f1080e5ac38, type: 2}
+    key: 228770902
+    name: Void Rift vfx
+  - vfx: {fileID: 1269201824355320, guid: 046025089b3151a42afac0d6b934af36, type: 2}
+    key: 1142416338
+    name: MantisDashVFX
+  - vfx: {fileID: 1266982249807572, guid: 2c149063c39308040acd9228d45b3271, type: 2}
+    key: 1345404981
+    name: Multistrike swords vfx
+  - vfx: {fileID: 1426774503908094, guid: 6581e678865fa9e4891617c2a5eafc1f, type: 2}
+    key: 6506043
+    name: OasisSalamander 02.2 WaterSplash vfx
+  - vfx: {fileID: 1155049806857406, guid: 59886a06376050f4a8b7d8cc19e81518, type: 2}
+    key: 644452854
+    name: Poison Hit Effect Style VFX
+  - vfx: {fileID: 1635745887855048, guid: 5fa3d262e2746224da69482ba7829518, type: 2}
+    key: -986962821
+    name: StomPlantPoisonBurstVFX
+  - vfx: {fileID: 1799138581516167, guid: a97cd9173a7b23d4f936e1b0b88b2e1c, type: 2}
+    key: -651787632
+    name: AncientDragonSlashVFX
+  - vfx: {fileID: 1663029939700720, guid: de6ecc0f04eee4f4e8455b46c56ae339, type: 2}
+    key: 1913668234
+    name: DreadWormExplosion VFX
+  - vfx: {fileID: 1094946769265597, guid: c791b06590e531d4e8ce1671d3aba978, type: 2}
+    key: 391937126
+    name: Flame Gryphon Explosion VFX
+  - vfx: {fileID: 1068460755776496, guid: d05d05514241dbd4884ab3f69cec3917, type: 2}
+    key: 1854822749
+    name: FlameSpireExplosionOnDeathVFX
+  - vfx: {fileID: 1057015944547454, guid: bc6a73648df7d5d4a941ccda5ca512e9, type: 2}
+    key: 399837778
+    name: Lightning Arm Beam VFX
+  - vfx: {fileID: 1610911205549979, guid: a16c31bd61aa46542a9b0b0a42d7a48f, type: 2}
+    key: 1927156958
+    name: Winged Fire Beam VFX
+  - vfx: {fileID: 1809367074446702, guid: fdd78473b8dfbff4b99cc319e70a80d4, type: 2}
+    key: -5126210
+    name: BoneShardOnDeathVFX
+  - vfx: {fileID: 1076900710798326, guid: f5e3013a75736e2438c3769c4f46946f, type: 2}
+    key: 1998478092
+    name: FlameGryphonFireNovaOnDeathVFX
+  - vfx: {fileID: 1154021709287854, guid: 7d74c16e09304f54c92e5ebf5176568c, type: 2}
+    key: 339795889
+    name: HeorotIceNovaVFX
+  - vfx: {fileID: 1160010744768289, guid: 330690d80a2c5eb41a82670f587a9d1d, type: 2}
+    key: -1129504350
+    name: GiantStatueRuneExplosionVFX
+  - vfx: {fileID: 1003478929060098, guid: 8a11b7296426e7248baeb0d17adf42fe, type: 2}
+    key: 1693788125
+    name: SmallHolyNovaOnDeathVFX
+  - vfx: {fileID: 1516907368081930, guid: 7dfbe9fd1e1222845b844a7099e537f1, type: 2}
+    key: -991164627
+    name: ChillingWaveOnDeathVFX
+  - vfx: {fileID: 1880184014995034, guid: 49d1bd28672e71f4993453ed393f1cc1, type: 2}
+    key: 695581936
+    name: EmeraldNagasa 03.2 CastingVFX
+  - vfx: {fileID: 1166574496932802, guid: 233948e081a97864e8592e7f0d61cfc7, type: 2}
+    key: -1954123818
+    name: Sand Arrival for Rogues
+  - vfx: {fileID: 1698737110226523, guid: f23aab5e0a8b6be4097a82f7064c60a4, type: 2}
+    key: 416693806
+    name: WispLightningDashVFX
+  - vfx: {fileID: 1683320444195944, guid: 1f6864c547e88b5459174e1aad75556e, type: 2}
+    key: -834237059
+    name: LightningBeamVFX
+  - vfx: {fileID: 1656865230483362, guid: 06f799aa2c452c0408d4dddd5da494e5, type: 2}
+    key: -174752225
+    name: ShrapnelHitVFX
+  - vfx: {fileID: 1781456140710012, guid: 78ac16f0e694f7b4a80dc5b0d8f5ab65, type: 2}
+    key: -2053300969
+    name: Ancient Dragon Magma Explosion VFX
+  - vfx: {fileID: 1347812347068832, guid: aca69208dddb8bb4b9fda42e1b56df55, type: 2}
+    key: -725416178
+    name: Immortal Eye SelfDestruct Explosion VFX
+  - vfx: {fileID: 1174953469820853, guid: 6a055cb0d4589334cb737bb8f006c5f9, type: 2}
+    key: 1992642998
+    name: NecroticExplosionVFX
+  - vfx: {fileID: 1049550232406065, guid: 363e322640913da488ae58fb44fd1939, type: 2}
+    key: 584849824
+    name: ProfaneBackpackExplosionVFX
+  - vfx: {fileID: 1596471742176093, guid: 870e1785783f3dd4381caf7b4390fef8, type: 2}
+    key: 147902364
+    name: Soul Cage Nova vfx
+  - vfx: {fileID: 1579613094894998, guid: 0f5785d6960645541b0d199e24242a62, type: 2}
+    key: -1012580896
+    name: SoulFireBreathVFX
+  - vfx: {fileID: 1130483081028911, guid: a307cf84cde27544ea5e12a261969f0b, type: 2}
+    key: 1784099388
+    name: VoidWormApparition
+  - vfx: {fileID: 1102853537529511, guid: aa96ebd2eba60ef40910a90b48d42b89, type: 2}
+    key: 1079633306
+    name: ShiftEndVFX
+  - vfx: {fileID: 1091127176468239, guid: c68fe06e5f1bb0343b677b0fe153dbb3, type: 2}
+    key: -1781531520
+    name: ShadowShiftBeginningVFX
+  - vfx: {fileID: 1256705333869581, guid: 8d49c027f58f3ad4aaafc85e067c1666, type: 2}
+    key: -842669054
+    name: TimeTravelTeleportVFX End
+  - vfx: {fileID: 1662986505017261, guid: 99e2b0569a9cd204a86c230267c69ea0, type: 2}
+    key: -795966986
+    name: ValeBeamHitVFX
+  - vfx: {fileID: 1482700480970076, guid: c1662c63fdefbb24daccd1adc3a083e3, type: 2}
+    key: 806508778
+    name: AbyssalNovaOnDeathsVFX
+  - vfx: {fileID: 1640414765187715, guid: d6fea5bcf6d6c124689153ef2dc63b99, type: 2}
+    key: 299958635
+    name: Void Cultist Leader Nova On Death VFX
+  - vfx: {fileID: 1652324202118424, guid: 508dc85ddce2b8c4bba604c2187478dc, type: 2}
+    key: 1345253586
+    name: VoidWaterExplosionOnDeathVFX
+  - vfx: {fileID: 1104416789703197, guid: 36b2b26379197f64aac1c8cd6b2dbad0, type: 2}
+    key: 1491230601
+    name: FrozenDryad BulbExplosionVFX
+  - vfx: {fileID: 1114488669778247, guid: 6f7acf763b3b1f544a7bf4902a45f364, type: 2}
+    key: -312595549
+    name: LiathLightningMineExplosionVFX
+  - vfx: {fileID: 1696508246221276, guid: 1118454f19738fa45ac0cc74715d6ded, type: 2}
+    key: -545375585
+    name: MagmaExplosionVFX
+  - vfx: {fileID: 1920221784171271, guid: 4b3b970b3d6fbe44f9e0708b93d8730a, type: 2}
+    key: 532987766
+    name: WaterExplosionVFX
+  - vfx: {fileID: 1127019421878605, guid: e2172705b78e8724aac243e73330ee92, type: 2}
+    key: -1625057755
+    name: Void Nova
+  - vfx: {fileID: 1451234277592135, guid: 0dd04ad050d855444995739708ce06ab, type: 2}
+    key: 2088889996
+    name: OmenEarthSlamOnDeathVFX
+  - vfx: {fileID: 1088364328660772, guid: 8bb62259b5b44a14f8929a3a776ab53c, type: 2}
+    key: -728718621
+    name: Pannion Void Teleport Explosion VFX
+  - vfx: {fileID: 1613855104230395, guid: ff188c1e9121e6d409aa3c8661c3b7d8, type: 2}
+    key: 1821302667
+    name: SoulWardenSlamOnDeathVFX
+  - vfx: {fileID: 1381424786835515, guid: 88eb610fdb153d542bbbd887bd2a25b6, type: 2}
+    key: -922414174
+    name: VoidExplosionOnDeathVFX
+  - vfx: {fileID: 1009788016934418, guid: ea745e80bf088b64da58a02335a4ec9e, type: 2}
+    key: -1429426603
+    name: Void Worm Boss Explosion VFX
+  - vfx: {fileID: 1251121230813733, guid: 5eff280e6a51e9d46b4f1789078ef5e7, type: 2}
+    key: 2001735641
+    name: VoidSpitOnDeathVFX
+  - vfx: {fileID: 1862530636399996, guid: 886b12cef0da23e4291ea7cf4bc20879, type: 2}
+    key: 1418548760
+    name: VoidfusedEarthSlamOnDeathVFX
+  - vfx: {fileID: 1304235560140908, guid: cfd28407ccee6c543a3b5a32b3dfcf8e, type: 2}
+    key: 1571591656
+    name: VoidHuskTeleportVFX
+  - vfx: {fileID: 1009295658171667, guid: 3e831de06e334824cb3534fd58a78c52, type: 2}
+    key: 501066214
+    name: VoidSpectreErasingStrikeOnDeathVFX
+  - vfx: {fileID: 1255322500016775, guid: 72db49f85abe9b546be66ca3e26668c4, type: 2}
+    key: -1739193627
+    name: WispNecroticBeamVFX
+  - vfx: {fileID: 1524440341575948, guid: 2c01e5ed2adb6524b9956f32cdf24e7c, type: 2}
+    key: -1956145603
+    name: WispNecroticDeathNovaVFX
+  - vfx: {fileID: 1868711884627822, guid: 993f947e50df3af49b7f26267dd1d025, type: 2}
+    key: 397549481
+    name: WispNecroticNovaVFX
+  - vfx: {fileID: 1379992483697508, guid: f211c64a4180e5b4483649d867920526, type: 2}
+    key: 467670344
+    name: WispVoidDeathNovaVFX
+  - vfx: {fileID: 1278650689661055, guid: d989d60aa2770d04f9accff767752056, type: 2}
+    key: -1727112375
+    name: ErasingStrikeOnDeathVFX
+  - vfx: {fileID: 1308856782339417, guid: 6f5029c74a119a34b9c533bd6f70dc76, type: 2}
+    key: -557414466
+    name: Eterra's Blessing VFX
+  - vfx: {fileID: 1543615496871939, guid: a1a507c050569cd41b94e397a4c41ea4, type: 2}
+    key: -1323452008
+    name: FireNovaOnDeathVFX
+  - vfx: {fileID: 1806110810259902, guid: 722bc484fa35be845aee894a5cff92eb, type: 2}
+    key: -111594685
+    name: FirebrandVFX
+  - vfx: {fileID: 1255553180537347, guid: 1be0fc61215184149960d8f708045eaa, type: 2}
+    key: 690601682
+    name: Manifest Armor 02 Fire vfx
+  - vfx: {fileID: 1736164970413903, guid: cee2258606de4e047a0f63d6c49d037d, type: 2}
+    key: 935045672
+    name: ForgeStrikeVFX
+  - vfx: {fileID: 1762707603627023, guid: 9e1b6caac5a83e543b7948869df0504e, type: 2}
+    key: 331321284
+    name: FreezingConcoctionVFX
+  - vfx: {fileID: 1576660981570142, guid: cbd021587d4f9e64dadf160a22becdd5, type: 2}
+    key: 467967501
+    name: FrenzyRoarVfx
+  - vfx: {fileID: 1012220264577549, guid: 50b60a3fc04a3c9418d0b4c130693216, type: 2}
+    key: -1695349407
+    name: FrozenBarbarianMeleeAttackVFX
+  - vfx: {fileID: 1743641502706393, guid: 51f41ee2619269b4195f3babd083bcbe, type: 2}
+    key: 1442229209
+    name: FrozenRavageVFX
+  - vfx: {fileID: 1303214024216735, guid: d3a4d44b995417248b52fc0f1a42abc7, type: 2}
+    key: 931983791
+    name: FrozenBearSwipeVFX
+  - vfx: {fileID: 1480019596171633, guid: d06f72ce20e52c040b36b0a61c05aaa3, type: 2}
+    key: 1939303442
+    name: WolfBiteVFX
+  - vfx: {fileID: 1636491188935457, guid: a5002810e7e602d49a146fc029113390, type: 2}
+    key: -237883604
+    name: FuryLeapOnDeathVFX
+  - vfx: {fileID: 1559196511938247, guid: 345c01d36de1b6c449813f4ad07faeb1, type: 2}
+    key: 757086114
+    name: SandSlashVFX
+  - vfx: {fileID: 1664987036373771, guid: 69a4972f3d0d8254fbb6bb8cf019c7bd, type: 2}
+    key: -514948384
+    name: GraelIceNovaOnDeathVFX
+  - vfx: {fileID: 1264866372423800, guid: 6ee2e370b24666942b57e64c6e7731f5, type: 2}
+    key: 1472851265
+    name: HartonLightningBlastVFX
+  - vfx: {fileID: 1265941761587404, guid: 8635aa8ee53e01e4fba11470ea8a1408, type: 2}
+    key: -1299689841
+    name: HartonLightningBlastNovaVFX
+  - vfx: {fileID: 1436137147776167, guid: a6d62cf4ebc815b47b99fc114c1b8ac4, type: 2}
+    key: 1799941880
+    name: HartonStormLightningVFX
+  - vfx: {fileID: 1043410784048024, guid: 7c48e03269d42c943b7be5f859f01c7a, type: 2}
+    key: 1237796096
+    name: HarvestVFx
+  - vfx: {fileID: 1567486722730311, guid: 67c1fe743de3ee54688167753cb73d37, type: 2}
+    key: -2115339632
+    name: HasteRoarVfx
+  - vfx: {fileID: 1952240492446230, guid: b828644a400b3d244976c049aef728bc, type: 2}
+    key: -1973837657
+    name: HealingHandsNovaVFX
+  - vfx: {fileID: 1253777877784270, guid: 4dad050ca0e3be743a076461c86f5e39, type: 2}
+    key: 1822750632
+    name: HealingNovaOnDeathVFX
+  - vfx: {fileID: 1963849907321085, guid: d9334ee25e11edd43934803940fbb01a, type: 2}
+    key: 1734079245
+    name: SpearImpactVFX
+  - vfx: {fileID: 1136200544539278, guid: 754e6f9b030be554a9a723306a855d4e, type: 2}
+    key: 806697003
+    name: IceNovaOnDeathVFX
+  - vfx: {fileID: 1382063136105021, guid: 565ae8a9d8127ea47a37d45fd686185e, type: 2}
+    key: 1301122592
+    name: IceRockEruptionVFX
+  - vfx: {fileID: 1551272903483810, guid: 15d3992740fd6b84d996ee070d6e1a24, type: 2}
+    key: 656409129
+    name: JudgementVFX
+  - vfx: {fileID: 1607787293669396, guid: ec47f8d6ed712514f8eb8a5cb0297ccd, type: 2}
+    key: -1858277330
+    name: Moon Blast Explosion
+  - vfx: {fileID: 1255288940857769, guid: f79ba3fcc4d80cd4fadf0f5e60824d59, type: 2}
+    key: -1781569363
+    name: LagonTentacleEnemySlamVFX
+  - vfx: {fileID: 1767616553664470, guid: 534cebfa9afdb7a4cafd7d0dcfe90cd4, type: 2}
+    key: 301185638
+    name: Lagon Boss Flat Moon Blast vfx
+  - vfx: {fileID: 1089988136218682, guid: 00b28a1edcf7f314ca26e500105aee0a, type: 2}
+    key: 173743704
+    name: LagonBoss StormLightningVFX
+  - vfx: {fileID: 1355285490807475, guid: 0034d259fbce88a4e8391752355bdc68, type: 2}
+    key: -1408073124
+    name: LavaBurstOnDeathVFX
+  - vfx: {fileID: 1528855477491951, guid: ee57944e7b15f404b99cc0ab5991731c, type: 2}
+    key: -1767574162
+    name: Cold Beam VFX
+  - vfx: {fileID: 1862192127882192, guid: 20ce4e95f7ffa794aa21e6fccf8a6cf0, type: 2}
+    key: 943898678
+    name: LightningOnDeathVFX
+  - vfx: {fileID: 1731318203346549, guid: 2826a1221cf240941b00e54da492a330, type: 2}
+    key: -1711897678
+    name: LightningElementalLightningBlastVFX
+  - vfx: {fileID: 1788840383912547, guid: 6e063c0e88dbd7b45863200d503d298a, type: 2}
+    key: -1028938644
+    name: LightningNovaOnDeathVFX
+  - vfx: {fileID: 1378384450661990, guid: 4ac66c087b5a8a641a111107e4b062ca, type: 2}
+    key: 277596651
+    name: DischargeBlastVFX
+  - vfx: {fileID: 1220277627969768, guid: 1a4b09c0182a65c439d5c7338fecb184, type: 2}
+    key: 1990403668
+    name: MagmaGroleTailSlamVFX
+  - vfx: {fileID: 1096043007617795, guid: f430206139bcc5046981b752f465a8c6, type: 2}
+    key: 1123420013
+    name: Impact Burst
+  - vfx: {fileID: 1077259311891397, guid: 14e70cf1942edde4cae9ef4d44d1209c, type: 2}
+    key: -1993091896
+    name: Crystal Explosion Base - Lightning
+  - vfx: {fileID: 1975704538016118, guid: 5c394d231a376124a8c1663ff07d4e01, type: 2}
+    key: 355229177
+    name: Tail Slash VFX
+  - vfx: {fileID: 1232874933652547, guid: 5dd44400930786b42a08bb94302e99ef, type: 2}
+    key: -669075244
+    name: DeathSealBloodWaveVFX
+  - vfx: {fileID: 1827416548912601, guid: 8b640335ed121494f8504effdf273eb7, type: 2}
+    key: -91190699
+    name: SandSlashVFX
+  - vfx: {fileID: 1458499043424640, guid: 55a16cf599681b1429299992ea72f596, type: 2}
+    key: -1992912390
+    name: Triple Slash 1
+  - vfx: {fileID: 1708161888528575, guid: feccd0bd225c321449973edce0a46870, type: 2}
+    key: -1992878503
+    name: Triple Slash 2
+  - vfx: {fileID: 1128064573382055, guid: 6c01b4e633663a1468d3d1b44e461403, type: 2}
+    key: -1992844744
+    name: Triple Slash 3
+  - vfx: {fileID: 1579515308750387, guid: 9530b9eb40ae26340a20dae657d8a081, type: 2}
+    key: -932359808
+    name: MarkForDeathOnDeathVFX
+  - vfx: {fileID: 1359971068099946, guid: 016d5ecf323afbd4aba1b1fe23878482, type: 2}
+    key: 1709129267
+    name: BoneSpikesOnDeathVFX
+  - vfx: {fileID: 1424348873206526, guid: 319cba94575a6dd4aa619e67bab0f910, type: 2}
+    key: 773442440
+    name: Meruna Ogre Lightning Melee VFX
+  - vfx: {fileID: 1531264556530482, guid: 25b4bea80c3f2e24790e199c9cf09cd3, type: 2}
+    key: -118974353
+    name: Lunge Hit VFX
+  - vfx: {fileID: 1592231960987319, guid: ede851a50f9b5284da0f766d9facbed9, type: 2}
+    key: 974079327
+    name: Blood Chimera imact vfx
+  - vfx: {fileID: 1418576232999623, guid: 237cf169401da834398a5f20c2055571, type: 2}
+    key: 1639723269
+    name: FireballImpactVFX
+  - vfx: {fileID: 1397640982892633, guid: 41fe9970d2c406f41808458d82d1008d, type: 2}
+    key: -310612778
+    name: Crystal Explosion Base - Fire
+  - vfx: {fileID: 1644730267260943, guid: b71865af2c5045844b217dfa61cb1d68, type: 2}
+    key: 27636065
+    name: Crystal Explosion Base - Fire 1
+  - vfx: {fileID: 1809476087022116, guid: 6c62de8fef642e042bf94fb5eddb2981, type: 2}
+    key: 1194611554
+    name: DecoyExplosionVFX
+  - vfx: {fileID: 1364629637155579, guid: c00ee48c0faeb0c4a875262cee87049e, type: 2}
+    key: -1692969835
+    name: SacrificeOnDeathVFX
+  - vfx: {fileID: 1636218283444772, guid: db2a79ce4b27179489c8786edb0de774, type: 2}
+    key: -669607820
+    name: Embermage Meteor impact vfx
+  - vfx: {fileID: 1907455743990494, guid: f959439c2e32c964e802583494fc2e42, type: 2}
+    key: 408356534
+    name: FireballAOEImpactVFX
+  - vfx: {fileID: 1129368933827839, guid: 5f4d95e00a346d9469fa3e0e161c514a, type: 2}
+    key: -1581427632
+    name: QuickFireCircleVFX
+  - vfx: {fileID: 1668088332386201, guid: dee3a952d6dbcb84c9f562eb06ab4296, type: 2}
+    key: 243989232
+    name: FrenzyTotemSummonStart
+  - vfx: {fileID: 1127225943930706, guid: 093b00b2b0d06b843858042db5b5b400, type: 2}
+    key: -1620738523
+    name: Glacier 1 VFX
+  - vfx: {fileID: 1963573294987980, guid: 82e245cfe8fee1342928dfcc8c9d0af2, type: 2}
+    key: 1718729184
+    name: Glacier 2 VFX
+  - vfx: {fileID: 1526962923112594, guid: 2ec3d86517d87684198ad1f91081b5a1, type: 2}
+    key: 1464933915
+    name: Glacier 3 VFX
+  - vfx: {fileID: 1259361189654627, guid: e4a547310c8a9a14db0944ae614c42f8, type: 2}
+    key: -141890352
+    name: Holy Aura Flame Burst Vfx
+  - vfx: {fileID: 1722131601627531, guid: b7eb1e4531e50464a8e6ee0d4145ec0d, type: 2}
+    key: -706796016
+    name: IceBarrageExplosionOnDeath
+  - vfx: {fileID: 1425650890640952, guid: c784f2bf6ce60ed42ad623760a4e73dd, type: 2}
+    key: 247101400
+    name: Glacier3OnDeathVFX
+  - vfx: {fileID: 1990537304555179, guid: c7e7eb100b2238f45afba0814866e237, type: 2}
+    key: 1110481352
+    name: Lightmage MeteorOnDeathVFX
+  - vfx: {fileID: 1209566604510071, guid: e91e9ff27ae49ae40997ee698f34d445, type: 2}
+    key: -974633265
+    name: LightningExplosionOnDeathVFX
+  - vfx: {fileID: 1438761493215823, guid: 0b4cffa6c5817c247b69d4432b5d8a97, type: 2}
+    key: 754133246
+    name: Crystal Explosion Base - Poison
+  - vfx: {fileID: 1341989574961253, guid: d608a4e6040aee14394025296a0c0e46, type: 2}
+    key: -1392023060
+    name: Blood Explosion vfx
+  - vfx: {fileID: 1841402295220074, guid: 9bfaa274e5f294a49ad898e2720c0a94, type: 2}
+    key: -1416784022
+    name: MeteorOnDeathVFX
+  - vfx: {fileID: 1069016015394883, guid: da6e8f9a275b5014dbcf3e64cf676cb3, type: 2}
+    key: 470116287
+    name: Pannion Stalactite Impact VFX
+  - vfx: {fileID: 1209553024741747, guid: c7d79c5eb36aa354997172a669519134, type: 2}
+    key: 1081051399
+    name: SmallFireCircleVFX
+  - vfx: {fileID: 1722003028898205, guid: 89951057744e9494c8dc78cb69e789f6, type: 2}
+    key: 1699818402
+    name: SmallIceCircleVFX
+  - vfx: {fileID: 1060715525841374, guid: 0f274c462d07d774da73216c8126b804, type: 2}
+    key: -1017951282
+    name: SmallLightningExplosionOnDeathVFX
+  - vfx: {fileID: 1011285872052602, guid: c8f24d542c4eb5b408b64c491009e3ab, type: 2}
+    key: 1249906768
+    name: Smelter's Wrath VFX
+  - vfx: {fileID: 1019110803221553, guid: 50f0fe05e9d4a5b4bae809a2bf21697a, type: 2}
+    key: 1656150878
+    name: SoulArrowAoEVFX
+  - vfx: {fileID: 1689487518469400, guid: 7a532b0764f8a0644b7fe308dcb31aa9, type: 2}
+    key: -1906853072
+    name: StaticOrbExplosionOnDeathVFX
+  - vfx: {fileID: 1240805657772045, guid: 2833ff4d1509653479b60815c8d61428, type: 2}
+    key: -361493703
+    name: StormLightningOnDeathVFX
+  - vfx: {fileID: 1928958546734108, guid: d8cc54baf2683164a8e22c6b57f35467, type: 2}
+    key: 155307340
+    name: Lightmage Phoenix Fire VFX
+  - vfx: {fileID: 1655057840470206, guid: 8704ec589fa66b0498d607ebcc6f13de, type: 2}
+    key: -1600783726
+    name: Umbral Blades Explosion Poison vfx
+  - vfx: {fileID: 1042616985040564, guid: 4bee8e8db5706f344818f3cacc532247, type: 2}
+    key: -1384580136
+    name: UndeadDragonVolatileZombieExplosionVFX
+  - vfx: {fileID: 1521021477332546, guid: d7efe9681ed1bbc43b2c889b9d7688f3, type: 2}
+    key: -209803375
+    name: Void Nagasa Lightning Explosion vfx
+  - vfx: {fileID: 1232491221356875, guid: 73d0710370eeeeb47a924fc3528c050d, type: 2}
+    key: 1884258080
+    name: VolatileZombieExplosionFireBloodVFX
+  - vfx: {fileID: 1096534532883948, guid: 25edf354b50cc7740aa52d53eff0e22e, type: 2}
+    key: -844136034
+    name: WinternidExplosionVFX
+  - vfx: {fileID: 1009328350390961, guid: 64b81b8166b4aa9488c1748de12498d2, type: 2}
+    key: -2044548516
+    name: Pannion Void Explosion VFX
+  - vfx: {fileID: 1226714893684390, guid: 15b91e3ea1eaece45a1062739842932f, type: 2}
+    key: 1229722587
+    name: RipBloodOnDeathVFX
+  - vfx: {fileID: 1840164513357517, guid: 089b60b2c584cc74d88ab4a80ca81b68, type: 2}
+    key: 1156806329
+    name: Slash 1 - 1h weapons
+  - vfx: {fileID: 1385435362495224, guid: 5367de54f1e5822499d3f7695191d7b9, type: 2}
+    key: 138141818
+    name: Slash 2 - 1h weapons
+  - vfx: {fileID: 1514054153126981, guid: 8d78fffd7436566419306178d97d95b5, type: 2}
+    key: 1545630269
+    name: Rive3VFX
+  - vfx: {fileID: 1885465499557678, guid: c2387b39d69ba2d4fb5773e24d9d5318, type: 2}
+    key: 19726754
+    name: AcidFlaskExplosionVFX
+  - vfx: {fileID: 1358053359259256, guid: 89821a62bdb909741a9be7ceead544de, type: 2}
+    key: 2144212096
+    name: CinderStrikeBigHitVFX - Smoky
+  - vfx: {fileID: 1816738801184977, guid: 45cba0f831faf384484d1e6978e1195e, type: 2}
+    key: 2013967901
+    name: CinderStrHit02VFX
+  - vfx: {fileID: 1521891192941338, guid: 947177d8073a1c247aea73de2f1b69e9, type: 2}
+    key: -2089992386
+    name: CinderStrHit03VFX
+  - vfx: {fileID: 1261370471054093, guid: 54989364702e1ae45b119653da354584, type: 2}
+    key: -1040410708
+    name: DancingStrikes1Startvfx
+  - vfx: {fileID: 1705449615164047, guid: 5d18e73833aa6de488fa55704451cfe0, type: 2}
+    key: -1151528808
+    name: DancingStrikes2vfx Physical
+  - vfx: {fileID: 1492978192042584, guid: 8d9e19383999a3740b4f1ccbf42de60e, type: 2}
+    key: -1766625612
+    name: DancingStrikes4vfx1
+  - vfx: {fileID: 1712134061972059, guid: 26e6f2515e5409745b2ded1808f23cd4, type: 2}
+    key: -96189162
+    name: LightningHitVFX
+  - vfx: {fileID: 1566330256683173, guid: 2e51ae663f0b9074eaa657756456e49d, type: 2}
+    key: -661512070
+    name: DetonatingArrowExplosionLightningVFX
+  - vfx: {fileID: 1332024763735724, guid: 8d80355d02c259c4ebeac6e6ae546bde, type: 2}
+    key: -1886372868
+    name: Void Puncture vfx
+  - vfx: {fileID: 1687951675747576, guid: 81245be37e0dd2141bf0b04033f4fb3e, type: 2}
+    key: 1218592148
+    name: Flurry1hHit01VFX
+  - vfx: {fileID: 1788155179846985, guid: 1ebe0f20db23a304696f222c5104d443, type: 2}
+    key: -2049326449
+    name: Flurry1hHit02VFX
+  - vfx: {fileID: 1880460551990881, guid: 5bd33781ab09b2641b27d0d1a5899ce9, type: 2}
+    key: -2125471094
+    name: Flurry1hHit03VFX
+  - vfx: {fileID: 1533648833586102, guid: 32b5516c909b99443ad3bd6a0242fb76, type: 2}
+    key: 1999428569
+    name: Puncture VFX
+  - vfx: {fileID: 1754684166030834, guid: f0e9063bd22a55a48a84a1d5692ccd83, type: 2}
+    key: -1824554797
+    name: DancingStrikes2vfx poison
+  - vfx: {fileID: 1132375226720670, guid: e50bff77921fb6d4da63ed0a2e52821e, type: 2}
+    key: 563028619
+    name: DancingStrikes1Endvfx poison
+  - vfx: {fileID: 1336856448245627, guid: ab2995f35bd524140acafe546adf83c8, type: 2}
+    key: -735636814
+    name: ScalebaneRogue 03.1 AcidFlaskExplosion VFX
+  - vfx: {fileID: 1380909569308052, guid: c0f7699ede0bf574d90f4fbdbeed59ce, type: 2}
+    key: 1231321903
+    name: ScalebaneRogue 03.1 FlurryHit1 VFX
+  - vfx: {fileID: 1759206252773025, guid: 520a67b4214313245b15c0340a10d84d, type: 2}
+    key: 938859283
+    name: ScalebaneRogue 03.2 FlurryHit2 VFX
+  - vfx: {fileID: 1955110940419315, guid: 746476d6b1974ef409a41f30131bd12d, type: 2}
+    key: 1551812855
+    name: ScalebaneRogue 03.3 FlurryHit3 VFX
+  - vfx: {fileID: 1217693477574893, guid: b8b312e474c53374dbb1245956a7db99, type: 2}
+    key: 1514164855
+    name: Swarmblade Full spin
+  - vfx: {fileID: 1708232210946491, guid: 6ec800d673b2b9442a4c3ad1357f7d7e, type: 2}
+    key: 1050649564
+    name: WarcryVFX
+  - vfx: {fileID: 1627436516426227, guid: f6ed85f3d1021ec4a9831bea0cc4fbe1, type: 2}
+    key: 1520981165
+    name: WengariBerserkerSpinVFX
+  - vfx: {fileID: 1784157829163362, guid: b2d79141992608a4a87479829a609ab2, type: 2}
+    key: -210056679
+    name: Zerrick Ally 01 FlipKick VFX
+  - vfx: {fileID: 1567118901704222, guid: 4ec5d39a0293e4f45bb7a20ddc8d5191, type: 2}
+    key: 760504824
+    name: Zerrick Ally 02 Big Slam VFX
+  - vfx: {fileID: 1092371530648462, guid: ab5c77a35f8a37c4ea72266bdb831dc0, type: 2}
+    key: 1546439136
+    name: RubyNagasa 01.1 SlashVFX
+  - vfx: {fileID: 1407630530298955, guid: 7cbf0214de6ea8145b3fa883e784ad0e, type: 2}
+    key: 823766321
+    name: RubyNagasa 01.2 SlashVFX
+  - vfx: {fileID: 1214610834158430, guid: 66e06ac2480e5d44d99db3f4e3e5eb87, type: 2}
+    key: -634922137
+    name: RubyNagasa 02 MeleeVFX
+  - vfx: {fileID: 1588483372421654, guid: 0a92c6aef67789446b313d2a02b19b80, type: 2}
+    key: 1771033920
+    name: RubyNagasa 05 BigFireMeleeVFX
+  - vfx: {fileID: 1807399480843155, guid: 85957919e5940334c9d97fbc6e05b343, type: 2}
+    key: -778549987
+    name: ScalebaneBodyguard 07 ShieldBash VFX
+  - vfx: {fileID: 1011377370104154, guid: f4ee10a2c0c80db48aa946230b18d489, type: 2}
+    key: 1311322107
+    name: Physical Slash Rotated
+  - vfx: {fileID: 1438542001002843, guid: 5695307de77c0f440a06ce7940cc4475, type: 2}
+    key: 735048910
+    name: ScalebaneThug 02 MeleeVFX
+  - vfx: {fileID: 1372901077431375, guid: 09504d01d9bd004488512583151ca3fe, type: 2}
+    key: 45349284
+    name: SlamAttackVFX
+  - vfx: {fileID: 1798283639413830, guid: 9bf49a785835f2747b353ab57798e047, type: 2}
+    key: -1319128523
+    name: Swipe Slash v2
+  - vfx: {fileID: 1789746376167097, guid: 5ddc369cc9c9b3a4baa9996d46f85652, type: 2}
+    key: -175486996
+    name: Leap Impact vfx
+  - vfx: {fileID: 1700981014280168, guid: c93b1a871e04e83488b3b9771f5c10f0, type: 2}
+    key: -1280435982
+    name: Leap takeoff vfx
+  - vfx: {fileID: 1358269226703623, guid: d8defa7aa3d06c64787daaa2360532d6, type: 2}
+    key: -865987738
+    name: Cold NonDirectional On-Hit vfx 1
+  - vfx: {fileID: 1743480323720673, guid: 743beab1b6c06dd48bc16fea825b12f1, type: 2}
+    key: -657961870
+    name: Lightning Beam VFX
+  - vfx: {fileID: 1174760649320191, guid: 89c3908423b6bc042ad854d7aced7db1, type: 2}
+    key: 857801372
+    name: Shade of Orobyss Tentacle Slam vfx
+  - vfx: {fileID: 1386699231073761, guid: f40fc9f462374e842858644f8df16ac5, type: 2}
+    key: 29985556
+    name: Portal for projectile
+  - vfx: {fileID: 1736770882839440, guid: e78f83b16b7cb274bb8ff31fdd6fd340, type: 2}
+    key: -174547731
+    name: Void Hit Effect Generic
+  - vfx: {fileID: 1561384185936258, guid: 781a19fe0b1d48146ba65480b95eebaf, type: 2}
+    key: -1365818885
+    name: Shield Bash VFX
+  - vfx: {fileID: 1632303363149275, guid: 2c6837c5b1000424c957f4536e5afdb4, type: 2}
+    key: -262200101
+    name: SmallLightningNovaOnDeathVFX
+  - vfx: {fileID: 1966628221450582, guid: 71bd9679d5defb34881ad6435c0a9ad1, type: 2}
+    key: 247778485
+    name: Smite VFX
+  - vfx: {fileID: 1078793666717099, guid: f441a7b1868838145a0b6df316a929d7, type: 2}
+    key: 394307833
+    name: SnapFreezeOnDeathVFX
+  - vfx: {fileID: 1926374126126263, guid: b221f339727e0e44a8b13f6b01b42ae4, type: 2}
+    key: -389717288
+    name: NecroticRipBloodOnDeathVFX
+  - vfx: {fileID: 1728407842734970, guid: 09af56b037721d448be3794b4c5112bb, type: 2}
+    key: -287147336
+    name: SparkStrikeVFX
+  - vfx: {fileID: 1263979551711226, guid: 6bca178cda60ce14a810c836a3fee058, type: 2}
+    key: -166288952
+    name: SpiritPlagueStartVFX
+  - vfx: {fileID: 1735599240117713, guid: 65a827e48f6de344aa29ebfe712423b1, type: 2}
+    key: -504160838
+    name: CrowLightningBlastVFX
+  - vfx: {fileID: 1553011397329305, guid: 0b8553a74289d69409080a67fe2da24f, type: 2}
+    key: 35241042
+    name: summon_nature_2
+  - vfx: {fileID: 1528594992405404, guid: 311cc4a9e0673b94686c9aea9e25b1bc, type: 2}
+    key: 1035010578
+    name: SkeletonApparition
+  - vfx: {fileID: 1322790625954567, guid: a2d1d3ca7f0e36f4b8413fd6a082e262, type: 2}
+    key: 1262267921
+    name: VolatileZombieApparition
+  - vfx: {fileID: 1248835991930886, guid: ed825f5ca5ac4fe41b9d0da1f169f6ea, type: 2}
+    key: -644861734
+    name: SummonWeaponFireExplosion
+  - vfx: {fileID: 1349219716954978, guid: d00895c6e7824504888a2c61350c6889, type: 2}
+    key: 334052062
+    name: Swarmblade Slash 1
+  - vfx: {fileID: 1071326609128590, guid: 315843138b014974dbaa8c436b579df6, type: 2}
+    key: 334297215
+    name: Swarmblade Slash 2
+  - vfx: {fileID: 1898844375827267, guid: 93d44773637c4f74f9bc689616b1a20c, type: 2}
+    key: 1054827121
+    name: Swarmblade Shift Slash
+  - vfx: {fileID: 1301689425121691, guid: 861e400362df8924aa161d781ee07a94, type: 2}
+    key: 752464590
+    name: animalSwipeVFXGreen
+  - vfx: {fileID: 1670849549382723, guid: 47f553edd76c34b4e86f4817c8ffdfa6, type: 2}
+    key: -143993975
+    name: TeleportDirectionalVFX
+  - vfx: {fileID: 1777076152209268, guid: 2b329cb9ec139a74e890c0a35706dce1, type: 2}
+    key: 323343794
+    name: TempestStrikeBaseVFX - simple
+  - vfx: {fileID: 1744177717208039, guid: e4ba5d7f2624fbe459ed3cdfa00372d5, type: 2}
+    key: -2135381194
+    name: Thorn Nova vfx
+  - vfx: {fileID: 1641355213172073, guid: 719561ce25f5a3047a2552f2071c6d59, type: 2}
+    key: 2138051989
+    name: TotemShatterVFX
+  - vfx: {fileID: 1552126960119855, guid: 201d34152cacda64ebc5fb3152d19c44, type: 2}
+    key: 1430682745
+    name: TransplantAbsorbingBodyTogetherVFX
+  - vfx: {fileID: 1908310050102457, guid: ebd7ea0e4a9e7244f84fed417b132389, type: 2}
+    key: 288035303
+    name: Upheaval Initial Hit VFX
+  - vfx: {fileID: 1197121754379876, guid: 681308a5d18e7ec4f9e4733196281ff7, type: 2}
+    key: -1604076915
+    name: UpheavalShockwaveOnDeathVFX
+  - vfx: {fileID: 1223154768009683, guid: 74e0920d098b9a9438d02dd0ff8da811, type: 2}
+    key: -807105455
+    name: Vengeance Slash VFX
+  - vfx: {fileID: 1479738338372605, guid: 5c1e977463f6597448787485a2c248fa, type: 2}
+    key: 1536771452
+    name: Lightning Beam VFX
+  - vfx: {fileID: 1504231728878463, guid: f351ffbe012ea4a4984c50f2678d8e2c, type: 2}
+    key: 638439149
+    name: Void Scholar 03 Lightning Beam VFX
+  - vfx: {fileID: 1987932920272050, guid: b7d271a092761bf458edf474cf56d40c, type: 2}
+    key: 763839239
+    name: GoldSpray Cone attack vfx
+  - vfx: {fileID: 1785610560457703, guid: a781b38a559167b4d8c13e825459163a, type: 2}
+    key: -1121554055
+    name: Maul Slam vfx
+  - vfx: {fileID: 1228342381849103, guid: e3c6ac4d95cb1a1458c48dd3ba871664, type: 2}
+    key: -2065290056
+    name: Werebear Swipe VFX
+  - vfx: {fileID: 1502760301277278, guid: a109f05aaed69334290284bf8db97fee, type: 2}
+    key: -1275831734
+    name: Werebear Swipe VFX Reverse
+  - vfx: {fileID: 1239190888606992, guid: 136c9914ae3c55c40836121204f97744, type: 2}
+    key: -515269875
+    name: Bone Death vfx
+  - vfx: {fileID: 1109331227527762, guid: bc3c54e148cbf6f40aec087ad6698d22, type: 2}
+    key: 1285525886
+    name: Blood Death vfx
+  - vfx: {fileID: 1618754894580242, guid: 44ff23def1202204eb4d23bb228f08a2, type: 2}
+    key: -1109198598
+    name: Moon death
+  - vfx: {fileID: 1202325465912149, guid: 2ae825147cd86df43ab68764fb6f0274, type: 2}
+    key: -1650217381
+    name: Fire death
+  - vfx: {fileID: 1340552302048291, guid: 4ab13041ba6f4804faf57074931b8f78, type: 2}
+    key: -502964689
+    name: poison death
+  - vfx: {fileID: 1647426929446771, guid: d09c179531a91ca41928e79ead8d1430, type: 2}
+    key: 1484502234
+    name: Siege Death
+  - vfx: {fileID: 1216602098751288, guid: 6443e4e7ee677b64faa82259a54f6c95, type: 2}
+    key: -1914946364
+    name: Enraged Spire Death
+  - vfx: {fileID: 1081944500913455, guid: 0644e4a4922a35542a6404e2ebd89301, type: 2}
+    key: 789928939
+    name: Void death
+  - vfx: {fileID: 1154778143351368, guid: c7fcbae35c5952340bd7764aa4b98c4d, type: 2}
+    key: -1010088743
+    name: void death 2
+  - vfx: {fileID: 1674643401890329, guid: ef678733719e7e74c9c48fb3bc40ae3c, type: 2}
+    key: -1987685198
+    name: Ice death
+  - vfx: {fileID: 1258070624091333, guid: 8031c83afbc4b634cae87a59658363ac, type: 2}
+    key: -510512616
+    name: Void Particle Explosion
+  - vfx: {fileID: 1029609389405646, guid: 666fffe89e1609649b93c08cfac9360e, type: 2}
+    key: 1951138709
+    name: Slimes Death VFX
+  - vfx: {fileID: 1155732473590197, guid: 55c3eb4306ad72a4dbcf3354c81a68b2, type: 2}
+    key: -898206258
+    name: Abomination Boss Death Explosion vfx
+  - vfx: {fileID: 1459446613828819, guid: 7f090e3cd53e3504d92520603a878c32, type: 2}
+    key: 396803108
+    name: BloodSplatter
+  - vfx: {fileID: 1953511255908445, guid: e8047585d7bf1974d8aa945c0fb587c4, type: 2}
+    key: 1653849299
+    name: Void Death Implosion long
+  - vfx: {fileID: 1075785706642790, guid: 38373fce31158374e9c9003e1dd2f8ab, type: 2}
+    key: -955059656
+    name: Void Splatter 05 - circular medium
+  - vfx: {fileID: 1937806986644911, guid: 1eb4fff78cc2dce4c8b273db6e521d90, type: 2}
+    key: -938186866
+    name: Small Blood Ground Impact 01
+  - vfx: {fileID: 1801441238477379, guid: 03342b790bbaf314a8c8282b0744692c, type: 2}
+    key: 1588277651
+    name: Physical Directional On-Hit vfx
+  - vfx: {fileID: 1166676690612406, guid: d16b063f2fc9352498619c26b2365b81, type: 2}
+    key: 753373948
+    name: DustCloudOnDeathVFX
+  - vfx: {fileID: 1128740315141147, guid: 4881eddf79fd1b74b919b83005f04c09, type: 2}
+    key: -409010248
+    name: Ballista Death Physics
+  - vfx: {fileID: 1782639647880937, guid: 1ffa5f8796a352540b80c1968bf404a9, type: 2}
+    key: -1743615516
+    name: Melee Hit Effect Style VFX
+  - vfx: {fileID: 1089121542370975, guid: c2403b9543bae174f90ed69743caaad6, type: 2}
+    key: 97294415
+    name: Dust and Small Pieces 1
+  - vfx: {fileID: 1012647636241187, guid: b338ff92e7a526c46a16e8dd27b179e1, type: 2}
+    key: -917152987
+    name: DeathBurst Spectre
+  - vfx: {fileID: 1120878835534264, guid: 5ce050cab179c9348bae6b8efa931966, type: 2}
+    key: 611780197
+    name: Goop Death (Circle)
+  - vfx: {fileID: 1205159232213709, guid: 3b83a62caab92434da598a83d6d89cbf, type: 2}
+    key: -1631168998
+    name: voidCorpse
+  - vfx: {fileID: 1431114958040086, guid: a300ae00022af3e438c89928689a666e, type: 2}
+    key: -1098903059
+    name: DeathBurst Void Horror
+  - vfx: {fileID: 1363252463642656, guid: 109ffe6d33f8a7940bcb8b0dcf761035, type: 2}
+    key: 798167676
+    name: Void Death Implosion base
+  - vfx: {fileID: 1322298163216520, guid: ec14742133e010a4db6348b2ca009a82, type: 2}
+    key: 1438536452
+    name: DeathBurst Leech
+  - vfx: {fileID: 1738870386814238, guid: 20f61c15930f8da49a476fe77dd7653a, type: 2}
+    key: -1664090832
+    name: Goop Death (Circle) Leech
+  - vfx: {fileID: 1606890102388384, guid: 9624bed58b74c3a4caee50fc3425abc7, type: 2}
+    key: -1574869713
+    name: Dust and Small Pieces 2
+  - vfx: {fileID: 1139323768487280, guid: 054aa00a001a211418fb593a3d1c0a4a, type: 2}
+    key: 1611839640
+    name: ChimeraBirdBoneDeathVFX
+  - vfx: {fileID: 1129517747206075, guid: 984ea041612234d4594db23bd21937e7, type: 2}
+    key: 449628550
+    name: ChimeraBirdLionBoneDeathVFX
+  - vfx: {fileID: 1596339663409178, guid: e99bfa1f324efec4f80ab2a5918d1f68, type: 2}
+    key: -1461249495
+    name: uLiquid - Blood - Spurt
+  - vfx: {fileID: 1966807685922996, guid: 7d835dab1db0abe489da0961e24323df, type: 2}
+    key: -1002620228
+    name: Void Death Implosion base smaller
+  - vfx: {fileID: 1975353694551256, guid: e46575fe5dec4c74bb44acf916292779, type: 2}
+    key: 1103401978
+    name: Void Splatter 05 - circular large
+  - vfx: {fileID: 1971587222591514, guid: 31b1418ad45b8354f9c9ea0116b28bbf, type: 2}
+    key: -2088802473
+    name: BloodChimeraDeathVFX
+  - vfx: {fileID: 1644649197632211, guid: bd2c6f79b11e36a41a2ae2dbdebc6635, type: 2}
+    key: 226482881
+    name: Enemy Skeleton Pile Death VFX
+  - vfx: {fileID: 1488859671707733, guid: 2ed9b8a04467bda4ab6b5178d7d4c8e8, type: 2}
+    key: 884991905
+    name: Enemy Skeleton Death VFX 01
+  - vfx: {fileID: 1123156360516080, guid: 64e739ae6af982e4cb0e8888335d5a3f, type: 2}
+    key: 2141544427
+    name: Dust and Bones
+  - vfx: {fileID: 1623019542860653, guid: e65162131e8ab824cadd94d1de20a04f, type: 2}
+    key: 248320078
+    name: BarrelOnDeathVFX_2019_Standard
+  - vfx: {fileID: 1162329355267739, guid: f0ccb503ae5dc68408b188ef4cf5ff85, type: 2}
+    key: 1497807538
+    name: podBurst1
+  - vfx: {fileID: 1683106641952835, guid: 75a4a72734049c840b94f25b586d45e7, type: 2}
+    key: -322029302
+    name: Dust and Small Pieces Chairs Variant
+  - vfx: {fileID: 1585498880391970, guid: ecb2c853a19b2bd4bbaeffd353283ab7, type: 2}
+    key: 477025362
+    name: RuinedSurfaceBarrelOnDeathVFX
+  - vfx: {fileID: 1904047449138585, guid: 74fc0007d6aa3504393fa0676c554162, type: 2}
+    key: 904712403
+    name: Bronze Vase Dust and Small Pieces
+  - vfx: {fileID: 1505406400232788, guid: f966547c1ea9c84479b5c44dfea78e44, type: 2}
+    key: -1962793020
+    name: Enemy Skeleton Getting Hit VFX
+  - vfx: {fileID: 1251704599809775, guid: 43aba650d452dcf45910b06b2a0491c7, type: 2}
+    key: 1888724408
+    name: Small Bug Ground Impact 01
+  - vfx: {fileID: 1938060321766630, guid: f81036606c5343243aba279819b5da9b, type: 2}
+    key: -538375578
+    name: DeathBurst Bull
+  - vfx: {fileID: 1617433485229290, guid: 5a99d2890bb67594482f9a9b4a5b8c48, type: 2}
+    key: -9159369
+    name: Goop Death (Oval)
+  - vfx: {fileID: 1540852103381835, guid: ceec58c9e08e0954ead465790a659b86, type: 2}
+    key: 842491408
+    name: HivelessPhraxOnDeathVFX
+  - vfx: {fileID: 1885535082439242, guid: 496c60b8172f8614292e865108ab20a3, type: 2}
+    key: 1294683775
+    name: TempleJarOnDeathVFX
+  - vfx: {fileID: 1640728942518101, guid: 254c9f2c7f2a0214797670bfff0b4e57, type: 2}
+    key: -2119523278
+    name: Wood Planks Pieces and Dust
+  - vfx: {fileID: 1069444064052205, guid: 9a677da9c73c7e947957f0cae3692b66, type: 2}
+    key: -1147240062
+    name: EggSplat
+  - vfx: {fileID: 1130530769080659, guid: 09fc4d3c5a105f7458e70fd9257a9658, type: 2}
+    key: 1983883129
+    name: DeathBurst VoidPillar
+  - vfx: {fileID: 1618707347126574, guid: 13966c7259f30b04d9a3c9d8c45ed7bc, type: 2}
+    key: -655827703
+    name: Void Death Implosion Emperors Remains
+  - vfx: {fileID: 1597175597836597, guid: 498f96ebb47bfb04baaacb4022367842, type: 2}
+    key: 2139048323
+    name: Dust and Small Pieces
+  - vfx: {fileID: 1167237091876702, guid: 0a4a80fd874b6cb468fb75ac4b5774f4, type: 2}
+    key: -1264616669
+    name: Eterra Vase Pile Dust and Small Pieces
+  - vfx: {fileID: 1236326174030024, guid: d93b7924e63cb164c9fb7735975ffbf4, type: 2}
+    key: -180601712
+    name: DeadLastRefugeBarrel
+  - vfx: {fileID: 1403615999216094, guid: 16ef78116243f1f44b9ceab2215120a1, type: 2}
+    key: 1171441068
+    name: VoidImplosionVFX
+  - vfx: {fileID: 1464707687788094, guid: a9affa4777cbdfb4d8b8c743ba3fb09e, type: 2}
+    key: -1710878743
+    name: FireballOnDeathVFX
+  - vfx: {fileID: 1651895430235911, guid: 85a6e3c99e96c4b4d815a34b0a3bbb24, type: 2}
+    key: -1133916437
+    name: VoidEggPodDeath
+  - vfx: {fileID: 1623424613626200, guid: 0414b0063cd171d4e9061e4e6b3dbc27, type: 2}
+    key: 233016958
+    name: SoulDeath VFX
+  - vfx: {fileID: 1323472097719093, guid: 452ea9c84a1c1084799a9a382a3f1ee2, type: 2}
+    key: -119652030
+    name: IceWolvesDeathVFX
+  - vfx: {fileID: 1691607053803040, guid: 70c037a0ce27a1e43bd9de8434f7b5a8, type: 2}
+    key: 1298572446
+    name: LupineRemnantOnDeathVFX
+  - vfx: {fileID: 1069385940177049, guid: 3c17eb337120d3a46bda80aa4379848c, type: 2}
+    key: -642081433
+    name: Soul Generator Death VFX
+  - vfx: {fileID: 1640591683153870, guid: a7391eda6dc27c249b1fecc5c9179e91, type: 2}
+    key: 607866891
+    name: Goop and Trash
+  - vfx: {fileID: 1445913816823778, guid: e25b3b166e47667418d83bc58bf7a0a4, type: 2}
+    key: -601400198
+    name: Guts  and Bones
+  - vfx: {fileID: 1214649783414907, guid: 256ca0bf7bdc75546bda09abaab55b8e, type: 2}
+    key: 288298500
+    name: Medium Blood Ground Impact 01
+  - vfx: {fileID: 1170887547068904, guid: 83ee7960d1bebca479d9f8ff8fdab4cd, type: 2}
+    key: 938935789
+    name: Slimes Death big VFX
+  - vfx: {fileID: 1615889544569674, guid: fb3371bdd9b533742aa868724d335108, type: 2}
+    key: 645128034
+    name: Ice and Debris
+  - vfx: {fileID: 1497795918546976, guid: cb56d5561a598cd40addc69d9161cdec, type: 2}
+    key: -822010538
+    name: IceShieldDeathVFX
+  - vfx: {fileID: 1652151238656351, guid: 2306438f3d8d0004993b4245a1121105, type: 2}
+    key: -158671918
+    name: IceWallOnDeathVFX
+  - vfx: {fileID: 1976521177382382, guid: c0c22a17e9e60eb40b8bdc4e6b773e53, type: 2}
+    key: 1534900717
+    name: ImmortalOverseerDeathVFX
+  - vfx: {fileID: 1819312587341184, guid: 270554ffda93b7049936df725fe7e8d1, type: 2}
+    key: 694445707
+    name: ImmortalEyeDeathVFX
+  - vfx: {fileID: 1604185985376430, guid: 45cc048c69e51144f90ae01e4dc4ade7, type: 2}
+    key: 1033181432
+    name: Skeleton Boss Death VFX
+  - vfx: {fileID: 1511519271293090, guid: 13016565b696d934cac840e8ff865088, type: 2}
+    key: -884252650
+    name: Dust and Small Pieces 2
+  - vfx: {fileID: 1253426175539735, guid: 40826a8ff49fe324697b8b3b6111aa25, type: 2}
+    key: 1855108217
+    name: LightningElementalDeathVFX
+  - vfx: {fileID: 1528407556993527, guid: eeeb46de9e74beb49968efc3ed3e161d, type: 2}
+    key: -856065085
+    name: ChimeraLionBoneDeathVFX
+  - vfx: {fileID: 1910393479789310, guid: 7f26043424fff7e4cb481556375312b5, type: 2}
+    key: -208459022
+    name: LupineRemnantDeathVFX
+  - vfx: {fileID: 1155425177326508, guid: 27f7d8fc0fdb513418f418b33fe73af6, type: 2}
+    key: 1629132877
+    name: groleBloodWhenHitVFX
+  - vfx: {fileID: 1499289063823240, guid: 90eae0283e8003940b5712b9dae7bf3e, type: 2}
+    key: 470957291
+    name: Majasa Boss discarded corpse
+  - vfx: {fileID: 1499845722395864, guid: a2dc895162a61ca4aa2a522f089aaaba, type: 2}
+    key: -1036758625
+    name: BirdDeathVFX
+  - vfx: {fileID: 1822329957232507, guid: 07a9c3984bfadd84cb23cb5469ec1580, type: 2}
+    key: 1811467718
+    name: BirdDeathVFX white
+  - vfx: {fileID: 1158113625658673, guid: 95c3f321bbcc029409c20cbf51bbd240, type: 2}
+    key: -2019369065
+    name: DeathBurst Crawler
+  - vfx: {fileID: 1884544583277567, guid: 5010775ac31a64842a9699cc0eefa54e, type: 2}
+    key: 66505525
+    name: ChimeraRamBoneDeathVFX
+  - vfx: {fileID: 1474381392170720, guid: b90207410bfde78488dde089d9d66326, type: 2}
+    key: 1358617253
+    name: Blood Effigy explosions
+  - vfx: {fileID: 1782688497926650, guid: 46a1b81deca74d642acc1cd2bff46e6a, type: 2}
+    key: -631800000
+    name: Tentacle Portal
+  - vfx: {fileID: 1133753650883916, guid: a69514b5823900145871bd2a4791bf11, type: 2}
+    key: -452262727
+    name: Portal for Death
+  - vfx: {fileID: 1662597939167936, guid: 3824016dad7ff3140aac2d803ca6aac8, type: 2}
+    key: -1800920023
+    name: DistortOut
+  - vfx: {fileID: 1972724599556623, guid: e8e3fac5bf37d75469654a190ca996b1, type: 2}
+    key: -1996645394
+    name: Dust and Small Pieces Tall
+  - vfx: {fileID: 1125458393221276, guid: e298b488446d9c645ac62dc8b7400bc7, type: 2}
+    key: -1990230475
+    name: Blood Ground Impact 01
+  - vfx: {fileID: 1735200993978167, guid: 1ce011ef00484f841b9f0574b156c4ff, type: 2}
+    key: 2109081966
+    name: Soul Generator Big Death VFX Variant
+  - vfx: {fileID: 1339855717465835, guid: b273d6136959d86419fae320c6c8fc1a, type: 2}
+    key: 1862205083
+    name: Abomination Death Explosion vfx
+  - vfx: {fileID: 1882461695786077, guid: 0894be6a2464a5d47a51ca177432d3a1, type: 2}
+    key: -909447346
+    name: SummonedBeeOnDeathVFX
+  - vfx: {fileID: 1410489209933383, guid: 017583a4ae12c2145a7c95b1ff60e8d3, type: 2}
+    key: 878226559
+    name: VoidBossTeleportOutVFX
+  - vfx: {fileID: 1936905969813049, guid: a1b59a924e5945645932c355a3f501b7, type: 2}
+    key: -247415882
+    name: Voidfused Forge Death Explosion VFX
+  - vfx: {fileID: 1255356693050821, guid: 6dddf46cda5eb82409d5d9387870da3d, type: 2}
+    key: 1178641194
+    name: DeathBurst EffigyOfDecay
+  - vfx: {fileID: 1682538548501780, guid: 3cc704be2d0bc7c428ef19f05ca14148, type: 2}
+    key: -778097292
+    name: Dust and Rocks
+  - vfx: {fileID: 1216745053696463, guid: 661b71f2b31c2a24eadb1ec5e361321d, type: 2}
+    key: -1041371393
+    name: poisonWispOnDeath
+  - vfx: {fileID: 1511303131636864, guid: 524674a4c679ec14d9badf2e9aeec483, type: 2}
+    key: 1114429198
+    name: Temporal Hunter TimeTravelTeleportVFX End
+  - vfx: {fileID: 1114948911386868, guid: 62e4a333f26b8b843a9a3ef68e0b8903, type: 2}
+    key: 368756894
+    name: VoidShardOnDeathVFX
+  - vfx: {fileID: 1146576814943637, guid: 3418ee6a97f0d374d8923ce84d61d046, type: 2}
+    key: 1096766762
+    name: Umbral Blades Explosion vfx
+  - vfx: {fileID: 1108662273822129, guid: 891ab47cd82270f449f5fefbe22f6042, type: 2}
+    key: 669423888
+    name: Void Death Implosion void nagasa
+  - vfx: {fileID: 1485815753599892, guid: d3f45de7a62097848a00b469659246fb, type: 2}
+    key: 1967222633
+    name: Void Nagasa Boss Death vfx
+  - vfx: {fileID: 1492632501172867, guid: 9e80f16956a9ac6459be9d0043cde865, type: 2}
+    key: 885151429
+    name: Draal Grub Spawner
+  - vfx: {fileID: 1511937744107560, guid: 7173d0ca487638a46a4743d5d2d74559, type: 2}
+    key: -2022928385
+    name: Delayed Bone Fiend Spawner
+  - vfx: {fileID: 1845025925197592, guid: 2bd0e503d02791644a77e717741f21c3, type: 2}
+    key: 1123783507
+    name: Beacon Click Activation vfx
+  - vfx: {fileID: 1157635601999655, guid: ae3935f02fc0f82429e4a21d301560e8, type: 2}
+    key: -893774828
+    name: Beacon Finish vfx
+  - vfx: {fileID: 1652003343377440, guid: 33ed5114969ecc3469de533aeb3a50dd, type: 2}
+    key: 1607422735
+    name: MinimalisticCyanNovaVFX
+  - vfx: {fileID: 1813508526858718, guid: 023b3318e423e874f8a2562eee94af60, type: 2}
+    key: -1816535601
+    name: Dust and Small Pieces Books
+  - vfx: {fileID: 1453209943217175, guid: c7848ceb571a8b743a35e9995759abbb, type: 2}
+    key: 1447001420
+    name: IceBlastVFX
+  - vfx: {fileID: 1985233701037830, guid: 19db071bba8561745872ef3aa78e249c, type: 2}
+    key: 746104248
+    name: LightningSmiteVFX
+  - vfx: {fileID: 1384150288976600, guid: bc4488d6f3bd6194fb155deb553f7e60, type: 2}
+    key: -1532335021
+    name: LightningSmiteVFX small
+  - vfx: {fileID: 1319183160380249, guid: edc5d486a0e07194c81ab766ef7a1d09, type: 2}
+    key: 1234166848
+    name: LightningBlastLoopBackVFX
+  - vfx: {fileID: 1549026777493166, guid: 1e362b3fbe9a94043be2b92932a6cf8e, type: 2}
+    key: 21526315
+    name: LightningBlastLoopBackIceVFX
+  - vfx: {fileID: 1537197501791129, guid: 2b44273e52018fd43b3151e21b12456c, type: 2}
+    key: -1797256921
+    name: Impaled Javelin VFX
+  - vfx: {fileID: 1805605198185422, guid: ce3b301bd5f75a54583d79ba202f6a2d, type: 2}
+    key: 1059553401
+    name: Crow ColdGoingUpVFX
+  - vfx: {fileID: 1244618481139798, guid: 0fb3c31bc227e244ebbd20f297d566c7, type: 2}
+    key: -1273291475
+    name: CrowIceBlastVFX
+  - vfx: {fileID: 1943092834352901, guid: 7b55309a017fe9e40a5a78793d1a3d98, type: 2}
+    key: -117609954
+    name: HitHivesVFX
+  - vfx: {fileID: 1822166108452312, guid: b5544fbc722a41e4abccd2b1eb4180a6, type: 2}
+    key: -1887614800
+    name: HitHivesVFX Cold
+  - vfx: {fileID: 1470645161323726, guid: 923375b15a50e324fb7db7e9ea2f86b2, type: 2}
+    key: -1881909761
+    name: BloodBurstVFX
+  - vfx: {fileID: 1559811586961987, guid: 132305ad4014b0a4e87eb97b4cf22420, type: 2}
+    key: 1374424790
+    name: StaticOrbExplosionOnDeathColdVFX
+  - vfx: {fileID: 1239884229225965, guid: 2e007614089bbc54b91254063b480b60, type: 2}
+    key: 1141705905
+    name: Small Smoke Cloud
+  - vfx: {fileID: 1373783680186789, guid: 1595b478552f9ff4ea583a622e7e8378, type: 2}
+    key: -335417388
+    name: Small Smoke Cloud
+  - vfx: {fileID: 1726776520018917, guid: 42ff2f57143958440ac3c7720ea73da6, type: 2}
+    key: -818176152
+    name: Small Smoke Cloud for Lethal Mirage Offset
+  - vfx: {fileID: 1701883815603570, guid: 94034c2218e40374ba3ade7877d7fa1a, type: 2}
+    key: -1576115176
+    name: AvalancheSnowballAoE
+  - vfx: {fileID: 1726177553729338, guid: 44d40233adfa5084882fd898baa46826, type: 2}
+    key: -1108788124
+    name: AvalancheImpactVFX
+  - vfx: {fileID: 1432710898487550, guid: 3d14ad6a08d31b74f921c42513cd5a28, type: 2}
+    key: 1741099352
+    name: Small Ice Nova VFX
+  - vfx: {fileID: 1416581008345979, guid: 9a66aa73138f07b4191ba7bcc3c074b3, type: 2}
+    key: -96494621
+    name: Small Fire Nova VFX
+  - vfx: {fileID: 1171935406244990, guid: 9cc6b16f1b6a2a4459738a4e8befb8c5, type: 2}
+    key: -1766591981
+    name: DancingStrikes4vfx2
+  - vfx: {fileID: 1162273248527365, guid: 099ed4b7ccf69ec418d6b9d5900f8bab, type: 2}
+    key: -842506577
+    name: DancingStrikes1Endvfx
+  - vfx: {fileID: 1867599200196153, guid: 6db152fd842dac643bec62c83acea529, type: 2}
+    key: -1861074795
+    name: ShieldRushOnDeathVFX
+  - vfx: {fileID: 1103520341759347, guid: 945dd9fe614ba094da433c8898a56b9e, type: 2}
+    key: -128154020
+    name: DivineFlareVFX
+  - vfx: {fileID: 1916826762033415, guid: 9dac8b4477877054da2ee7607f98a9a1, type: 2}
+    key: 1097271510
+    name: EntanglingRootsInitialHitVFX
+  - vfx: {fileID: 1743995923374150, guid: 2367b87500691944cbdfaee27e04e698, type: 2}
+    key: -1997964814
+    name: MinimalisticIceNovaOnDeathVFX
+  - vfx: {fileID: 1600644938135994, guid: 053ac42b13714944ab4532cdfdc5d1d4, type: 2}
+    key: -7074129
+    name: GasparSetSwipe vfx
+  - vfx: {fileID: 1343940780164139, guid: 56afa6b0f177d594dae2891a6b58d515, type: 2}
+    key: 2102040373
+    name: SmokeCloudVFX
+  - vfx: {fileID: 1463136681051107, guid: c10955c936b22064fa5b0909745cd880, type: 2}
+    key: -1215670499
+    name: Lethal Mirage VFX
+  - vfx: {fileID: 1389940670714340, guid: de10bb45243c8734890515b03f5aaf24, type: 2}
+    key: 167319907
+    name: LightningWaveOnDeathVFX
+  - vfx: {fileID: 1644801530723439, guid: 0b26fb29186bd19468e1cbb045f4fc1b, type: 2}
+    key: 70087260
+    name: ManifestWeaponVFX
+  - vfx: {fileID: 1950328001379819, guid: 266476eea93f8694498fd5fbfa8e7bae, type: 2}
+    key: -1481542011
+    name: NecroticExplosionVFX
+  - vfx: {fileID: 1483452056990026, guid: 9b7b3c15810c1ce429150a61b33257cf, type: 2}
+    key: 1523348743
+    name: LeafNovaVFX
+  - vfx: {fileID: 1798226287928170, guid: 3e29e309a14f76845b79ff65743bba49, type: 2}
+    key: -171637751
+    name: ForceNovaOnDeathVFX
+  - vfx: {fileID: 1356229766254297, guid: f7f9ad20e42da7c48bae62d144290301, type: 2}
+    key: 403124039
+    name: FreezeNovaOnDeathVFX
+  - vfx: {fileID: 1045850446734234, guid: a8869acd543171f4db04ebf4ee694ab5, type: 2}
+    key: -579719287
+    name: PhysicalNovaOnDeathVFX
+  - vfx: {fileID: 1510764507901479, guid: 8a2a2735b567f7f41abaa8141d2ac6d7, type: 2}
+    key: -296141296
+    name: PoisonNovaOnDeathVFX
+  - vfx: {fileID: 1014125827052825, guid: 9a442e7053eb0934ab5d705b8c5644e3, type: 2}
+    key: 101144557
+    name: ShatterNovaOnDeathVFX
+  - vfx: {fileID: 1089213030368941, guid: 9e937e67cd155924d9aa16f77ff0ea7d, type: 2}
+    key: 376658731
+    name: SmallVoidNovaOnDeathVFX
+  - vfx: {fileID: 1281557519955073, guid: 1b281104aef4a4c4ab294059bd5a02cc, type: 2}
+    key: -1967422122
+    name: Glacier1OnDeathVFX
+  - vfx: {fileID: 1298621517720414, guid: 977dfb6f4bbce4f4da463a37659785cf, type: 2}
+    key: -676518565
+    name: StatueFireCircleVFX
+  - vfx: {fileID: 1389481981817893, guid: 0848d43c6a67c0640b86f96be0c13fcc, type: 2}
+    key: 107175116
+    name: StatueSmallFireCircleVFX
+  - vfx: {fileID: 1616315482838308, guid: 95fe63c27d5ebee41b7ab36dde10b5c1, type: 2}
+    key: -861668394
+    name: VoidNovaOnDeathVFX
+  - vfx: {fileID: 1874793871040714, guid: 83bdb2a10a7298f469f9c9cb2a036cbd, type: 2}
+    key: -960046646
+    name: VoidBreathOnDeathVFX
+  - vfx: {fileID: 1628113708347309, guid: 5d904ea6a077b8b43af8c949477aae81, type: 2}
+    key: 1228976017
+    name: WaterNovaOnDeathVFX
+  - vfx: {fileID: 1404419177890185, guid: 42934a5f4bc0ff342b2145bcb280fdc2, type: 2}
+    key: -1466231646
+    name: RebukeEndVFX
+  - vfx: {fileID: 1777172643250892, guid: b6f1ce1b1e858274ba112650393ae47c, type: 2}
+    key: -1582857223
+    name: ShadowCascadeVFX
+  - vfx: {fileID: 1689491216828041, guid: e75b1f77523fbf548b93b1582d31e8f2, type: 2}
+    key: 623278149
+    name: MinimalisticHolyNovaOnDeathVFX
+  - vfx: {fileID: 1995422413288922, guid: 3b0ee4aab4e9b924a8566bdcf1954692, type: 2}
+    key: -1093468590
+    name: SmokeBombIgniteArea VFX
+  - vfx: {fileID: 1910112212473406, guid: 78471f81ebb612247ba8e169553c5d5f, type: 2}
+    key: 1548769631
+    name: CrowLightningComingDownVFX
+  - vfx: {fileID: 1484145944214936, guid: 406f0250823a293479901094a7b4c047, type: 2}
+    key: -1313786664
+    name: SabertoothSwipeVFXReverse
+  - vfx: {fileID: 1254581319976309, guid: d306c44855bbab9409c367b96946748f, type: 2}
+    key: -555881716
+    name: animalSwipeVFXGreenReverse
+  - vfx: {fileID: 1188988898174323, guid: 3e1031472de93e145a106b9746e3dcb1, type: 2}
+    key: -367855426
+    name: SabertoothSwipe
+  - vfx: {fileID: 1090488956985408, guid: 0f6a6b8b6e1d3d54e967c35ad30ba163, type: 2}
+    key: 1759008315
+    name: Void Centipede Slash vfx
+  - vfx: {fileID: 1615414113579799, guid: 05ce0f84e2114a94fa2b2100a36c4c34, type: 2}
+    key: 591446993
+    name: BearSwipeVFX
+  - vfx: {fileID: 1670516578982378, guid: 9d87ce0bd07a63246a449961e4fc949c, type: 2}
+    key: -1683324863
+    name: Synchronized Strike vfx
+  - vfx: {fileID: 1041977550633478, guid: 0b3a4152c762a084abf6ee0dac811c8c, type: 2}
+    key: 1481209137
+    name: Sync Strike Shadow Visuals
+  - vfx: {fileID: 1985449078089659, guid: a3e9dd26b15c3bc4181370829f8bf3a4, type: 2}
+    key: 1805588511
+    name: SprigganBeamVFX
+  - vfx: {fileID: 1735156599014325, guid: e23f35ff2c9265d44ba1d0ca75c4c119, type: 2}
+    key: 444839870
+    name: GreenBlastVfx
+  - vfx: {fileID: 1108535242988968, guid: 57cf0b3e5a045d44a82c31b668863a73, type: 2}
+    key: -900199705
+    name: BriarThornOnDeathVFX
+  - vfx: {fileID: 1509264868282500, guid: 7aa982a04b152b24d867685bf030bc87, type: 2}
+    key: 2138087279
+    name: VoidRiftOnDeathVFX
+  - vfx: {fileID: 1204455754194232, guid: e87ff5c408429b149a658adff1c3ce33, type: 2}
+    key: 130656666
+    name: AbyssalEchoesOnDeathVFX Holy
+  - vfx: {fileID: 1193350946651423, guid: 97edc71521092c348b16b78a6dc2cfc0, type: 2}
+    key: 67265490
+    name: AcidFlaskExplosionFireVFX
+  - vfx: {fileID: 1525811779700395, guid: da5b575e180f0674ba7925c0822fd949, type: 2}
+    key: -923438205
+    name: AvalancheImpactVFX Physical
+  - vfx: {fileID: 1848931502449711, guid: b16a912918cb5e247a322f800e4be19e, type: 2}
+    key: 1822353846
+    name: DecoyColdExplosionVFX
+  - vfx: {fileID: 1824233394863638, guid: 568eda57ca636134aa857a83afb524b9, type: 2}
+    key: -547317266
+    name: NecroticBloodSplatterOnDeathVFX
+  - vfx: {fileID: 1362029623393893, guid: 3f99dd4f6aae98d449daed667fa19c7c, type: 2}
+    key: -2001472025
+    name: Bone Curse Necrotic VFX
+  - vfx: {fileID: 1764060438489154, guid: 47f806dc7a92c124ca3b6825b3df5214, type: 2}
+    key: -433382125
+    name: BurstOfLightningVFX
+  - vfx: {fileID: 1577191914986002, guid: 7b791be7c38925b49a1f677d542cd94b, type: 2}
+    key: 1498187727
+    name: BurstOfFrostVFX
+  - vfx: {fileID: 1045614807548483, guid: 4ffaa88614af2a8458732d2a896c4c55, type: 2}
+    key: 387010276
+    name: DancingStrikes1Startvfx poison
+  - vfx: {fileID: 1799249828290844, guid: 417c3a74abbb42247966739703b79d39, type: 2}
+    key: 2000075676
+    name: DancingStrikes4vfx1 poison
+  - vfx: {fileID: 1404716623968849, guid: c7666bebe22480c4b9a1ea89f8576ae7, type: 2}
+    key: -1061357953
+    name: DancingStrikes4vfx2 poison
+  - vfx: {fileID: 1746660859573827, guid: 56d0d662b7eab4946bc500a66a8539a3, type: 2}
+    key: -645442069
+    name: DeathSealBloodWaveVFX
+  - vfx: {fileID: 1966155485207085, guid: b3162937e97aaea47a06a2922e04720c, type: 2}
+    key: 1561367322
+    name: Detonating Arrow Cone Lightning VFX
+  - vfx: {fileID: 1026961409476728, guid: 0fe83ac11df87234a9de8463001d0932, type: 2}
+    key: -358830920
+    name: Detonating Arrow Cone Fire VFX
+  - vfx: {fileID: 1175531588190377, guid: 06b079aa988225b4d90a9847aa095533, type: 2}
+    key: -781927716
+    name: DetonatingArrowExplosionFireVFX
+  - vfx: {fileID: 1433106691186659, guid: a81cdc3b25621f0488d8c21ae81e3628, type: 2}
+    key: -986440306
+    name: Detonating Arrow Cone Cold VFX
+  - vfx: {fileID: 1903991705915074, guid: e36f3f481c1694648b95a8b274071cfb, type: 2}
+    key: -784436270
+    name: DetonatingArrowExplosionColdVFX
+  - vfx: {fileID: 1324343872944595, guid: 67777b7ecca8a3f44b9c758401f9799c, type: 2}
+    key: 645701204
+    name: Detonating Arrow Cone Poison VFX
+  - vfx: {fileID: 1143098507437044, guid: 9046b31cf2912b34a8821446168858ea, type: 2}
+    key: 1556026316
+    name: DetonatingArrowExplosionPoisonVFX
+  - vfx: {fileID: 1606806914002067, guid: 75ea7c8cf8fd43c49bb9a19a1d5093d4, type: 2}
+    key: 1779679890
+    name: EarthquakeAftershockFireVFX
+  - vfx: {fileID: 1736299344585484, guid: 921d37227ad65864dbb3a349167f638f, type: 2}
+    key: -1716486796
+    name: EarthquakeConeFireSlamVFX
+  - vfx: {fileID: 1830311497609815, guid: 41d7fa6f2f4737d47a853cd8b78abf0d, type: 2}
+    key: 1989423603
+    name: EarthquakeSlamFireVFX
+  - vfx: {fileID: 1230105345723623, guid: 21ce0346b2a40ff4685ec5f96a8504db, type: 2}
+    key: 2021109840
+    name: EarthquakeConeLightningSlamVFX
+  - vfx: {fileID: 1001054147806027, guid: 9686b237d6fe35540aa0383aa7b02f51, type: 2}
+    key: 381661255
+    name: EarthquakeSlamLightningVFX
+  - vfx: {fileID: 1523831409146352, guid: 0759d11c0fd378a42b2f017caf785426, type: 2}
+    key: 950652116
+    name: EarthquakeConeSlamVFX
+  - vfx: {fileID: 1398992639967808, guid: 733d4f7189539ea45ab56ad0aa00c06d, type: 2}
+    key: -1384915145
+    name: QuickIceCircleVFX
+  - vfx: {fileID: 1435413712007794, guid: 2b6a16ff5f0d7cb4b9f878556d693096, type: 2}
+    key: -1937613634
+    name: FlurrySpearHit01VFX
+  - vfx: {fileID: 1498744615507421, guid: 3be0afa968cfb0d44829d7aea9a2f3ce, type: 2}
+    key: -1218144593
+    name: Flurry2hHit01VFX
+  - vfx: {fileID: 1595082780386597, guid: f1508b5da5efe2147a7759d14e494a3c, type: 2}
+    key: -2068372520
+    name: FlurryDWHit01VFX
+  - vfx: {fileID: 1834036620173342, guid: ba6ec4f723947f744b84094991c33cc8, type: 2}
+    key: -1903008421
+    name: FlurrySpearHit02VFX
+  - vfx: {fileID: 1918803411992597, guid: aab72941a2001bb4fb64e4c666c1e84c, type: 2}
+    key: 1886692404
+    name: Flurry2hHit02VFX
+  - vfx: {fileID: 1810205058365364, guid: 54060e7886939ec4f97abcbdea7f948f, type: 2}
+    key: 145737929
+    name: FlurryDWHit02VFX
+  - vfx: {fileID: 1653595320978838, guid: d005ca220d4e62d4daeeed6cb2990230, type: 2}
+    key: -1712009860
+    name: FlurrySpearHit03VFX
+  - vfx: {fileID: 1187317229462562, guid: 2d122887fb46f7e4d8ad3128a451d030, type: 2}
+    key: -1730537799
+    name: Flurry2hHit03VFX
+  - vfx: {fileID: 1592727540666989, guid: 9ab506036a1cace489a89675d882fd9c, type: 2}
+    key: -1117468466
+    name: FlurryDWHit03VFX
+  - vfx: {fileID: 1070858850712228, guid: 0ff0c1b652c701a4c823564375e15daf, type: 2}
+    key: 401993348
+    name: ForgeStrikePoleswordVFX Variant
+  - vfx: {fileID: 1896245196128474, guid: 04212828913b7f548ae8f38c9011bff2, type: 2}
+    key: -804340358
+    name: ForgeStrikeSwordVFX Variant
+  - vfx: {fileID: 1962540807492246, guid: 70418becaacb8ec41943a3183b5219ae, type: 2}
+    key: -1215953862
+    name: ForgeStrikeSpearVFX Variant
+  - vfx: {fileID: 1511924187595039, guid: 0b2fde9b7ad858c45924d823e479154c, type: 2}
+    key: 1578807145
+    name: ForgeStrikeAnvilVFX Variant
+  - vfx: {fileID: 1836341520937860, guid: cc4b58df6f77cc14d92f9ccca488753b, type: 2}
+    key: -578992039
+    name: IceThornsPhysicalExplosionOnDeath
+  - vfx: {fileID: 1310049177618843, guid: b5e2d6fc4c939984ea325a510d572588, type: 2}
+    key: 1990947209
+    name: Lethal Mirage VFX Lightning
+  - vfx: {fileID: 1411999717948206, guid: 125c0ae534021784c94ad2bd58876674, type: 2}
+    key: -1895125592
+    name: ExtendedSpearVoid
+  - vfx: {fileID: 1096882273212362, guid: 409d7e532d011124cb41c6b749ddd9a8, type: 2}
+    key: 2025745502
+    name: ExtendedSpearFire
+  - vfx: {fileID: 1317660220373303, guid: b7f3325a1d474b24b8f10c3cb5f41e2a, type: 2}
+    key: 2086194801
+    name: ExtendedSpearPhysical
+  - vfx: {fileID: 1954932938414243, guid: da478db42043e2243afa09931328cf3c, type: 2}
+    key: 1437636897
+    name: Puncture VFX Poison
+  - vfx: {fileID: 1358132154407410, guid: 551469b98cf5e5b49a006326df947541, type: 2}
+    key: -1220581003
+    name: MeteorOnDeathLightningVFX
+  - vfx: {fileID: 1634854634565522, guid: d28f58501ace19b41889d16bfb1ac23e, type: 2}
+    key: 262621556
+    name: Multistrike axes vfx
+  - vfx: {fileID: 1374996088161054, guid: 569c2466e990ca444a730cc7c5ca5d85, type: 2}
+    key: 1058806557
+    name: Multistrike spears vfx
+  - vfx: {fileID: 1361743546048682, guid: 4908ea9c7a141b248b0264c56a23f1e0, type: 2}
+    key: 2051597093
+    name: FireMortarExplosionVFX
+  - vfx: {fileID: 1949720442747649, guid: 10063fb9bb808d541a0c7fbecb2f0e32, type: 2}
+    key: -1956661948
+    name: IceMortarExplosionVFX
+  - vfx: {fileID: 1179369921534790, guid: acefa942104a4c0469b858ffd1a262ad, type: 2}
+    key: 1295193818
+    name: poison Puncture spear Mirage stab VFX Variant
+  - vfx: {fileID: 1694420387194273, guid: e7899658c1b3df9478552ecc63435c8b, type: 2}
+    key: -1861997493
+    name: poison Puncture DualWield Mirage stab VFX
+  - vfx: {fileID: 1988933365045246, guid: 16184e628c382574094cde448daa719b, type: 2}
+    key: 730731455
+    name: poison Puncture one handed sword Mirage stab VFX
+  - vfx: {fileID: 1329846626721413, guid: 033d528754bcc1241bb4be21c217a13e, type: 2}
+    key: 1811531528
+    name: Puncture bow Mirage VFX
+  - vfx: {fileID: 1622682384534550, guid: cacc677d67c91ce4ba1dcab404cbe68a, type: 2}
+    key: 1022820577
+    name: poison Puncture two handed Mirage stab VFX Variant
+  - vfx: {fileID: 1940352072989790, guid: f8069986f9565b6488e147a301ca29ad, type: 2}
+    key: -101574559
+    name: Puncture spear Mirage stab VFX
+  - vfx: {fileID: 1972198279185104, guid: d6f21513dfc140e47b3169830dbf01c7, type: 2}
+    key: 329739007
+    name: Puncture DualWield Mirage stab VFX
+  - vfx: {fileID: 1970238840344499, guid: 2e24edb6ae42603429d4151d2d858226, type: 2}
+    key: -1800433637
+    name: Puncture one handed sword Mirage stab VFX
+  - vfx: {fileID: 1709114324605169, guid: a368f9030eb948d498ba14530ff540a1, type: 2}
+    key: -1401374240
+    name: Puncture two handed Mirage stab VFX
+  - vfx: {fileID: 1795868525298136, guid: 2846b6c750957f94599726d0ae0979e7, type: 2}
+    key: 1177415769
+    name: ReapColdVFX
+  - vfx: {fileID: 1676119853367988, guid: 9c9085873df8f6e40b99d2181b9f6069, type: 2}
+    key: 1974155333
+    name: ReapPoisonVFX
+  - vfx: {fileID: 1314801438353303, guid: 03fc5ec7332c3aa41b767fbf9fee0d2a, type: 2}
+    key: -624029308
+    name: Slash 2 - 2h sword weapons
+  - vfx: {fileID: 1247160391800038, guid: 77f741247cbf7d54499f9ecc319be444, type: 2}
+    key: 2006037125
+    name: Slash 2 - 2h axe weapons
+  - vfx: {fileID: 1968056847319523, guid: 183a9865d0105e241b74c08b1349c368, type: 2}
+    key: -1061077601
+    name: Slash 2 - spears polearms
+  - vfx: {fileID: 1539881518074440, guid: 5b6e2c5799d05f94a8046edab60abea7, type: 2}
+    key: -102202713
+    name: Slash 1 - 2h sword weapons
+  - vfx: {fileID: 1321032989988057, guid: 00c01961eeeb0e94a809c6e20efe86bb, type: 2}
+    key: 2000591046
+    name: Slash 1 - 2h axe weapons
+  - vfx: {fileID: 1855572823721926, guid: eb958263ad106df4884a0a95915b4f39, type: 2}
+    key: 1529832796
+    name: Slash 1 - spears polearms
+  - vfx: {fileID: 1670141617408964, guid: 08fa3478723c0244dbfe5a49d109b369, type: 2}
+    key: 1920579701
+    name: ShadowCascadeVFX - only daggers
+  - vfx: {fileID: 1496869104774037, guid: cf3f8c19fa43ac44583c076754c2275b, type: 2}
+    key: -1876227741
+    name: Shield Bash Fire VFX
+  - vfx: {fileID: 1502637186032405, guid: 163167d1b0178894aafd4f3f20ee983e, type: 2}
+    key: 1598392836
+    name: Smelter's Wrath Circle VFX
+  - vfx: {fileID: 1447021070065452, guid: 7e47cd5d31ffd8648868e7a9cf4ff1a1, type: 2}
+    key: 244362788
+    name: VoidSmiteVFX
+  - vfx: {fileID: 1045936499565041, guid: 10def2d681d5df541811cfddcda4152c, type: 2}
+    key: 1601642374
+    name: SnapShockOnDeathVFX
+  - vfx: {fileID: 1649931495029345, guid: 4dd539af247c0f949b7c971988b68d4f, type: 2}
+    key: -1105665097
+    name: SoulFeastConeOnDeathVFXBlood
+  - vfx: {fileID: 1883543041484884, guid: 1bcbcda28d52a3b4db13130c75e2b235, type: 2}
+    key: -475232019
+    name: SoulFeastConeOnDeathVFX
+  - vfx: {fileID: 1875817305385405, guid: eed3b1e750add0c488e5b078866116c9, type: 2}
+    key: -591404365
+    name: Crow ColdComingDownVFX
+  - vfx: {fileID: 1780080050649100, guid: 2ff1b834550be254290076f534d7de42, type: 2}
+    key: -173738080
+    name: Cold Swarmblade Slash 1
+  - vfx: {fileID: 1079553515800618, guid: 7e1c4553226fa5c43bc993eeac3c0d99, type: 2}
+    key: -388669157
+    name: Cold Swarmblade Slash 2
+  - vfx: {fileID: 1834356545935679, guid: e479a1d7777976040828153922d5878d, type: 2}
+    key: 1158836123
+    name: Cold Swarmblade Full spin
+  - vfx: {fileID: 1382569202124170, guid: 8ccb230ccbc7bc448abf4b962e0f51b5, type: 2}
+    key: 226996757
+    name: BearSwipeVFXReverseLightning
+  - vfx: {fileID: 1510185200469748, guid: d240008fe5771404c884e936e9625773, type: 2}
+    key: 1445430027
+    name: animalSwipeVFXBlueReverse
+  - vfx: {fileID: 1768654073714503, guid: 350646bda83f1fb47bbd5d17da2904e0, type: 2}
+    key: 2139995173
+    name: BearSwipeVFXLightning
+  - vfx: {fileID: 1021296682866583, guid: 1285a078c6c7dbd46b114c2017faaa10, type: 2}
+    key: 995413743
+    name: animalSwipeVFXBlue
+  - vfx: {fileID: 1318102937475144, guid: 6ae668c6708845c4d837186c960a469c, type: 2}
+    key: -1150643282
+    name: SmokeCloudVFX - sync strike rogue vanish node
+  - vfx: {fileID: 1579818264993131, guid: fe315a0f9a8eafb489a61e8bde426837, type: 2}
+    key: 2056291296
+    name: Thorn Nova vfx cold
+  - vfx: {fileID: 1464044865511852, guid: 6bd478367390c904b925a0927ca98483, type: 2}
+    key: 2016455490
+    name: summon_cold
+  - vfx: {fileID: 1289619077267259, guid: db9f1f4a409e08c44a1ec75e9f7f8813, type: 2}
+    key: 1821997129
+    name: TotemShatterColdVFX
+  - vfx: {fileID: 1694372601168063, guid: 36e295f425fcaf54b8bd63e6941ba31b, type: 2}
+    key: 2085226796
+    name: Umbral Blades Explosion Cold vfx
+  - vfx: {fileID: 1109458337818751, guid: e1e4e955985a97945ab3890357bb1418, type: 2}
+    key: -1518154761
+    name: Upheaval Initial Hit Cold VFX
+  - vfx: {fileID: 1008759156719284, guid: 78c36545ed9d5c64699d52582d183edf, type: 2}
+    key: 270544241
+    name: UpheavalColdShockwaveOnDeathVFX
+  - vfx: {fileID: 1320309059698386, guid: f089a71531d2d9a4194283cb645e15d3, type: 2}
+    key: 552067885
+    name: Vengeance Slash VFX 2h swords
+  - vfx: {fileID: 1657294632586167, guid: f75a3337e261e4b41bff4cfe4bc77f47, type: 2}
+    key: -907409288
+    name: Vengeance Slash VFX 2h axes
+  - vfx: {fileID: 1116814647886281, guid: 2ca8b27a5e296d84c90b9349db85739b, type: 2}
+    key: 1525927824
+    name: Vengeance Slash VFX Polearms
+  - vfx: {fileID: 1156964362071741, guid: 4ea43037f5156ae498259368690912da, type: 2}
+    key: -1585191375
+    name: VolatileZombieExplosionNecroticVFX
+  - vfx: {fileID: 1200366010414926, guid: f29ac88c1f784764e9032cf304059c88, type: 2}
+    key: 429278132
+    name: VolatileZombieExplosionFireVFX
+  - vfx: {fileID: 1984247351822196, guid: 97b7742bdeb69334799a7f473d12d3ab, type: 2}
+    key: -729113502
+    name: WarcryColdVFX
+  - vfx: {fileID: 1247517419719222, guid: b17ee48bb7899d244b81753df6e5c784, type: 2}
+    key: -1176160827
+    name: Maul Slam vfx Lightning
+  - vfx: {fileID: 1683108204301714, guid: 27525617df9a74b4abc77daf0c85bffb, type: 2}
+    key: -698066142
+    name: squirrel ice bite vfx
+  - vfx: {fileID: 1095608772402887, guid: 88c6f50998fd2da49b438a91af38a5bc, type: 2}
+    key: -1051492628
+    name: LifeDrainPoisonVFX
+  - vfx: {fileID: 1613434976287342, guid: 932f282dbce98f8438d9adb24ef204e5, type: 2}
+    key: 944084384
+    name: LifeDrainPoisonVFXNoLeech
+  - vfx: {fileID: 1094230600046347, guid: 194dc79705926dc46b6601a81ee4a3c3, type: 2}
+    key: 1528377204
+    name: LifeDrainVFXNoLeech
+  - vfx: {fileID: 1938822696921977, guid: 52e9d78324fdd3049ad57e501c652a6f, type: 2}
+    key: -560753375
+    name: EntanglingRootsCast VFX cold
+  - vfx: {fileID: 1525671306831847, guid: 4da8325670992e54197f27ac6a0bc608, type: 2}
+    key: 1579350648
+    name: EntanglingRootsCast VFX fullcircle cold
+  - vfx: {fileID: 1435284492846874, guid: 89fd9117ee211c04d90e4b1a7ce2c63e, type: 2}
+    key: -1371480162
+    name: EntanglingRootsCast VFX fullcircle
+  - vfx: {fileID: 1594781866136509, guid: e096923c479b401438963ef0c8c8d5d7, type: 2}
+    key: -271744993
+    name: FirebrandLightningVFX
+  - vfx: {fileID: 1094460367528107, guid: 198fdeb7139b0fa4693c5d0e8cefaa9a, type: 2}
+    key: -850383540
+    name: Hail of Arrows Cast VFX poison
+  - vfx: {fileID: 1285510405851628, guid: 1caa746d0d591874ba79d8d77501efc8, type: 2}
+    key: -207763780
+    name: Hail of Arrows Cast VFX fire
+  - vfx: {fileID: 1564798051871286, guid: c3d5c3fa663b02f4faa59b1cd1c74c26, type: 2}
+    key: 938586962
+    name: Hail of Arrows Cast VFX cold
+  - vfx: {fileID: 1600277055793224, guid: 57ddd9cb4edb92444af5a80776463150, type: 2}
+    key: -461650618
+    name: Throw up cast vfx lightning
+  - vfx: {fileID: 1278269942963754, guid: fec0b2c7c8cd02c4ab3c374f6fc7e7c9, type: 2}
+    key: 469406940
+    name: Throw up cast vfx
+  - vfx: {fileID: 1309881624628437, guid: 1af84d0edc1611448864e14d3234b0a8, type: 2}
+    key: 228520173
+    name: Lightning Cast Vfx
+  - vfx: {fileID: 1916111980913416, guid: 7fee4789b24d9bd4c89c3fc48f155ac8, type: 2}
+    key: -252971446
+    name: spiritEscape
+  - vfx: {fileID: 1950461348389386, guid: bed94bd001bf8a645af6360431eb3d0b, type: 2}
+    key: 1572069995
+    name: Meteor_Indicator_Normal Lightning
+  - vfx: {fileID: 1597312368326537, guid: e99f9604498cee6429a78b9f42040506, type: 2}
+    key: -309930580
+    name: Meteor_Indicator_Simpler
+  - vfx: {fileID: 1352776393376843, guid: 8ef7d0d41f43bd642b17873e551bb4a1, type: 2}
+    key: -565853937
+    name: EnemyMeteorCircle
+  - vfx: {fileID: 1013664031637771, guid: 157a3c247eb86034bac2ad53ea0df645, type: 2}
+    key: 697457383
+    name: SprigganTransformCastVFX cold
+  - vfx: {fileID: 1948065226432093, guid: a87b528fcb28c2f43807d27828f00593, type: 2}
+    key: -1980143527
+    name: Crow Cold Indicator
+  - vfx: {fileID: 1844094660161776, guid: 56450d4679c1b7d4884eac9a9df97c71, type: 2}
+    key: 985548361
+    name: Cold Swarmblade Shift Slash
+  - vfx: {fileID: 1167485267408791, guid: 0b85386cb2f494f4a8d27c4afa5d0a8f, type: 2}
+    key: -534003508
+    name: Umbral Blades Cast vfx poison
+  - vfx: {fileID: 1542302747576674, guid: d18f5af267db3274681bb7a68a148ab8, type: 2}
+    key: -873933102
+    name: Umbral Blades Cast vfx cold
+  - vfx: {fileID: 1769888841565064, guid: 01503567490c86f4c9c2e27fe0337795, type: 2}
+    key: -1175576207
+    name: IceBlockVFX
+  - vfx: {fileID: 1418353177128103, guid: 2e7743de90346934f9d088e4d8360818, type: 2}
+    key: 37681141
+    name: Healing VFX
+  - vfx: {fileID: 1250800162032461, guid: cc17108daddcfac49ad912596b4ff760, type: 2}
+    key: 1846153124
+    name: Stone Titan Heart Bulb explosion vfx
+  - vfx: {fileID: 1331696053994184, guid: fc5f285e22e5ae549aadee5eef4d1574, type: 2}
+    key: 128775005
+    name: Small Hits Explosion vfx
+  - vfx: {fileID: 1730353654653834, guid: 22d0891969570e24a867e6b804204e33, type: 2}
+    key: 1787056997
+    name: ClusterBombVFX
+  - vfx: {fileID: 1632776615799618, guid: 8ca8d88520a30e346914c3093cd9183c, type: 2}
+    key: -168743620
+    name: StormOrbOnDeathVFX
+  - vfx: {fileID: 1343716130444517, guid: ebc5e0f977a5fd640a6baeeb2e9070d3, type: 2}
+    key: 1343641727
+    name: TsunamiOnDeathVFX
+  - vfx: {fileID: 1545718384376376, guid: 1e5cd60963e1ed644a8837adc55fc056, type: 2}
+    key: 1113959894
+    name: HolyEruptionVFX
+  - vfx: {fileID: 1500995465894372, guid: 2d5c5fb8d8ae5044887e56f5f69003d4, type: 2}
+    key: 1665318206
+    name: Decoy Sonic Wave VFX
+  - vfx: {fileID: 1881443690122061, guid: 3e23014d1532a324081970438ae31fa8, type: 2}
+    key: 562538915
+    name: ShurikenOnDeathVFX
+  - vfx: {fileID: 1030322411635294, guid: 751061843fc367e4082753c445321618, type: 2}
+    key: -1800019254
+    name: Maul Slam vfx - stone orchidian
+  - vfx: {fileID: 1197762045377543, guid: c5277066f78f1a340b6072a646999ae2, type: 2}
+    key: -1335090364
+    name: Dragon Song Explosion vfx
+  - vfx: {fileID: 1649516015404005, guid: 2ba90846a70c27a448ed8e464b22941e, type: 2}
+    key: -10555805
+    name: Swipe Single Slash
+  - vfx: {fileID: 1948261400633573, guid: 4a9d70667f5e4124e9a2f7a09a9ac826, type: 2}
+    key: 1243665963
+    name: Shield Bash VFX - sentinel champion
+  - vfx: {fileID: 1142413673275131, guid: 144ad5b47afa96c4e86d2fc6e70acdc4, type: 2}
+    key: -135352797
+    name: DancingStrikes2vfx Physical Variant for Rogue Champion
+  - vfx: {fileID: 1697188835578501, guid: 84e91dd9be37d014ab9586c38e77437d, type: 2}
+    key: -1631933863
+    name: Primalist_Champion_CrowLightningComingDownVFX
+  - vfx: {fileID: 1172246856422076, guid: f05af51028059714d9ea178323751293, type: 2}
+    key: 224403950
+    name: Poison Shot Impact
+  - vfx: {fileID: 1445141568293655, guid: 59e464dea81ead34f9d74c16824826c3, type: 2}
+    key: 2016035666
+    name: Rotting_Hollow_UpheavalShockwaveOnDeathVFX
+  - vfx: {fileID: 1379822348139728, guid: 2f44fb93024bf82499e36f1f7f747439, type: 2}
+    key: -512830968
+    name: Javelin Indicator lightning
+  - vfx: {fileID: 1738751650931284, guid: 441fe78b8d230f64eba064e599e0ce6b, type: 2}
+    key: 1228762940
+    name: CoagulatedBloodExplosion vfx
+  - vfx: {fileID: 1741109998616452, guid: 3343c77f241a2b44caca5f0cf9c14caf, type: 2}
+    key: -778006059
+    name: CoagulatedBloodExplosionNecrotic vfx 1
+  - vfx: {fileID: 1969461372790546, guid: 69ce8188d20ff064cab6374309b8f20a, type: 2}
+    key: -629381149
+    name: Punch impact vfx
+  - vfx: {fileID: 1284204037113707, guid: 54a1b4be9c37c1d4cb1ac3b7f6a095d7, type: 2}
+    key: -1373618986
+    name: Punch impact vfx Variant
+  - vfx: {fileID: 1272174055134636, guid: 9111859647ae94b45886a4421a2fa334, type: 2}
+    key: 266101328
+    name: rocks falling impact vfx
+  - vfx: {fileID: 1352788099624202, guid: 0cc6bdc39cd457d418dbcab397b45405, type: 2}
+    key: 1587561314
+    name: root slam vfx
+  - vfx: {fileID: 1118602453676239, guid: 35b2a8d5dfd76af4c916720d570788b9, type: 2}
+    key: -1186556793
+    name: Heart Death vfx
+  - vfx: {fileID: 1690971327821741, guid: 07509593e6b98064d992a1a8a6a64fe6, type: 2}
+    key: 433970320
+    name: Dragonsong Fire Cone attack vfx
+  - vfx: {fileID: 1517591171257174, guid: 94467fdca3a6d8a4d836b917d024350a, type: 2}
+    key: -103907139
+    name: Fire NonDirectional On-Hit vfx 1
+  - vfx: {fileID: 1435485773179113, guid: 73afb28444bd16140a47e76ead6b8443, type: 2}
+    key: -543186779
+    name: Necrotic NonDirectional On-Hit vfx 1
+  - vfx: {fileID: 1338970194327457, guid: e6a1e9b52a4413348b3eb3063fbbcb46, type: 2}
+    key: -157209413
+    name: LightningNovaOnDeathVFX_Static
+  - vfx: {fileID: 1564924522338282, guid: cd0d47a04887992418145eba5b7c946d, type: 2}
+    key: -1721704018
+    name: ShrineCritVFX
+  - vfx: {fileID: 1146596270537739, guid: 6fb4a384c136ea54ea21322846d0bead, type: 2}
+    key: 1263045149
+    name: ShrineExperienceBuffVFX
+  - vfx: {fileID: 1389668240598054, guid: f01fa8ae042131c438954ee259a0291f, type: 2}
+    key: 1808021575
+    name: ShrineHasteVFX
+  - vfx: {fileID: 1531259492195017, guid: 47a96f35012afe24caf5355d0c25e7c0, type: 2}
+    key: 1419376387
+    name: ShrineManateeVFX
+  - vfx: {fileID: 1030222416457507, guid: f741e3b32ca79cb41b819d4fb408b6e0, type: 2}
+    key: -690031697
+    name: ShrineReflectVFX
+  - vfx: {fileID: 1881139584142085, guid: cbe421a32ca09e545b5a98e8c1cebd50, type: 2}
+    key: -2056701130
+    name: ShrineStunVFX
+  - vfx: {fileID: 1176345907716719, guid: e0ec935d43f21344783157d30a732649, type: 2}
+    key: -376381363
+    name: IceShatterExplosionOnDeathVFX
+  - vfx: {fileID: 1571694396955859, guid: 763ff071093a447449f3730deffb8861, type: 2}
+    key: -137697476
+    name: LightningNovaOnDeathVFX_ElemNova
+  - vfx: {fileID: 1640633407727049, guid: 09d2fd1441c11e442931a8f77defa6ee, type: 2}
+    key: 1779822196
+    name: Void Death vfx 01
+  - vfx: {fileID: 1918795830812282, guid: cc03d6568e1bc82409cfddb80249cf42, type: 2}
+    key: 1601666695
+    name: Blood Death vfx 01
+  - vfx: {fileID: 1534666567632420, guid: 5d8c73f4e6044874da7b72b77f9388b1, type: 2}
+    key: 1884137141
+    name: Judgement VFX
+  - vfx: {fileID: 1179333455950703, guid: 79f27cd5c80879744a216b9a5627350a, type: 2}
+    key: 1777984736
+    name: Judgement VFX - pulling in
+  - vfx: {fileID: 1160580413342285, guid: 7fb76ac3b7494cf4f9a094b88768d14e, type: 2}
+    key: 710684542
+    name: v_HolyEruptionIndicator
+  - vfx: {fileID: 1109421072551854, guid: 4c7bd0799a6557248a00b9292183947a, type: 2}
+    key: 2056235543
+    name: Bone Spike Impact VFX
+  - vfx: {fileID: 1571815995076239, guid: 295adf9b849315b4ea8727b9b4198760, type: 2}
+    key: -692222315
+    name: Moon Blast Explosion
+  - vfx: {fileID: 1049337739002810, guid: 4c3feb179449fe94ba11d5ccd2f30bb0, type: 2}
+    key: 1938992336
+    name: Fire bolt explosion 1
+  - vfx: {fileID: 1343432726009432, guid: f5a8aaacaa9a0be4cae9c84e193c6246, type: 2}
+    key: -354979346
+    name: SiegeGolemProjectileBoltOnDeathVFX
+  - vfx: {fileID: 1598446134162086, guid: a62d66a795d9fb44eba2761279e4d8ae, type: 2}
+    key: -1293866699
+    name: Enraged Soul Explosion
+  - vfx: {fileID: 1609748537014287, guid: 9e6c5d7a71fec6245905e42c7d23cc3e, type: 2}
+    key: -767574318
+    name: Shade of Orobyss Basic Explosion VFX
+  - vfx: {fileID: 1700709648299631, guid: 52c440ec465d3e24ebcef8e9813e4ab9, type: 2}
+    key: -466051619
+    name: Void Goop Explosion
+  - vfx: {fileID: 1474344595746004, guid: e4b6e15312e9d1a4b9c25f639e092e7f, type: 2}
+    key: -755484728
+    name: ArmorAssemblingVFX
+  - vfx: {fileID: 1507132341485010, guid: 671507386bddc194a859231c7a7d8138, type: 2}
+    key: -1267674398
+    name: StormWispLightningOnDeathVFX
+  - vfx: {fileID: 1350994744190732, guid: b6867addae8a7e843a8a8f7ef850568f, type: 2}
+    key: -1901552131
+    name: stormSpriteDashVFX
+  - vfx: {fileID: 1975733465788510, guid: 875b13c5fc0495e4096a6743d0f49b0d, type: 2}
+    key: -516127253
+    name: TeleportVFXnew onPlayer
+  - vfx: {fileID: 1575491483988644, guid: ddbdcadaccda66e48abe8d9f9e2e2b5d, type: 2}
+    key: 2130058973
+    name: TeleportVFXnew
+  - vfx: {fileID: 1697751094725692, guid: 9e5da350ce9a99743a1e03987e30f556, type: 2}
+    key: 1465850361
+    name: PassivePointVFX
+  - vfx: {fileID: 1450647994422657, guid: e1f22961e05255b44aef245fab32db62, type: 2}
+    key: -1139573858
+    name: IceThornsExplosionOnDeath
+  - vfx: {fileID: 1517041584097436, guid: 7dff2ba471b3dd149bba67902e549b00, type: 2}
+    key: 1496286022
+    name: PerfectStormVFX
+  - vfx: {fileID: 1983493630236180, guid: a8f6c2bb807412c4a9676515d288b2e8, type: 2}
+    key: 71987485
+    name: WarcryColdCastVFX
+  - vfx: {fileID: 1266528667229696, guid: ddb7f31333d0bff4f9e826d863f59957, type: 2}
+    key: 1156839306
+    name: PrimalRoar
+  - vfx: {fileID: 1172151901072013, guid: 3ce196436a1ad7644a79937127ec7fd3, type: 2}
+    key: -177659287
+    name: PrimalRoar
+  - vfx: {fileID: 1547782980206337, guid: 0ee1f9c251b91d045852f86f536bbd9d, type: 2}
+    key: 1719417294
+    name: Primal Bear Roar VFX
+  - vfx: {fileID: 1424547239237494, guid: b6f52846f13aa4d43900436aadede5d1, type: 2}
+    key: 297359188
+    name: WeakLeapOnDeathVFX
+  - vfx: {fileID: 1303603783324517, guid: 92439807bcd876e41b5301f93c7b5761, type: 2}
+    key: 2101474635
+    name: BirdChimeraScreechVFX
+  - vfx: {fileID: 1030027182835378, guid: 03092cf613f487c4192e66aaf6aef26e, type: 2}
+    key: 648996002
+    name: WereBearRoarVFX
+  - vfx: {fileID: 1020022581624102, guid: 67dc8acfc7e0f294cb026532eaaa830c, type: 2}
+    key: 288458531
+    name: DustBurstVFX
+  - vfx: {fileID: 1906977756864241, guid: 291b2015fbb06494c94df0cc78a92b0c, type: 2}
+    key: 39195008
+    name: SnowBurstVFX
+  - vfx: {fileID: 1684064122397754, guid: df9b576a9e0377045b8a10f8ffaee537, type: 2}
+    key: 680018341
+    name: ThornTotemPoisonBurstVFX
+  - vfx: {fileID: 1178417695547852, guid: 26398087bace4524db0700a8153f834a, type: 2}
+    key: -115892998
+    name: LightningBlastVFX_forshadowcharacter
+  - vfx: {fileID: 1339491748917104, guid: af1e9a15c39409b4a9cc6063878417d0, type: 2}
+    key: -98391993
+    name: MarkForDeathOnDeathVFX_forshadowcharacter
+  - vfx: {fileID: 1288732407334368, guid: a06b9094ec512c344a8cb6702ae93d4e, type: 2}
+    key: 795514829
+    name: summonUndead
+  - vfx: {fileID: 1129035064404678, guid: 34f2fc7dfcc22fb4eb36957344375caf, type: 2}
+    key: 2126999939
+    name: NecroticReturnOnDeathVFX
+  - vfx: {fileID: 1767550263041286, guid: 759e5a856e2f761418f8c5b6fa4fb9b5, type: 2}
+    key: -860750242
+    name: BloodReturnOnDeathVFX
+  - vfx: {fileID: 1743315097072938, guid: 11f52e7b76c31db40ae05e7a4557030e, type: 2}
+    key: 1191846776
+    name: TerrorOnDeathVFX
+  - vfx: {fileID: 1792812105581313, guid: 2db1716aaf931184ba0259dabb83f6a6, type: 2}
+    key: 902350338
+    name: DetonateCorpseOnDeathVFX
+  - vfx: {fileID: 1579198557571015, guid: bed3d661a75170f48831ac29807f607a, type: 2}
+    key: -782019073
+    name: hauntHit
+  - vfx: {fileID: 1601253934669142, guid: efe8a5c74d73560459ab1becae69ac09, type: 2}
+    key: 508713586
+    name: hungeringSoul_backup
+  - vfx: {fileID: 1077126234265317, guid: 560275fc6d61da64d956604e860438a4, type: 2}
+    key: -1096081771
+    name: OldSoulLanceOnDeathVFX
+  - vfx: {fileID: 1053189742148094, guid: 68b7926d8e9a76e4d82019346f9054d3, type: 2}
+    key: -950171489
+    name: PoisonExplosionVFX
+  - vfx: {fileID: 1159561807783410, guid: c62ac7127e4c6cf429b9bbb3ce9d00fe, type: 2}
+    key: 546780626
+    name: EnemySkeletonApparition
+  - vfx: {fileID: 1575000230691432, guid: e2f5a80371f32164990ab98ad5aa85fc, type: 2}
+    key: 456827661
+    name: SummonBeesVFX
+  - vfx: {fileID: 1688539397310311, guid: df7ef3bf9ebd3e2428b0f6ed7be8ffa7, type: 2}
+    key: 1930366153
+    name: Bone Apparition
+  - vfx: {fileID: 1182597610427686, guid: fbcdc03c6f945df4ca1357faa7f898de, type: 2}
+    key: -548026957
+    name: Bone FireExplosion
+  - vfx: {fileID: 1894366375760577, guid: 1b75a77f22754a54d959eb1df6d03a03, type: 2}
+    key: -1635190651
+    name: BloodSplatterOnDeathVFX
+  - vfx: {fileID: 1867350792050170, guid: b3eb605ba10ad7942ab5e4f24cd3b9ac, type: 2}
+    key: -2025820162
+    name: SkeletonFireExplosion
+  - vfx: {fileID: 1024767181126560, guid: 76a001f0292cdad438d1b0ef57b4f995, type: 2}
+    key: 2103952466
+    name: WraithApparition
+  - vfx: {fileID: 1868019283373680, guid: f922661dd2a21aa4a85a85d5603666fe, type: 2}
+    key: 2082464327
+    name: SkeletonApparition 1
+  - vfx: {fileID: 1195618831271368, guid: 86e80c86e6a996d4bbc12141899d47ed, type: 2}
+    key: 754514217
+    name: StormSpriteSummonVFX
+  - vfx: {fileID: 1377785050530103, guid: 17cd9721389fd7247a5f7e542fc799aa, type: 2}
+    key: 730280027
+    name: golemHitOnDeathVFX
+  - vfx: {fileID: 1850602587862968, guid: ddb4ab40d8486534ba4cf2f76e95036b, type: 2}
+    key: 594640495
+    name: SummonAbomVFX
+  - vfx: {fileID: 1593224909861712, guid: f6239a21acde70a459a1e7f75c39e0b3, type: 2}
+    key: -333781658
+    name: Double strike slash 02 vfx Variant
+  - vfx: {fileID: 1773070334441981, guid: 4b814f64a1d83da47956bd4b9b2fafdc, type: 2}
+    key: -489208478
+    name: Double strike slash 01 vfx
+  - vfx: {fileID: 1365316827297560, guid: d51b5c49f51d1a94787a2f04adb99261, type: 2}
+    key: 2105930564
+    name: AbominationSoulReaveVFX
+  - vfx: {fileID: 1616454986360013, guid: f6e95ab96f5410147ab4a79234dab2b2, type: 2}
+    key: 542485773
+    name: GreenPuff
+  - vfx: {fileID: 1564707514295170, guid: 3e605e66a22a7c045858c4dcb71d7bc3, type: 2}
+    key: -867439575
+    name: v_ForwardVoidBeam
+  - vfx: {fileID: 1605956020366938, guid: 86b248bcf383f6841be7d34d28e6ca9a, type: 2}
+    key: -1437644053
+    name: ManaReturnOnDeathVFX
+  - vfx: {fileID: 1004913643156137, guid: c5783c0d23e3dfa46bd00adec05f7c2a, type: 2}
+    key: -390425989
+    name: Zerrick Ally 03.1 FlurryHit1 VFX
+  - vfx: {fileID: 1724057807001056, guid: ed3d4d58d6901f440a24ee79dc45f1f5, type: 2}
+    key: 1572627663
+    name: Zerrick Ally 03.2 FlurryHit2 VFX
+  - vfx: {fileID: 1071427293729876, guid: ca0a2db977b503c4f9ffc9d5f6f76e83, type: 2}
+    key: -1330042701
+    name: Zerrick Ally 03.3 FlurryHit3 VFX
+  - vfx: {fileID: 1800746619544254, guid: 98421f7332d2b274cb83cc92cb659b8e, type: 2}
+    key: 1336040586
+    name: BurstOfFlameVFX
+  - vfx: {fileID: 1396049636558189, guid: 97fa7ba90140e7c4a862c75f853060cb, type: 2}
+    key: -493145197
+    name: Void Orb Death VFX
+  - vfx: {fileID: 1648591467069144, guid: 48f41e8a2d7e64b488ccc708dc7490f6, type: 2}
+    key: -714200876
+    name: Void Rune Eruption vfx
+  - vfx: {fileID: 1771298148303281, guid: 19a6341f521ac34468363ef7846e1227, type: 2}
+    key: -971899
+    name: SmallVoidCircleVFX
+  - vfx: {fileID: 1880378669144872, guid: e406980db918de64cb4e55c096a150c0, type: 2}
+    key: 391012791
+    name: VolcanicOrbSmallQuickFireCircleVFX
+  - vfx: {fileID: 1733987734138479, guid: 48cb9cfa244fadc46bcbc01c8d730633, type: 2}
+    key: 1544258036
+    name: FireGlyphExplosion
+  - vfx: {fileID: 1912755729968356, guid: e0aa88dad35a2b642b2cb739e102f9cd, type: 2}
+    key: -993331290
+    name: v_GlyphOfFire
+  - vfx: {fileID: 1254301742542419, guid: d47b0c9828021ef42ba59c11e0a7ea32, type: 2}
+    key: -445929317
+    name: Void Orb Large Explosion vfx
+  - vfx: {fileID: 1599471582682661, guid: 8722721c2b94afc4189c954b77220ea8, type: 2}
+    key: 1240708499
+    name: VolcanicOrbDeathVFX
+  - vfx: {fileID: 1375810280962304, guid: a404d55fc72de0f4398f2a5ea11d7e7f, type: 2}
+    key: 882241997
+    name: IceOrbImpactVFX
+  - vfx: {fileID: 1983615832300455, guid: cee3b73a8755f9743ba5b83622f1f87d, type: 2}
+    key: -352106285
+    name: TeleportDirectionalVFX
+  - vfx: {fileID: 1293232652832133, guid: 76eba3cf7abe4ea44b90aba3fda5133e, type: 2}
+    key: -1107491846
+    name: Teleporting Explosion
+  - vfx: {fileID: 1175608278947023, guid: 21067cdf12f67c241b08018c65d4465c, type: 2}
+    key: -1497548538
+    name: Star Explosion vfx
+  - vfx: {fileID: 1581750598037674, guid: cb64bf86c024ea14985d2a45c0fdb99e, type: 2}
+    key: 1571841887
+    name: Heorot Boss Ice Spike VFX and Collision
+  - vfx: {fileID: 1634647763691516, guid: 2d59d47182df67541a2b218c02f35392, type: 2}
+    key: -1608873919
+    name: Fire breathing for no reason vfx
+  - vfx: {fileID: 1245829361098416, guid: db9ded2766912ed4ebc42c2d5b3b9804, type: 2}
+    key: 2119050079
+    name: Lava Plume vfx Small
+  - vfx: {fileID: 1052916853484939, guid: 3c5ae1893bd7b9949b6521050ba32ba6, type: 2}
+    key: 1264079073
+    name: Lava Plume vfx Medium
+  - vfx: {fileID: 1893500575993658, guid: 97c0963881b73504cabf2f27515ac106, type: 2}
+    key: -237550327
+    name: Lava Plume vfx large
+  - vfx: {fileID: 1931097435481116, guid: d4ee4c42f0d8b35419efcc21352336af, type: 2}
+    key: -1542548635
+    name: Lava X vfx
+  - vfx: {fileID: 1907207270887249, guid: 328c2ba3f17027d41a541b3e11605a72, type: 2}
+    key: -789156552
+    name: Magma Ball explosion vfx
+  - vfx: {fileID: 1154550396207117, guid: 3a0cfa3de75847d40870ba98e0dca506, type: 2}
+    key: -797733352
+    name: Shamans Necrotic AoE vfx
+  - vfx: {fileID: 1820256099414289, guid: 57e1e8cf050b8994f8042ba54f6ad22a, type: 2}
+    key: -223104615
+    name: RahyehVoidMeteorDeathVFX
+  - vfx: {fileID: 1488319191318641, guid: 9adaca4eba9382d45a6a229cfa9ee20a, type: 2}
+    key: -1796356724
+    name: Abomination Boss Tail Slam vfx
+  - vfx: {fileID: 1216946629461144, guid: 1aa5bc825aea33c42b93f506af717284, type: 2}
+    key: 765142135
+    name: Abomination Boss Ranged Stomp VFX
+  - vfx: {fileID: 1601997180157479, guid: 36a475566430401419cf3748c828b0eb, type: 2}
+    key: 615934464
+    name: AbominationBoss HarvestVFX
+  - vfx: {fileID: 1068662218810925, guid: 9558250671afc40429e1c1c8616ca6c3, type: 2}
+    key: -54270893
+    name: Gaspar Fire AoE vfx
+  - vfx: {fileID: 1258331415210210, guid: 69cedb4be7f41b643967368276837e1e, type: 2}
+    key: 1945161390
+    name: Undead Dragon Bloody Necrotic Explosion vfx
+  - vfx: {fileID: 1554878522045892, guid: 4f0cfed5bfa12784a808071cf7ba9d33, type: 2}
+    key: -1381558737
+    name: OsprixHeorotSpearFireBombVFX
+  - vfx: {fileID: 1016621581722767, guid: 03cf50bebe753ae4bbc4d5c2bea138d1, type: 2}
+    key: -512819157
+    name: FireNovaOnDeathVFX
+  - vfx: {fileID: 1451376706620146, guid: 6d5bd10db4874a749ab04cf51c914593, type: 2}
+    key: 443636025
+    name: OsprixHeorotIceNovaVFX
+  - vfx: {fileID: 1287207151377755, guid: 199f82b9d5cf6f14d838eb12f078e6d7, type: 2}
+    key: 167117353
+    name: Rock Impact Fire VFX
+  - vfx: {fileID: 1699699367568732, guid: ea4d10edabb82ef4fb4661c9815530e8, type: 2}
+    key: 60516694
+    name: FIre Soul Cage Nova vfx
+  - vfx: {fileID: 1356533820128417, guid: 7944608ab7f71cf4392a3ab799ca5590, type: 2}
+    key: -345078032
+    name: FireSoulCageBreathVFX
+  - vfx: {fileID: 1890925610414795, guid: 3805ac823e9a3e748bca709e95f8b100, type: 2}
+    key: 1115962116
+    name: Lightning Dragon Big Explosion VFX
+  - vfx: {fileID: 1497880139225086, guid: 4b395d06a3c1f2a4fbfc2458b7559f3e, type: 2}
+    key: -1423173109
+    name: Lightning Dragon Breath VFX
+  - vfx: {fileID: 1269228059392417, guid: 20716efcf6ac9554d9b6098e4b2e3b6a, type: 2}
+    key: -1772217071
+    name: Explosion 1
+  - vfx: {fileID: 1928035046325515, guid: ec22ac89f46de0f4a86dddb15f90c923, type: 2}
+    key: 1672528717
+    name: Static
+  - vfx: {fileID: 1755573707389045, guid: fc42077133c5dc243be78495226cceee, type: 2}
+    key: 323896434
+    name: LightningNovaOnDeathVFX_OldDischarge
+  - vfx: {fileID: 1197252680131497, guid: 07d971fb3305d704d8fb8b767dbc40dd, type: 2}
+    key: -332346920
+    name: Bone Golem Single Slam
+  - vfx: {fileID: 1952762121884897, guid: 8b292e9ab7d34854eaf0f13feb695677, type: 2}
+    key: -214899850
+    name: Bone Golem Rampage Impact vfx
+  - vfx: {fileID: 1910790850449532, guid: 735c35309acb80c4a83c41cc76cd47bd, type: 2}
+    key: -2095310572
+    name: Bone Golem Fire Nova vfx
+  - vfx: {fileID: 1495546972556625, guid: 13b327be4529602499f5c2ee91e78e9f, type: 2}
+    key: 1522603963
+    name: v_FireShield
+  - vfx: {fileID: 1669169597954749, guid: c295785a238ed8f4ab724ca73b05dff9, type: 2}
+    key: -1639268875
+    name: Ice Nova Vfx
+  - vfx: {fileID: 1643226429147830, guid: 6f894f31cb9b381449330dd7f0da3853, type: 2}
+    key: 743484291
+    name: Maul Slam vfx_forbonegolem
+  - vfx: {fileID: 1555239201331683, guid: 6a9dab50fb394984ea729a993fcc1b23, type: 2}
+    key: -1889809908
+    name: IceNovaOnDeathVFX
+  - vfx: {fileID: 1628964455022614, guid: 3479c732896cc4c44926d3c3235fd29a, type: 2}
+    key: -1793951003
+    name: Voidfused Earth Melee vfx
+  - vfx: {fileID: 1494201613501323, guid: 2cd32cf66e310424e921cc856ad341a2, type: 2}
+    key: 2134948433
+    name: Voidfused Earth Melee vfx mirrored
+  - vfx: {fileID: 1471429851535706, guid: ff44e4f8b518eb64dbe7fcc8a8d7e6d4, type: 2}
+    key: -1422298440
+    name: AnchorVoidWaveVFX
+  - vfx: {fileID: 1070855888518224, guid: 56edb3ae6381c7848b0d0a3111359d6e, type: 2}
+    key: 221101184
+    name: HammerOnDeathVFX
+  - vfx: {fileID: 1458861675236336, guid: 3216a46edf9779243a33c8b8c58946d7, type: 2}
+    key: 608563472
+    name: soulEruptionHit
+  - vfx: {fileID: 1369187242099369, guid: 4c1b589f8d374964b89a6ca03acea617, type: 2}
+    key: -1165198497
+    name: Enable Damage Area 1
+  - vfx: {fileID: 1369808629916373, guid: ee88b67e689347148b8eae78992b41e7, type: 2}
+    key: 1894993430
+    name: Fire AoE stretchy
+  - vfx: {fileID: 1136374815064960, guid: 50c9512662a90d34cacbb223d96323c8, type: 2}
+    key: -35624440
+    name: Orb Explosions
+  - vfx: {fileID: 1628946648784894, guid: ca1caa69920d9ae48add5944e5969f50, type: 2}
+    key: 1324584116
+    name: Physical NonDirectional On-Hit vfx 1
+  - vfx: {fileID: 1735129007377985, guid: c5def69fba353374ca937e2df3e01455, type: 2}
+    key: 1240219477
+    name: Impact 01 - Dynamic darker longer
+  - vfx: {fileID: 1275098257050817, guid: 865dbdd1fd1f0b04a955cbc976713c6d, type: 2}
+    key: 1400794513
+    name: GasparExplosionLightningVFX
+  - vfx: {fileID: 1419836231637398, guid: 63a620e4c32ff324a9ee882994dd8d02, type: 2}
+    key: 1866899491
+    name: Void Harton Void Stab VFX
+  - vfx: {fileID: 1342848898847842, guid: 5753907dd4481e2458d3d7fb25ca254e, type: 2}
+    key: 1287294233
+    name: Void Harton Slash 01 vfx
+  - vfx: {fileID: 1116807103784815, guid: ca32c3e35624e154db6bae0f66b8c61d, type: 2}
+    key: 1424941845
+    name: Stun Enemy VFX
+  - vfx: {fileID: 1951810756581596, guid: 1fbdaca37b67ba74181febbf633a02c7, type: 2}
+    key: -1202588673
+    name: QuickFireballCastVFx
+  - vfx: {fileID: 1998271537837346, guid: 61512c417aaf75045a41f34c575ee5c1, type: 2}
+    key: -147833123
+    name: Circle indicator
+  - vfx: {fileID: 1094725740736736, guid: 12b7da1b976df144582a809f130126d1, type: 2}
+    key: 605160415
+    name: Necrotic Earth Cast VFX
+  - vfx: {fileID: 1500772853104955, guid: 078180926b88df24998ef50adaa1a04a, type: 2}
+    key: 2124091924
+    name: Fake StoneEarthCastVFX
+  - vfx: {fileID: 1185533424161172, guid: c9c09083bb8bce74e827ac7b9c018ce0, type: 2}
+    key: -1804446665
+    name: tail slam vfx indicator
+  - vfx: {fileID: 1867792422188690, guid: fa60e5a0bde68264c9d275a82603c768, type: 2}
+    key: 80988369
+    name: Adrift Meruna Water Attack Casting VFX
+  - vfx: {fileID: 1228070925532869, guid: b9e2a2aef8462404eadbe292c8bd429e, type: 2}
+    key: -2132228541
+    name: LargeWaterCastVFX
+  - vfx: {fileID: 1058233092652836, guid: e6e9d986c5504f748bfdddeb418f6bd8, type: 2}
+    key: 842691561
+    name: Amber Elemental Cast VFX Indicator
+  - vfx: {fileID: 1150935589759553, guid: 3650408f55daa7a4dacbccb9083ec3a5, type: 2}
+    key: -1116661641
+    name: SprigganTransformCastVFX
+  - vfx: {fileID: 1308691578777161, guid: 970bc19f5af54a74aa87435967c7cc35, type: 2}
+    key: 1828597339
+    name: BallistaEnemyIndicatorVFX
+  - vfx: {fileID: 1895342135586158, guid: eef62e60149604e44a6ad7823a3893d8, type: 2}
+    key: 1572997615
+    name: BurningSlamCastLocationIndicator
+  - vfx: {fileID: 1485123802798365, guid: 92365aac38fef9b44aaa9d5871ab1e23, type: 2}
+    key: -3821812
+    name: BurningThrowCastLocationIndicator
+  - vfx: {fileID: 1406076707903841, guid: 44c3736cd9e54fb4f8b42754852db20f, type: 2}
+    key: 1265431756
+    name: NatureCastVFX 1
+  - vfx: {fileID: 1992623514457813, guid: 94a3364e093c03a40a68c21257cf691c, type: 2}
+    key: 158170034
+    name: Desecrated Flesh Indicator VFX
+  - vfx: {fileID: 1071195486226255, guid: faa97072855fdb94fa999728db53b8b1, type: 2}
+    key: -1301825655
+    name: Embermage Meteor Cast VFX
+  - vfx: {fileID: 1676514367113031, guid: 4635681b32329dd47bfa386f26899118, type: 2}
+    key: -348299285
+    name: Siege Golem Projectil Cast VFX necrotic
+  - vfx: {fileID: 1520580198024291, guid: 8bf951f808771f442b6799697a97654d, type: 2}
+    key: -795156530
+    name: Siege Golem Projectil Cast VFX
+  - vfx: {fileID: 1637409564039739, guid: 7323a29153e2bc44d90b2d8b89d39857, type: 2}
+    key: 984090058
+    name: Backup Dancer AoE Indicator
+  - vfx: {fileID: 1548450947269098, guid: b5581cc08d6e96b48a992508400a7278, type: 2}
+    key: -2116368783
+    name: SmolderingMyrcfootFireCastingVFX
+  - vfx: {fileID: 1737339433477834, guid: 3bcdccdf856127a4b8403d9c83b58cca, type: 2}
+    key: -268057509
+    name: VoidDirectedContinuousImplosionVFX
+  - vfx: {fileID: 1420992704138925, guid: d3977dac03d46f041959a0d6c6617ccd, type: 2}
+    key: -1449738743
+    name: Fire AoE Indicator
+  - vfx: {fileID: 1322242565907325, guid: 6a9caa3e464c3c649993839802e0a018, type: 2}
+    key: -2047611821
+    name: Void Projectile Cast VFX
+  - vfx: {fileID: 1940095140280462, guid: 5b6cd1ef3d743704fa45ce281e86ad8c, type: 2}
+    key: -93528005
+    name: Amalgamation Lightning Beam Cast VFX
+  - vfx: {fileID: 1619571342198071, guid: 945ddd4865e14db4f93b195a053d7ca2, type: 2}
+    key: 476601086
+    name: Backup Dancer Beam Cast VFX
+  - vfx: {fileID: 1505961594933949, guid: ed40732b1d1d7cd44a6529bda1608733, type: 2}
+    key: -669484508
+    name: Fire Lich Fire Beam Cast VFX
+  - vfx: {fileID: 1193812223903680, guid: 65d434a881336634895f3754172d290c, type: 2}
+    key: -408302575
+    name: Flame Captain Beam Cast VFX
+  - vfx: {fileID: 1650485292570647, guid: 224e7b48553054c4d9631c87cf5b1846, type: 2}
+    key: -1907093994
+    name: flameSpireMeteorCastingVFX
+  - vfx: {fileID: 1869847730861111, guid: 62f1a8e20d193574aacba102a7b1f4fb, type: 2}
+    key: 931145815
+    name: Frost Lich Beam Cast VFX
+  - vfx: {fileID: 1247232628690795, guid: 7c8714211a851af4cae027bd79a0e900, type: 2}
+    key: 153286059
+    name: Pannion Beam Cast VFX
+  - vfx: {fileID: 1515210782836795, guid: c5cd4bc1ebafb8b43b899aeb786c6b2b, type: 2}
+    key: 569035628
+    name: Gaspar Tri-Beam Cast VFX
+  - vfx: {fileID: 1482633375795779, guid: a93a50ef915d17541b067a1b0870aeb7, type: 2}
+    key: -1846860660
+    name: FlameRemnantCastingVFX
+  - vfx: {fileID: 1933990945087649, guid: f6c10f8d8a389d74b9a411f14ba541ab, type: 2}
+    key: 188208839
+    name: Narrow Beam From Cubes Indicator
+  - vfx: {fileID: 1510545587477823, guid: 352b3e6f24bb5584db16a617f67dfb7b, type: 2}
+    key: -2076003859
+    name: Abomination Boss Genearator Beam Cast VFX
+  - vfx: {fileID: 1932118277430660, guid: 84ba70b441e1bc34d921c16630d474e8, type: 2}
+    key: 143084272
+    name: Bone Spike cast vfx
+  - vfx: {fileID: 1589533091836103, guid: bbb543b6804a7744392bfb5d22e0e2bc, type: 2}
+    key: -1232640436
+    name: Blood Orb Cast VFX
+  - vfx: {fileID: 1006366295250742, guid: 4f6ccbbdfddfffd488c3cf6cdaa9f8aa, type: 2}
+    key: -553880579
+    name: Moon Blast Cast VFX
+  - vfx: {fileID: 1551359923526632, guid: dff0c6a9d2a97404585ba13f5242316b, type: 2}
+    key: -1529901529
+    name: Fire Bolt Cast VFX
+  - vfx: {fileID: 1417382785509595, guid: 69d3c2b301fd2a24daa3adc276cf641a, type: 2}
+    key: -525868496
+    name: Poison Cast VFX
+  - vfx: {fileID: 1919221418506460, guid: e1b2c28b50371c74b8a025989b697bb7, type: 2}
+    key: 1625492830
+    name: Siege Bolt Cast VFX
+  - vfx: {fileID: 1459662525493951, guid: 50e452348ecc23c4082c545523c5a2d4, type: 2}
+    key: 1877904205
+    name: Enraged Soul Cast VFX
+  - vfx: {fileID: 1107566687873173, guid: 5c9bd01f438e2c542afc0d48e159c0c9, type: 2}
+    key: -1550270003
+    name: Void Baby Summon Cast VFX
+  - vfx: {fileID: 1929198206780094, guid: 9f785b1fb8906f14bb53193a11e45a75, type: 2}
+    key: 1935024565
+    name: Ice Whirlwind Cast VFX
+  - vfx: {fileID: 1843814281079597, guid: cb2bb994cca1ee0498492d8d008b5b51, type: 2}
+    key: -1508053131
+    name: Void Goop Cast VFX
+  - vfx: {fileID: 1734916296053095, guid: c91d91c4a5f3e7e49823bbd3b15e3fae, type: 2}
+    key: 1273258742
+    name: stone titan heart Beam Cast VFX
+  - vfx: {fileID: 1564374818421236, guid: bab6a27c621408b47ba68d8760089e2c, type: 2}
+    key: 1653835269
+    name: Void Nagasa Beams Cast Vfx
+  - vfx: {fileID: 1047953091653079, guid: 8f4701d0cba32da4a86979c7e3375f39, type: 2}
+    key: -1051861993
+    name: Void Worm Boss Beam Cast VFX
+  - vfx: {fileID: 1608718811986050, guid: c7eabae3ed1a019468257ceba7a16320, type: 2}
+    key: -289032754
+    name: Winged Fire Boss Beam Cast VFX
+  - vfx: {fileID: 1253015276877869, guid: 27386d5db27ce824d80011bbbff274f4, type: 2}
+    key: 1732645242
+    name: Haruspex Orian leap impact indicator
+  - vfx: {fileID: 1582366308357000, guid: 49c7deb75cdaad64d986f8822ac3a9b6, type: 2}
+    key: -988082769
+    name: GiantStatueRuneExplosionIndicator
+  - vfx: {fileID: 1341796619705248, guid: ba11d459139e5dd438624995ea197fb2, type: 2}
+    key: 869208115
+    name: Start Ice Circle VFX
+  - vfx: {fileID: 1245178355129973, guid: d2054ea8f5d841247ac7ed6297414978, type: 2}
+    key: -154226207
+    name: Antlers Lazer Cast VFX
+  - vfx: {fileID: 1176023592057585, guid: 8087d4092cb4eee4da7cb9e33cac7d60, type: 2}
+    key: 1977760799
+    name: HartonLightningStabVFX
+  - vfx: {fileID: 1262923158665380, guid: f8852c7edf48cba49893a4170754618e, type: 2}
+    key: 1063855064
+    name: TeleportCastingVFX
+  - vfx: {fileID: 1433933076097436, guid: f48cec102963fc5408fed53c31d590d2, type: 2}
+    key: -1938172369
+    name: Void Rahyeh Dash Cast Indicator VFX
+  - vfx: {fileID: 1434271405097770, guid: 918a03b3726900a4bac23041c8cabe49, type: 2}
+    key: -2082716192
+    name: WispNecroticBeamCastVFX
+  - vfx: {fileID: 1722583155183662, guid: 15f7b91ec6563f145a8bdd286fa729e2, type: 2}
+    key: 1112315552
+    name: Ancient Dragon Magma Explosion Charge Up VFX
+  - vfx: {fileID: 1735565033824617, guid: b2c15627c2740ce4ebf5e75510f7be70, type: 2}
+    key: -2007065550
+    name: imperialSpireMeteorCastingVFX
+  - vfx: {fileID: 1072651307306717, guid: ee876949e93571146865fb4d844034f0, type: 2}
+    key: 721681097
+    name: Lightning Dragon Big Explosion Charge Up VFX
+  - vfx: {fileID: 1125445596187275, guid: a7107c3a0d584c749a1c6b6a61298af8, type: 2}
+    key: 1042909946
+    name: Prophet of Ruin Charge Up VFX
+  - vfx: {fileID: 1777895933419536, guid: 3d8afa9b27d4b544c8a6d668fce024e4, type: 2}
+    key: 504646361
+    name: SoulSpearCastingVFX
+  - vfx: {fileID: 1871930477965270, guid: 7dbd16fb2ebb9a84e8523634a32acfa0, type: 2}
+    key: 640539723
+    name: Undead Dragon Explosion Charge Up VFX
+  - vfx: {fileID: 1831361125278127, guid: bd8da1d02b6ecd545979b3fed400fa28, type: 2}
+    key: -1990260522
+    name: Osprix Heorot Spear leap impact indicator
+  - vfx: {fileID: 1164719812871115, guid: 37176d821904eca449cb13bc79a2bf80, type: 2}
+    key: 1689850037
+    name: Giant Scorpion Fire Hit Indicator
+  - vfx: {fileID: 1928795607060516, guid: 9daf19a9976a93949a5137c2ddd52f79, type: 2}
+    key: 1588076980
+    name: Fake NecroticCastVFX
+  - vfx: {fileID: 1182796221284159, guid: bbc1d25abee062a4cb400e2ddaea4b02, type: 2}
+    key: -755881583
+    name: TimeTravelTeleportVFX Start
+  - vfx: {fileID: 1195878157980365, guid: d64fb9a8734994c499b229c2d7523b9c, type: 2}
+    key: 903373307
+    name: BirdDeathScreechIndicatorVFX
+  - vfx: {fileID: 1448969665159269, guid: 19f561a4570514c4c8ad37c2fc7e45e8, type: 2}
+    key: -1846350829
+    name: WengariShamanBuffCastVFX
+  - vfx: {fileID: 1080725555598394, guid: c832818167e242949a7c5722b192f4df, type: 2}
+    key: -764527129
+    name: Unseeing 01 VoidBoltCastVFX
+  - vfx: {fileID: 1338645354890756, guid: ec9630c2e630d124dba7bda9cf6843f3, type: 2}
+    key: 786712355
+    name: Void Scholar 02 Ice Nova Cast VFX
+  - vfx: {fileID: 1972078022533469, guid: fc48293a1fc21d14db5b77cb025b55f8, type: 2}
+    key: 1362549725
+    name: Pannion Teleport Cast VFX
+  - vfx: {fileID: 1748468687631143, guid: 28aa3dd72e4bf414db96bfce5d8873c6, type: 2}
+    key: -1289691491
+    name: LightningMinefieldCastVFX
+  - vfx: {fileID: 1105423029765032, guid: 620d9049f1046e24fbc8ce9933355483, type: 2}
+    key: 230443281
+    name: Marsh Beetle Slam Indicator
+  - vfx: {fileID: 1180199179040603, guid: 64bf4b359d86fe549bba4ac56ffec209, type: 2}
+    key: -1579679426
+    name: Blood Effigy Cast VFX
+  - vfx: {fileID: 1328850222018748, guid: cbc2181d34e1c874e98ed2f0a71b60e8, type: 2}
+    key: -1037798584
+    name: Omen Earth Slam Indicator
+  - vfx: {fileID: 1421903755275058, guid: decd179c7ec16ce409a29f0e68f81c9c, type: 2}
+    key: -1595473258
+    name: Orchirian Stomp Indicator
+  - vfx: {fileID: 1742379478947762, guid: e407235646f43504bba427251459fc40, type: 2}
+    key: 673412155
+    name: SoulFireBreath
+  - vfx: {fileID: 1397511313070811, guid: a94c43bf8918e9246b70f7308955fcca, type: 2}
+    key: -1774819087
+    name: VoidTargetAreaIndicator8x8
+  - vfx: {fileID: 1109827911218494, guid: a9a5d273ce5bb6543a6dba2cd94bd688, type: 2}
+    key: 1469644021
+    name: void skybeam cast vfx
+  - vfx: {fileID: 1303666271327943, guid: f5d3313b4b770a84b8e8274afeaba3ad, type: 2}
+    key: -1202390005
+    name: WispVoidBoltCastVFX
+  - vfx: {fileID: 1246143667346745, guid: becd7c252d761e241b9d5b49e05a27f0, type: 2}
+    key: -1593515259
+    name: EntanglingRootsCast VFX
+  - vfx: {fileID: 1742759843842087, guid: 231ff5da835e6e24d99aaac0024b6052, type: 2}
+    key: 2090091421
+    name: Eterra's Blessing Cast VFX
+  - vfx: {fileID: 1784925575668277, guid: 67540fd5cff8f3c42adf6aa8249c3e7f, type: 2}
+    key: 1097617562
+    name: FireballCastVFx
+  - vfx: {fileID: 1132846087302053, guid: d1d62f02f0761e745ab863d9ba343797, type: 2}
+    key: 1477067964
+    name: ColdCastVFX Frost Lich
+  - vfx: {fileID: 1310165408759491, guid: 270b8a7fc264077448f5d385e25809af, type: 2}
+    key: 1848477681
+    name: Frost LIch Teleport Cast VFX
+  - vfx: {fileID: 1810811745628780, guid: 44f7e9660626e9c4ba0350ac96f6356c, type: 2}
+    key: -397328041
+    name: Gaspar Boss Ice Cast VFX
+  - vfx: {fileID: 1542757733152020, guid: 43e4f9e9b7c2f0447b20c56bc0614291, type: 2}
+    key: -1339933988
+    name: GasparVoidProjectileIndicatorVFX
+  - vfx: {fileID: 1223873104605869, guid: 40542a494bce6774b83cda96caab80b9, type: 2}
+    key: -51956360
+    name: Haruspex Orian Stab Indicator
+  - vfx: {fileID: 1073433583302017, guid: 235135943f729b54db2fa206fa0bee7c, type: 2}
+    key: 1245384494
+    name: Ice Circles Indicator
+  - vfx: {fileID: 1331298256243814, guid: 2ff4df7c26a1f684381d7bebc77b1dc0, type: 2}
+    key: 251345523
+    name: Osprix Heorot Spear Ice Stab Indicator
+  - vfx: {fileID: 1126726675602776, guid: 98559f85c1b240b418a2ccb62ecc8020, type: 2}
+    key: 1487003469
+    name: HeorotSpearCastVFX
+  - vfx: {fileID: 1875183685459846, guid: be9fa8b12adf946468af1916a55fbc48, type: 2}
+    key: -856726026
+    name: IceElementalIceEnergyBlastVFX
+  - vfx: {fileID: 1112425685205113, guid: 7fea18963b909e64eb84a8d93364fce2, type: 2}
+    key: -243141928
+    name: IceBarrageCastVFX
+  - vfx: {fileID: 1745313805417315, guid: daa6fcd719845c94db4f9dafa7b30b7c, type: 2}
+    key: -1917250651
+    name: Pannion Ice Half Circles Cast VFX
+  - vfx: {fileID: 1951672279787723, guid: 3cb16b46df9640646bd1843ed681ae16, type: 2}
+    key: -1460259802
+    name: Infernal Husk Flamethrower VFX
+  - vfx: {fileID: 1627318564087466, guid: ef83415bb2cb7e44ab75dc774539ad52, type: 2}
+    key: 138882757
+    name: WaterCastVFX
+  - vfx: {fileID: 1677707327421836, guid: 53f887b5369ba8940bb0b2952469f463, type: 2}
+    key: 42546941
+    name: Liath Teleport Cast VFX
+  - vfx: {fileID: 1870400035965525, guid: 67b0cf4e70d2d154f95406531fc1485c, type: 2}
+    key: 636264890
+    name: LightmageMeteorSmiteCastVFX
+  - vfx: {fileID: 1229967249324512, guid: 7aef471828fce1f429ba0fb6a44e0c06, type: 2}
+    key: -66537323
+    name: LightmageFireWaveCastVFX
+  - vfx: {fileID: 1910834674529484, guid: 9f8defc2ec64a914a9a1e1fc45c3655a, type: 2}
+    key: 663082564
+    name: LightmagePhoenixRunicCastVFX
+  - vfx: {fileID: 1675207838257784, guid: 3f633679920de2c45b85e796682be12b, type: 2}
+    key: -115962192
+    name: Fake LightningCastVFX
+  - vfx: {fileID: 1100160776372932, guid: 470e46d27704dde48b642c69f2573bcc, type: 2}
+    key: 1912079909
+    name: Necrotic Winged Fire Curved Projectile Cast VFX
+  - vfx: {fileID: 1574233335680709, guid: 70d6e4ac75c49c04aa3fce674f44f347, type: 2}
+    key: 46859673
+    name: Winged Fire Necrotic SkyBeam Cast VFX
+  - vfx: {fileID: 1090298323143982, guid: 558790b43afa33e4eb2421778f2a468d, type: 2}
+    key: 302385248
+    name: Burning Pyromancer Lava Plume indicator
+  - vfx: {fileID: 1231877410292503, guid: 114bc8e5f1319bd47a72eb721fde3b8d, type: 2}
+    key: -374241953
+    name: Decoy Indicator
+  - vfx: {fileID: 1819414270439017, guid: c04b10b2e99d0154fb14b989e64b0dcd, type: 2}
+    key: -2138458718
+    name: X decal
+  - vfx: {fileID: 1314150566325835, guid: ad938c46f8b8c1e4789c56a17dcc941f, type: 2}
+    key: 1779643619
+    name: Void Rahyeh Melee Blast Indicator
+  - vfx: {fileID: 1026385272592792, guid: ca56da0ddb4a95a4dbdfd49690d4c1d5, type: 2}
+    key: 635034364
+    name: Osprix Heorot Ice Nova Indicator VFX
+  - vfx: {fileID: 1716350384225144, guid: 4c2860ed442602843bef534f5ff2fc07, type: 2}
+    key: -1778433088
+    name: Pannion Lightning Nova Indicator VFX
+  - vfx: {fileID: 1785308746450889, guid: dcf0f9a96d6d16a469fdb58b5d955aa6, type: 2}
+    key: -584581380
+    name: Pannion Student Ice Blast Cast VFX
+  - vfx: {fileID: 1733062348978682, guid: 0eee1e0f7272a824d88e2b796a046101, type: 2}
+    key: 1371869991
+    name: Pannion Student Lightning Nova Indicator VFX
+  - vfx: {fileID: 1930756228497609, guid: 1f5c37fc0adad474e9a63d633ad844a9, type: 2}
+    key: -2078552178
+    name: Fury Leap Indicator
+  - vfx: {fileID: 1018516813014314, guid: 1fd7ee04578d0e04f9350067080e7c27, type: 2}
+    key: -388559739
+    name: ProfaneSlamCastLocationIndicatorVFX
+  - vfx: {fileID: 1775692115039155, guid: d07b8a0529a5fd0439edbd8d9cfced69, type: 2}
+    key: 555856014
+    name: ProfaneThrowCastLocationIndicatorVFX
+  - vfx: {fileID: 1680892100021107, guid: 12c5b8fee4808fd4f8d1167808094255, type: 2}
+    key: 901387572
+    name: Dark Quiver Cast VFX
+  - vfx: {fileID: 1917091424300162, guid: 6001248191f859042a53d982ee594bb2, type: 2}
+    key: -2094077475
+    name: Hail of Arrows Cast VFX physical
+  - vfx: {fileID: 1346778547773422, guid: 1189999bedbc231408503c2363bff355, type: 2}
+    key: -1497841548
+    name: Umbral Blades Cast vfx
+  - vfx: {fileID: 1775547358166878, guid: 52d5243baa0feca4198ab532bbc7262d, type: 2}
+    key: 285492633
+    name: WarcryCastVFX
+  - vfx: {fileID: 1736552450003306, guid: bf6de0e6dffebf84e9f0393579db9ae1, type: 2}
+    key: 1903105766
+    name: TeleportCastingVFX
+  - vfx: {fileID: 1645206546175658, guid: 235a2f0a97299804c96a1f7170ff1020, type: 2}
+    key: -292588791
+    name: RubyNagasa 05 CastVFX
+  - vfx: {fileID: 1955046976122160, guid: c60f5169da91d6e43a5b0d70b52e84f5, type: 2}
+    key: -1475053715
+    name: PoisonCastVFX
+  - vfx: {fileID: 1378749688986564, guid: 6ae982544d6b6e249bdcc53411017615, type: 2}
+    key: 549865899
+    name: SnakeAttackCreator
+  - vfx: {fileID: 1848147771856138, guid: 05037633182ed694b844477c2cbdf958, type: 2}
+    key: -973523451
+    name: Light Attack casting vfx
+  - vfx: {fileID: 1713332547602078, guid: a7c46e87fc335ad428cc55beeef54cd1, type: 2}
+    key: 1449865276
+    name: Ice Whirlwind Cast vfx
+  - vfx: {fileID: 1236399845427237, guid: dcf2dffc88bf2574aa2099505208cf31, type: 2}
+    key: -1319898217
+    name: Fire cone Indicator
+  - vfx: {fileID: 1902413814093607, guid: bb72b8550e4a5434a8c1731bd80f6e6e, type: 2}
+    key: 1869934946
+    name: Lightning Orbs Casting VFX
+  - vfx: {fileID: 1299904355793287, guid: 738d0ee8e8f682948bfb0caa1b566112, type: 2}
+    key: -301967348
+    name: LightningCastVFX
+  - vfx: {fileID: 1465715840392574, guid: 49651100421473f419335c20dc9afc1f, type: 2}
+    key: -500623960
+    name: Void Tentacle Slam Indicator
+  - vfx: {fileID: 1004800552026920, guid: a717c8c161a627e42aaa07d42d3f48cb, type: 2}
+    key: -1246122122
+    name: Giant Meteor Indicator
+  - vfx: {fileID: 1686549226620581, guid: 07c80402d03cd61498f0049260ed427b, type: 2}
+    key: -938095144
+    name: Portal Projectile Cast VFX
+  - vfx: {fileID: 1392536552663202, guid: f2347341077f84e46806e5ce18325cbb, type: 2}
+    key: -357766174
+    name: Mini Black Holes Cast vfx
+  - vfx: {fileID: 1830661581256306, guid: f966dd9ff95e2a44f9dee25f459f1587, type: 2}
+    key: -343011911
+    name: Giant Slow Meteor Cast VFX
+  - vfx: {fileID: 1572424511813747, guid: 10249e69f8fc91c4d9210aefcc728574, type: 2}
+    key: -586347748
+    name: Dragon Strike vfx
+  - vfx: {fileID: 1665682160569610, guid: f56479b05724534419dd308c3fc686db, type: 2}
+    key: -556960893
+    name: Shamans Boss Lava Plume indicator
+  - vfx: {fileID: 1720102722224664, guid: 4ac7c731080c1a7438cb02a46ca862b5, type: 2}
+    key: -1962186760
+    name: Magma Ball anticipation
+  - vfx: {fileID: 1691782187903855, guid: 7f4b24da52b445747977d48d4df8043e, type: 2}
+    key: 1060513342
+    name: SiegeGolemFlamethrowerVFX 1
+  - vfx: {fileID: 1257891155349166, guid: 65535c7d89d7dac4a8adb8bb050bf175, type: 2}
+    key: 478830447
+    name: SiegeGolemFlamethrowerVFX
+  - vfx: {fileID: 1035671983281899, guid: 463c5c0c44ab6594cb02e6c5833cd1b5, type: 2}
+    key: -997978491
+    name: root slam indicator
+  - vfx: {fileID: 1354865225903760, guid: 88c0f2885f7bd3a4e994b0488b24bf89, type: 2}
+    key: 1624098949
+    name: stone titan heart entangling roots Cast VFX
+  - vfx: {fileID: 1872698748675164, guid: 2c84dbbb0af976348900221f49e5a5c4, type: 2}
+    key: -1085898300
+    name: stone titan heart energy wave indicator
+  - vfx: {fileID: 1565974584481972, guid: 0922d3813106a44419f2f1286bf32642, type: 2}
+    key: 993923757
+    name: Swarmblade transform cast
+  - vfx: {fileID: 1944250752361046, guid: 2f2ed3d979dfbe24689bb9df6d571013, type: 2}
+    key: 280478880
+    name: Wengari Leap Hit Indicator
+  - vfx: {fileID: 1436676229265718, guid: da8b713fef3b66d44ba67319e428af7c, type: 2}
+    key: -457419846
+    name: LightningCastVFX
+  - vfx: {fileID: 1715439534153956, guid: 77b24e675e5258d489022a6c342c1ad3, type: 2}
+    key: -2098338318
+    name: Water Cone Cast VFX
+  - vfx: {fileID: 1715788518488580, guid: fe9d0b353fa0d2341ac686bf0b09ff3b, type: 2}
+    key: -963319831
+    name: Void Snake Cast VFx
+  - vfx: {fileID: 1853425659067414, guid: 26c330766f470174ba350425da357b01, type: 2}
+    key: -658444048
+    name: Winged Fire SkyBeam Cast VFX
+  - vfx: {fileID: 1122792562765059, guid: cdb7c19062292214c9b4f44784f10547, type: 2}
+    key: -759388050
+    name: Winged FIre Projectil Cast VFX
+  - vfx: {fileID: 1598628393433031, guid: 26f0c3886e6a26b47a10891c5cf1ed9f, type: 2}
+    key: -2105357571
+    name: YuliaProjectileCastVFX
+  - vfx: {fileID: 1216291961797943, guid: cd93bb12a7dad3e4b9393596c63a80aa, type: 2}
+    key: 1383970952
+    name: VoidKnightEcho
+  - vfx: {fileID: 1236894523561179, guid: 3b9ab2cf7648b6544970b5953c3292d9, type: 2}
+    key: 714876779
+    name: v_IceMortar
+  - vfx: {fileID: 1755179832807371, guid: b2813df0a5288024f862590acc947f6f, type: 2}
+    key: -798633985
+    name: Void Touched Archivist Spawner
+  - vfx: {fileID: 1488553533843870, guid: d95ee7f108c6ced43a9772a0d54fa67a, type: 2}
+    key: 2074394837
+    name: IceMortarCastVFX
+  - vfx: {fileID: 1533156838558622, guid: 9a98e36d57a4ce746bc6a4391575fa00, type: 2}
+    key: 2141742461
+    name: Wandering Spirits Channelling VFX
+  - vfx: {fileID: 1570261424981945, guid: f464c6fc186133141b768e06980909eb, type: 2}
+    key: -1974222029
+    name: WanderingSpiritNecroticOnDeath
+  - vfx: {fileID: 1178976785834964, guid: 9bdd9ea5513979949a6f6f45c0d084ef, type: 2}
+    key: 235214546
+    name: Big Necrotic Explosion
+  - vfx: {fileID: 1065635704253354, guid: b92e25cbb64bc6d4aade7bc290f1e0f0, type: 2}
+    key: 1664439230
+    name: Fire Lich Necrotic Explosion vfx
+  - vfx: {fileID: 1116158911931646, guid: d5fcc01d0e19c254297ac3ba42674af2, type: 2}
+    key: -2092095865
+    name: HarvestVFx Death Knight
+  - vfx: {fileID: 1285524945785332, guid: c4173faa28bdc0845946ae06cb0f06f9, type: 2}
+    key: 543424403
+    name: HarvestVFx Red
+  - vfx: {fileID: 1285602802740808, guid: d307ad726d334b443b78483692602a7d, type: 2}
+    key: 1430681416
+    name: Teleporting Explosion without black hole Variant
+  - vfx: {fileID: 1961451702689500, guid: 1a438ae1879015b4b8c3de2306e0dab7, type: 2}
+    key: 963717281
+    name: LevelUp
+  - vfx: {fileID: 1034687976077411, guid: 899bc9f0c8a84274dbae2b881e8b30e5, type: 2}
+    key: 1157748008
+    name: LightningTendril_VFX
+  - vfx: {fileID: 1736122936579972, guid: 440c2f6b3939f144fa16350d0b1b7cd4, type: 2}
+    key: -825358427
+    name: Static Small Charge Gain
+  - vfx: {fileID: 1266927793743059, guid: c3e1a3edd37260f449d4084946ac329a, type: 2}
+    key: -825113274
+    name: Static Max Charge Gain
+  - vfx: {fileID: 1530973237047311, guid: f5301a2498d921d44bcd638abb021849, type: 2}
+    key: 470426585
+    name: Bug Death vfx 01
+  - vfx: {fileID: 1958641315027904, guid: 98102f5da4576524692d9646bbe223de, type: 2}
+    key: -1029536638
+    name: Ice Death vfx 01
+  - vfx: {fileID: 1697705389987887, guid: fbaf2bba40a400944986c5c226ae86b7, type: 2}
+    key: 1636092980
+    name: Stone Death vfx 01
+  - vfx: {fileID: 1364195148691163, guid: 08d0a7711887396479739ba1b37ceae2, type: 2}
+    key: -994942170
+    name: Metal Sparks Death vfx 01
+  - vfx: {fileID: 1043614571423833, guid: 566506c698c968f4e85cd86f90fdbcd5, type: 2}
+    key: -895981468
+    name: Wood Death vfx 01
+  - vfx: {fileID: 1213981440770332, guid: b79a59134e7ff894384ee4b4a6a6708b, type: 2}
+    key: 1787190333
+    name: Void Death vfx 01
+  - vfx: {fileID: 1830189294908847, guid: 1790b29b57279fb4db4ed6d90979bd77, type: 2}
+    key: 1023873651
+    name: Bug Death vfx 02 - smaller
+  - vfx: {fileID: 1399210335790195, guid: 54ce4bdb5c4cfa742a31891737e45b4c, type: 2}
+    key: -464535053
+    name: Void Death vfx 02 - smaller
+  - vfx: {fileID: 1253622231229567, guid: 031a7a667d2217240be6c89756c03bc1, type: 2}
+    key: 664018449
+    name: QuickFireballLightingCastVFX
+  - vfx: {fileID: 1657204475972356, guid: 67eae5f5ebaff5b4da578bf847a5e976, type: 2}
+    key: -1409466074
+    name: QuickFireballMTXLightingCastVFX
+  - vfx: {fileID: 1174067621471809, guid: 33fa8368eba49fd41acecb868c6f00d8, type: 2}
+    key: -1672009748
+    name: QuickFireballCastVFx_blue
+  - vfx: {fileID: 1951670188863553, guid: 7a6bcc10c01cae94ab99b0021721395f, type: 2}
+    key: -2023941647
+    name: Void Puncture vfx
+  - vfx: {fileID: 1703502377725803, guid: 632185266f2aa3545b5586d741dffc9c, type: 2}
+    key: -174311370
+    name: Void Grub Slash VFX
+  - vfx: {fileID: 1968361494355785, guid: fbcfeb156e94b424fa0a79fdb51f98b3, type: 2}
+    key: -1288088568
+    name: ShatterStrikeRightVFX
+  - vfx: {fileID: 1331043741285880, guid: 7422177929a6359419645c5cd2cb969f, type: 2}
+    key: 260471719
+    name: ShatterStrikeLeftVFX
+  - vfx: {fileID: 1188772414199881, guid: d4d30a41b401e7248819a2cc46f246e8, type: 2}
+    key: -1651560775
+    name: RefugeScholarLightningBlastVFX
+  - vfx: {fileID: 1125645747680971, guid: fa1692c7ca3298c40b47aa784aa91580, type: 2}
+    key: -620861555
+    name: ReapVFX
+  - vfx: {fileID: 1150736821702954, guid: d264ab0ae6cc69548b3628f4a2b5d81f, type: 2}
+    key: -1743755617
+    name: Osprix_VolcanicOrbDeathVFX
+  - vfx: {fileID: 1979591752449950, guid: 9881735ea327a7749a348d376348d6fe, type: 2}
+    key: -457872756
+    name: Soul Generator Chapter B Beam Cast VFX
+  - vfx: {fileID: 1792177384371080, guid: 46d3dbc957b57f947b5ea03f5a7dc07f, type: 2}
+    key: -1177882819
+    name: Rahyeh Faction Swarmer_Death_vfx
+  - vfx: {fileID: 1124892246224711, guid: 382f5778c5b0fed4eb2cd61e0ec7ad7f, type: 2}
+    key: 957916251
+    name: HaruspexAshThrowImpactVFX
+  - vfx: {fileID: 1092397360395076, guid: b61a2a1dc5e96574d9fd8b16d276feaa, type: 2}
+    key: -961485855
+    name: Water Cone Attack
+  - vfx: {fileID: 1894227725644813, guid: c07715bce4901be44a73e82ff8db8fe7, type: 2}
+    key: -1436644977
+    name: Large Explosion VFX
+  - vfx: {fileID: 1325193387698831, guid: 75dfbf7b8149563489212d8dd7d4982f, type: 2}
+    key: 1162602453
+    name: Void Nightmare Entrance vfx
+  - vfx: {fileID: 1756242071300862, guid: 3bece84d6ba8a6d4ba4ad7cc54fa9ed9, type: 2}
+    key: 1571410104
+    name: Saboteur spear explosion vfx
+  - vfx: {fileID: 1054368875344525, guid: 9744d06f314619845990fd7fc9b5403a, type: 2}
+    key: 279900476
+    name: SnakeAttackCreator_mxt
+  - vfx: {fileID: 1468303759754882, guid: 27a4d62936a99204d8f41775c9c52083, type: 2}
+    key: 1443822554
+    name: HaruspexOrianDrake Boss 01 Melee Attack VFX
+  - vfx: {fileID: 1903436705782468, guid: 7fc78b8fb138c624ba95ea3b1389b29a, type: 2}
+    key: 519810803
+    name: HaruspexOrianDrake Boss 03.2 Mortar Explosion VFX
+  - vfx: {fileID: 1702444627189150, guid: 953761d4fe2a23f4eb4a3c361f1a868e, type: 2}
+    key: -1527880222
+    name: HaruspexOrianDrake Boss 02.1 stab VFX
+  - vfx: {fileID: 1434249045728395, guid: e86b583f83d09d647a5cd4b781b68fa9, type: 2}
+    key: 306809743
+    name: HaruspexOrianDrake Boss 04.2 aoe explosion VFX
+  - vfx: {fileID: 1026822377809171, guid: fc0de2eb515d7184f9c8615992221b93, type: 2}
+    key: -1509440941
+    name: HaruspexOrianDrake Boss 11.1 Fire Slash VFX
+  - vfx: {fileID: 1284690457351580, guid: 4de4588797837ae4b9b92dd63dc5487a, type: 2}
+    key: -1949332668
+    name: HaruspexOrianDrake Boss 11.2 Fire Slash VFX
+  - vfx: {fileID: 1764378101356081, guid: f3818e40a4a8ab846ae500fcac821b88, type: 2}
+    key: 146059708
+    name: HaruspexOrianDrake Boss 11.3 stab VFX
+  - vfx: {fileID: 1874808295596915, guid: e386601486d21b14f8bc7533d769714d, type: 2}
+    key: -594136139
+    name: HaruspexOrianDrake Boss 05 fire slash L VFX
+  - vfx: {fileID: 1996351268278443, guid: d7d5372007764f845bb1a9668a3a6639, type: 2}
+    key: -1721162233
+    name: HaruspexOrianDrake Boss 05 fire slash R VFX
+  - vfx: {fileID: 1812808603741989, guid: 72201a8b7bc1795489053d5a875f76bb, type: 2}
+    key: 1092927179
+    name: HaruspexOrianDrake Boss 06.1 Large Mortar Explosion VFX
+  - vfx: {fileID: 1222455855068273, guid: cdcfa17daa75cd54c9c246f8f09eb06b, type: 2}
+    key: 1227462461
+    name: HaruspexOrianDrake Boss 07 Big Slam VFX
+  - vfx: {fileID: 1209525416356539, guid: 6805915177e78b547914c33f9eb6fe1c, type: 2}
+    key: 162590778
+    name: HaruspexOrianDrake Boss 08c1.2 AoE VFX
+  - vfx: {fileID: 1208529439166505, guid: 296b00c256800a84e99602da457b8ce2, type: 2}
+    key: -1513800897
+    name: HaruspexOrianDrake Boss 09.1 Fireball AoE VFX
+  - vfx: {fileID: 1554764862215281, guid: 89f94182b4af86c4493dba3ca741ccd7, type: 2}
+    key: 395833640
+    name: HaruspexOrianDrake Boss 12.2 FireSpear Explosion VFX
+  - vfx: {fileID: 1599886112829642, guid: edb7e085eda471e4cbc65d9a3f624c2f, type: 2}
+    key: 869748882
+    name: HaruspexOrianDrake Boss 00 Phase Change VFX
+  - vfx: {fileID: 1303881598831073, guid: e8a8db06b0539d244ad5d4c148e6225f, type: 2}
+    key: -1829267735
+    name: HaruspexOrianDrake Boss 10.1 Impact VFX
+  - vfx: {fileID: 1384629066463150, guid: c871cd7b9a6e729439b4aef30de5ebf5, type: 2}
+    key: 352509330
+    name: 10 Takeoff Casting VFX
+  - vfx: {fileID: 1700386076540522, guid: f8f0ecd009fe67749923fd598e6ec90d, type: 2}
+    key: 1148594384
+    name: Beam Charge Up VFX
+  - vfx: {fileID: 1870903973299974, guid: 14ea0fa1d6dfce74281aed30841763d4, type: 2}
+    key: 755052938
+    name: Void Drone Projectile impact
+  - vfx: {fileID: 1233062959308666, guid: deb3b1a5130dfbd4695077f2bd8d7052, type: 2}
+    key: 1697900573
+    name: Rain of Arrows VFX
+  - vfx: {fileID: 1203259934996330, guid: 7513580623c16e9478e8165e744df599, type: 2}
+    key: 1596861413
+    name: Cold ThornTotemPoisonBurstVFX
+  - vfx: {fileID: 1354339701548668, guid: 5f7a0c2318931694a9178983aab29d19, type: 2}
+    key: 374295006
+    name: ManaStrikeVFXnew
+  - vfx: {fileID: 1401246980700901, guid: 22059d85e7555ac4998a90c5c2058ddd, type: 2}
+    key: 1609196513
+    name: Voidfused Armor Slash VFX Base
+  - vfx: {fileID: 1998318873879003, guid: 38961cd06d2cdc34f833e1bb857b5dd3, type: 2}
+    key: -221923306
+    name: Voidfused Armor Slash VFX Base L Slash
+  - vfx: {fileID: 1703708989327586, guid: bd61e5dd5d27673448c2bbbc01b80289, type: 2}
+    key: 214435128
+    name: Voidfused Armor Slash VFX Base R Slash
+  - vfx: {fileID: 1277202080687175, guid: 1cd36963c194e434dbc143a2ed900a3f, type: 2}
+    key: 533743813
+    name: Voidfused Armor Slash VFX Base L DoubleSlash
+  - vfx: {fileID: 1933284307732158, guid: 80a384915cb05b345b3f092c60dd5d9f, type: 2}
+    key: 2023289423
+    name: Voidfused Armor Slash VFX Base R DoubleSlash
+  - vfx: {fileID: 1280185111003812, guid: 2f9133217a22dcc429ed49f9d4c5501d, type: 2}
+    key: -1579328925
+    name: X Slash VFX 1
+  - vfx: {fileID: 1813579195537818, guid: a86072d042c4be843bb5f225a842a677, type: 2}
+    key: -1579430330
+    name: X Slash VFX 2
+  - vfx: {fileID: 1409800509165782, guid: ea2f0cac786837e42ae89f72355e61c7, type: 2}
+    key: 919037495
+    name: Void Stab vfx
+  - vfx: {fileID: 1165249053561116, guid: 8a4639c1988bf7a40a5fbcfb2ce48779, type: 2}
+    key: 370887828
+    name: VoidFusedArmorDeathVFX
+  - vfx: {fileID: 1329995406742280, guid: b6a5efc5a27ef15488869da37eba849b, type: 2}
+    key: -358915896
+    name: Abomination Boss Tornado Spawns VFX
+  - vfx: {fileID: 1515811497965251, guid: 3d51d77f39fa4864688d8727d6265b25, type: 2}
+    key: 129741320
+    name: Adrift Meruna Water Attack VFX
+  - vfx: {fileID: 1043445879786056, guid: cf2681d00c4778749af8a6f614bb3c48, type: 2}
+    key: 1904318565
+    name: BurningFleshFlare VFX
+  - vfx: {fileID: 1905977416759200, guid: 746fa8c10fe72f149b5411a16fcd0a2f, type: 2}
+    key: -1029055050
+    name: Burning Flesh Throw Rock Impact Fire VFX
+  - vfx: {fileID: 1512192275360277, guid: 7ae460a7f12f43649ab169b04834fd87, type: 2}
+    key: -527136840
+    name: DesertSerpent 02 Melee Strike VFX
+  - vfx: {fileID: 1501792799947654, guid: fd0519028e35c00479af4bf069296f04, type: 2}
+    key: 2064860102
+    name: ElementalExplosionOnDeathVFX
+  - vfx: {fileID: 1416964983408463, guid: 47619b7718fd6804fba1d85b5846eea4, type: 2}
+    key: -579003856
+    name: Emperors Remains Slash vfx
+  - vfx: {fileID: 1311662064234193, guid: efbe3eace1bbbcc418ba2030fc8c648e, type: 2}
+    key: -936925673
+    name: StomPlantSlamVFX With Sound
+  - vfx: {fileID: 1304379534519340, guid: 0d64c3516b67b3141a4183bdea5fac3e, type: 2}
+    key: -1356074624
+    name: Backup Dancer Void Beam VFX
+  - vfx: {fileID: 1848558003907248, guid: 520d2baf23f88c64f9266941bd6c9d68, type: 2}
+    key: -1184198125
+    name: MaggotFireExplosionVFX
+  - vfx: {fileID: 1015529774322361, guid: fd734c8dd6039ca43ad73100dd11d841, type: 2}
+    key: -479353015
+    name: PannionFirestreamExplosionVFX
+  - vfx: {fileID: 1888485310032659, guid: 8b9c431a83234ba4b87b25c2367a9f78, type: 2}
+    key: 96266545
+    name: Soul Generator Miniboss Beam Attack VFX
+  - vfx: {fileID: 1673316596451125, guid: 924135652f6a42747acaeaa4d58239e2, type: 2}
+    key: -706611700
+    name: Soul Generators in Abomination Boss Beam Attack VFX
+  - vfx: {fileID: 1837664400031861, guid: 493bb305ccdaf104f8910714ff0756b2, type: 2}
+    key: 962104256
+    name: Void Worm Boss Void Beam VFX
+  - vfx: {fileID: 1548518441787361, guid: b94bb9a426a71114790da29374eb7d27, type: 2}
+    key: 803909847
+    name: Winged Fire Boss Beam VFX
+  - vfx: {fileID: 1685101034420182, guid: 4d177b521509b4f469536056dc3f1ada, type: 2}
+    key: -706791973
+    name: BirdChimeraMeleeHit VFX
+  - vfx: {fileID: 1909899951286239, guid: 2b5940a5a56a76b4cb3b4235ff645edc, type: 2}
+    key: -890290240
+    name: Shade of Orobyss 26 Cube Summon VFX
+  - vfx: {fileID: 1358412253209025, guid: 5a44f3526f51e9644a15066b4e5d88bb, type: 2}
+    key: -1476075576
+    name: Heorot Boss Large Ice Circle VFX Variant
+  - vfx: {fileID: 1081834098492301, guid: 15a3ccb62e1f2e348aaae6255b0b12ae, type: 2}
+    key: 1433827042
+    name: Heorot Boss Medium Ice Circle VFX Variant
+  - vfx: {fileID: 1840065765092442, guid: d4f19cf73e883b345b892df64c8ed527, type: 2}
+    key: 679114475
+    name: Heorot Boss Small Ice Circle VFX
+  - vfx: {fileID: 1573340307723813, guid: 2ae8c30d7fbc0a1489e6686efcc94890, type: 2}
+    key: -28251061
+    name: Osprix Heorot Ice Stab vfx
+  - vfx: {fileID: 1046881440990660, guid: b897fcf1564c49d4ca3c4fd302ba6e58, type: 2}
+    key: -247768242
+    name: Ice Elemental Melee VFX
+  - vfx: {fileID: 1237999815796423, guid: 5225aef5cf4e7cb42b579067089881cf, type: 2}
+    key: 854636650
+    name: LagonTeleportArrivalEffect VFX
+  - vfx: {fileID: 1369524306571281, guid: 003e27a46b8b9524fbf87a4dd20d39e1, type: 2}
+    key: 1096216935
+    name: MerunaSirenScreechVFX
+  - vfx: {fileID: 1520898413420001, guid: 3070426d0fc7e3e49be5ac5a400857f5, type: 2}
+    key: 693823573
+    name: Fire bolt explosion 2
+  - vfx: {fileID: 1718497758150691, guid: 1cc095c1a3ee2314486529f1d3f0c9a4, type: 2}
+    key: 103340696
+    name: AmalgamationLightningExplosionVFX
+  - vfx: {fileID: 1981321115555545, guid: aa47859fc5c268e448cfc2e59786d1a0, type: 2}
+    key: -1378189325
+    name: Void Rahyeh MeleeBlast VFX
+  - vfx: {fileID: 1061269903561005, guid: db5c9647fb948a441b8400e8dbeb2b76, type: 2}
+    key: 1393184161
+    name: Osprix Heorot Slam Down VFX
+  - vfx: {fileID: 1657799349178937, guid: eae91bbb2675be244b1b5e4f791dbe44, type: 2}
+    key: 1746965177
+    name: ProfaneThrowExplosionVFX
+  - vfx: {fileID: 1568339472977439, guid: d4ae39e1fe9a204429c0904bf0c9c8e0, type: 2}
+    key: 1176350909
+    name: Puncture VFX
+  - vfx: {fileID: 1032091732121900, guid: ef5f8ecd7f3941d43bca84de49bad32f, type: 2}
+    key: -2024800619
+    name: ImperialHoplitePunctureVFX
+  - vfx: {fileID: 1887155174772071, guid: 5104dceeafa4e1c469b1cd6b6669b4e4, type: 2}
+    key: 1205978415
+    name: SolarAscendantPunctureVFX
+  - vfx: {fileID: 1039420785029735, guid: 321912d8630f81b46896a273c286f3db, type: 2}
+    key: -166215245
+    name: Searing Flesh 03.1 Flare VFX
+  - vfx: {fileID: 1262779211603586, guid: bb198f4d869657c4484e6eaae657355a, type: 2}
+    key: -140106612
+    name: Void Horror Slam VFX
+  - vfx: {fileID: 1149750670034075, guid: ce7e1a6c13426cd48b254608afd9f9d1, type: 2}
+    key: 1933948012
+    name: VoidRahyehFlares VFX
+  - vfx: {fileID: 1551076579823231, guid: 0901eb5c30f238c4a9bae4a1da3ab59d, type: 2}
+    key: 2061795829
+    name: Physical Slash
+  - vfx: {fileID: 1532134197815680, guid: c6a928589305253428d2fd1839f0a4b7, type: 2}
+    key: 795771168
+    name: Void Slash
+  - vfx: {fileID: 1176742306006241, guid: 25cf790fde300534fa58561e9ca4af93, type: 2}
+    key: 1831745469
+    name: Grole Slam VFX
+  - vfx: {fileID: 1579894322886541, guid: ebd0a45989c3d874a8678bcf864315fd, type: 2}
+    key: -1723784142
+    name: Void Goop Explosions
+  - vfx: {fileID: 1872159771064876, guid: 2b4c9ae2e402c284c87414f3ed16847e, type: 2}
+    key: 1712341688
+    name: Rive2 - 2h Sword VFX
+  - vfx: {fileID: 1622583943614905, guid: 7ea955e621864a849adcc3aaccbc09de, type: 2}
+    key: 740718263
+    name: Rive1 - 2h Sword VFX
+  - vfx: {fileID: 1716769008638754, guid: 5c62db6295386024e89cee1b975ec05f, type: 2}
+    key: 2069754038
+    name: Rive1 - 1h Weapons
+  - vfx: {fileID: 1689591499006540, guid: c01b5e3cfa10f4146958af21d164b92e, type: 2}
+    key: 431995891
+    name: Rive2 - 1h Weapons
+  - vfx: {fileID: 1505756381537294, guid: 5bcff1b0389d11449952634316041cd1, type: 2}
+    key: -1342903247
+    name: Rive2 - 2h Axe VFX
+  - vfx: {fileID: 1725252611559805, guid: af950def68d37ef4c99dad55f3b54dac, type: 2}
+    key: 368048624
+    name: Rive1 - 2h Axe VFX
+  - vfx: {fileID: 1807614839678054, guid: 661d1cf3c373adc499f428c76489bae9, type: 2}
+    key: -2023580813
+    name: Rive1 - 2h Spears Polearms VFX
+  - vfx: {fileID: 1502864999689416, guid: e0da454b3002dfd41bd5cc05252168d8, type: 2}
+    key: 361912432
+    name: Rive2 - 2h Spears Polearms VFX
+  - vfx: {fileID: 1408543492501081, guid: 1572400e16c09d2419bc170aafe3c84b, type: 2}
+    key: 1874482672
+    name: FireExplosionVFX
+  - vfx: {fileID: 1331999260417896, guid: 820975f05a994bd4fb3f85c9305fcbc0, type: 2}
+    key: -506894518
+    name: Undead Hydra Burrowing Emerging VFX
+  - vfx: {fileID: 1396736778387376, guid: 65deb9bc63df3ad45b6b771e4ac1eb35, type: 2}
+    key: -1850066079
+    name: Undead Hydra 03 SnakeVomit VFX
+  - vfx: {fileID: 1351620443279199, guid: e1212b9f1cb4f6642a9a14ab2e596566, type: 2}
+    key: 286043055
+    name: Void Despair Leap Impact vfx
+  - vfx: {fileID: 1609818618305005, guid: cd9f4d20f6b8e6a43ac21ca1ea23d99d, type: 2}
+    key: -1592343486
+    name: Werebear Swipe Lightning VFX
+  - vfx: {fileID: 1349765965920551, guid: f2a7f34df0da8474fac04fe2b12f2779, type: 2}
+    key: 1468103680
+    name: Werebear Swipe Lightning VFX Reverse
+  - vfx: {fileID: 1414266721916935, guid: 627776a85927696418565b4abeb1bd33, type: 2}
+    key: -1038769941
+    name: SnakeAttackCreator Cold
+  - vfx: {fileID: 1215877217934353, guid: 52ef199cf7279674d83639e6914fd050, type: 2}
+    key: 437749092
+    name: VoidLightningStretchVFX
+  - vfx: {fileID: 1431170812678684, guid: 4f6df75b7bb79d94fa1eeb6152d17e14, type: 2}
+    key: -794297085
+    name: voidNova
+  - vfx: {fileID: 1433365401357986, guid: fa0f948bbd2e0ec489a3af794605e3e3, type: 2}
+    key: 523881506
+    name: Rotting Hunter Explosion VFX
+  - vfx: {fileID: 1153850095853319, guid: 447c01d92e34313499a0b27f2ea4a75b, type: 2}
+    key: -769791734
+    name: Pannion Student Lightning Nova On Character VFX
+  - vfx: {fileID: 1999863237667935, guid: ce2a48c42ab3a4943b04907d6477ccf8, type: 2}
+    key: 1590665274
+    name: DarkGround Decal Animated
+  - vfx: {fileID: 1440164714105549, guid: bfdc43a687b127944ab0bf53e411f935, type: 2}
+    key: -1679796005
+    name: DarkGround Decal Animated Instant
+  - vfx: {fileID: 1941239246703937, guid: 37ea97e9006cc7543b433cc2343442ab, type: 2}
+    key: -316308163
+    name: ShieldRushOnDeathVFX Fire
+  - vfx: {fileID: 1519832060479462, guid: 917ba56da2e3f224aac903ca6cb6ddb5, type: 2}
+    key: 952824466
+    name: ShieldRushOnDeathVFX Physical
+  - vfx: {fileID: 1824660305254447, guid: 29798b6d39595af4da064c7229aabea0, type: 2}
+    key: 1506450241
+    name: whimsey_fireball_Impact
+  - vfx: {fileID: 1143451081599120, guid: 42542a3b2a5d13a488455cc180bc0b4d, type: 2}
+    key: -1705839702
+    name: MagmaExplosionVFX_new
+  - vfx: {fileID: 1521005275340182, guid: 3ffeccef9a87eac48a96497ae5a459bf, type: 2}
+    key: -2006685386
+    name: VoidScholar03LightningCastVFX
+  - vfx: {fileID: 1463793208876174, guid: 773e83832cdfba04499d51b848d409b8, type: 2}
+    key: 1809708730
+    name: Void Scholar 02 Ice Nova VFX
+  - vfx: {fileID: 1467084219261623, guid: 7ba616f1315a7ca43a30162d267f8889, type: 2}
+    key: 2032372570
+    name: VoidWormBossProjectileImpact
+  - vfx: {fileID: 1688789967651436, guid: 1380fd91e846b7345b8f8d4fed0f938b, type: 2}
+    key: 2062743662
+    name: VoidWormBossHomingProjectileImpact
+  - vfx: {fileID: 1269399411369492, guid: e3a3ed5c8b69f5942aaf0139a0c166a3, type: 2}
+    key: 638213553
+    name: v_soulArrow
+  - vfx: {fileID: 1249728113650030, guid: 31948c2ef08946f4ebfd2675cf5305c9, type: 2}
+    key: 1381747671
+    name: Soul Arrow Hit
+  - vfx: {fileID: 1557544553192893, guid: 3ca743c7d7d11b044b1ec1e59a340a7e, type: 2}
+    key: 571262890
+    name: ProfaneSlamVFX
+  - vfx: {fileID: 1586720274186582, guid: b7df5c0646ccce049a4a972445bad637, type: 2}
+    key: 525681105
+    name: IceMortarImpactVFX
+  - vfx: {fileID: 1650403546254908, guid: cf6248642ca81c046ae9635d0798e8db, type: 2}
+    key: -599138913
+    name: Cast VFX and Indicator for Disintegrate Beam
+  - vfx: {fileID: 1836389854791090, guid: 1d4d8af54ae18e34796747c6151e1972, type: 2}
+    key: 1714968518
+    name: Cast VFX for Tri shot
+  - vfx: {fileID: 1430172783324085, guid: 0877971b25d27f44e80c03700d890871, type: 2}
+    key: 650180084
+    name: DetonateGroundVFX
+  - vfx: {fileID: 1018561267010456, guid: 0e8bbb0b74937db418dbaf027bdfab9a, type: 2}
+    key: 231321705
+    name: Scalebane Guildleader Clone Death VFX
+  - vfx: {fileID: 1011969330188566, guid: 13b5f35a6ca3139459a935fe36ff7d30, type: 2}
+    key: -981102514
+    name: Scalebane Guildleader Endgame Death VFX
+  - vfx: {fileID: 1391529681994404, guid: b809f9aacf2bbc040a3a0ef25101bed2, type: 2}
+    key: 668807572
+    name: vr_WarSlashPhysical
+  - vfx: {fileID: 1333650344666311, guid: 46f86e2ef5e935244bf04971505999cf, type: 2}
+    key: -807753456
+    name: SabertoothSwipe Cold
+  - vfx: {fileID: 1344437098690846, guid: 80550d3e242a9f54ab16a7cfa622e8cf, type: 2}
+    key: 106984446
+    name: SabertoothSwipeVFXReverse Cold
+  - vfx: {fileID: 1103035479152559, guid: bcd90d1c7ed21154284d1f3949529e2b, type: 2}
+    key: -816507300
+    name: VineCrawler attack 1 slash VFX
+  - vfx: {fileID: 1943601184496931, guid: f1ae2752cec525a4e901de8bc340fb06, type: 2}
+    key: 208224463
+    name: Manifest Armor Entrance VFX
+  - vfx: {fileID: 1516333673364011, guid: 41727d7ab966f9d4da77c4be19b358bb, type: 2}
+    key: -1021355110
+    name: Manifest Armor 04 slash vfx
+  - vfx: {fileID: 1787065899335890, guid: 15c716738c1ecf34fb0e2af66f7dc86e, type: 2}
+    key: -1374233807
+    name: Rock Elemental Death VFX
+  - vfx: {fileID: 1561339655643327, guid: 414b7c61fd5af884991133d6a0ec9bb7, type: 2}
+    key: 902253653
+    name: Zombie Hound Poison Death VFX
+  - vfx: {fileID: 1616325530357934, guid: 8e419a016b292ff498a6627a421c7544, type: 2}
+    key: 1563828058
+    name: SkillLevelUpVFX
+  - vfx: {fileID: 1806092460893580, guid: e3577319a83d4284b9904ecba0d406e3, type: 2}
+    key: -1687407247
+    name: FamiliarRagePrepareResurrectVFX
+  - vfx: {fileID: 1374935096325325, guid: 295dc26a0b35be846970258c16538088, type: 2}
+    key: -853085760
+    name: Summoned Abomination Boss Tail Slam vfx
+  - vfx: {fileID: 1229996673302531, guid: 0548cca2b5d3ec647a98d19c85e0c3f7, type: 2}
+    key: -719364410
+    name: ImprisonedMage 06 Flame Scars Cast VFX Indicator
+  - vfx: {fileID: 1729499944787551, guid: 806c044ddd0f10440903c9f2ee2552a7, type: 2}
+    key: -1213423626
+    name: ImprisonedMage 07 Storm Quadrant Cast VFX
+  - vfx: {fileID: 1656440094408792, guid: 042393f03ffb4614faf62ae337e99ae5, type: 2}
+    key: 1373808781
+    name: ImprisonedMage 07 Storm Quadrant VFX
+  - vfx: {fileID: 1317110612447822, guid: f43a958c30f24fc49a2ca5aa6c996751, type: 2}
+    key: 113201736
+    name: ImprisonedMage 08 Water Cone Cast VFX
+  - vfx: {fileID: 1219250957070401, guid: e302a62b00abfaf4cb8480f768154b0d, type: 2}
+    key: -150058521
+    name: ImprisonedMage 08 Water Cone VFX
+  - vfx: {fileID: 1453910681297727, guid: 1882c2c0df4bc4a42aa5650b00e718f0, type: 2}
+    key: 529519255
+    name: ImprisonedMage 09 Ice Whirlwind Cast vfx
+  - vfx: {fileID: 1469240594182814, guid: 227788ef521f72c4fa3e3e2047f98332, type: 2}
+    key: 624920143
+    name: Lightning Dragon Random Echo Mine Explosion VFX
+  - vfx: {fileID: 1472052927667394, guid: 87c894499aaed5043bb551e008127889, type: 2}
+    key: -222421553
+    name: ImprisonedMage 10.3 Arc Volley Mine Explosion VFX
+  - vfx: {fileID: 1885471139447464, guid: d900cb62510dbbb449977a18d859f2ba, type: 2}
+    key: 575783134
+    name: ImprisonedMage 10.1 Arc Volley Impact VFX
+  - vfx: {fileID: 1723292354895669, guid: b60975e1081d50b49b33ab5ed9bc1edd, type: 2}
+    key: 1899240198
+    name: ImprisonedMage 11 Cold Beam Cast VFX
+  - vfx: {fileID: 1664854303043173, guid: 46cec0275df766845ae0e14571b08090, type: 2}
+    key: 1750059666
+    name: ImprisonedMage 13 Mana Strike VFX
+  - vfx: {fileID: 1695691826153165, guid: a48d4110b3f9de142a77475bb63f5f8b, type: 2}
+    key: -1291958426
+    name: ImprisonedMage 15 Fire Construct Minion Death VFX
+  - vfx: {fileID: 1991359233258878, guid: a42af69499d03ab469546b29960148cb, type: 2}
+    key: 811106087
+    name: ImprisonedMage 16 Lightning Construct Minion Death VFX
+  - vfx: {fileID: 1147973661281480, guid: 9d2256415616a3943bf84b926d65cc25, type: 2}
+    key: 34051686
+    name: ImprisonedMage 17 Cold Construct Minion Death VFX
+  - vfx: {fileID: 1327890420768911, guid: 814bcaa8c1185df46b7317587c31c3e5, type: 2}
+    key: 1170337165
+    name: ImprisonedMage 18 Nothing Personal Cast VFX
+  - vfx: {fileID: 1828812314709869, guid: 745ed3fcd356a3d469d9fc0a97b736e6, type: 2}
+    key: 1214169511
+    name: ImprisonedMage 18.1 Lightning Bolt Cast VFX
+  - vfx: {fileID: 1770739547562619, guid: 2f7a01acfcff80a4e86d02a7f372c2f9, type: 2}
+    key: -1040863750
+    name: ImprisonedMage 18.1 Lightning Bolt VFX
+  - vfx: {fileID: 1061626097585857, guid: 7d6e5240e40f7c844bec5e565a8c1f28, type: 2}
+    key: -1984908302
+    name: ImprisonedMage 18 Nothing Personal Directional VFX
+  - vfx: {fileID: 1332139307826878, guid: 2c828d44fb6671c4e9000d4ef0af1785, type: 2}
+    key: -1290159237
+    name: GiantStatueMeleeVFX
+  - vfx: {fileID: 1593075657802984, guid: 9b3af6cf5a1e7a646ad424bfc386e22d, type: 2}
+    key: 1469520322
+    name: GiantStatueLightningSphereCastVFX
+  - vfx: {fileID: 1239236026746978, guid: dea5638076a571646b4dddd2d288e9f6, type: 2}
+    key: -1102697455
+    name: LightningHitOrbVFX
+  - vfx: {fileID: 1614437872184855, guid: 9efcc4f179691a542b2baa70077768f3, type: 2}
+    key: -48154313
+    name: GiantStatueRuneExplosionIndicator Endgame
+  - vfx: {fileID: 1070135015098411, guid: ef3939d13b348ef4984228fd69dc336f, type: 2}
+    key: 105390724
+    name: GiantStatueRuneExplosionVFX Endgame
+  - vfx: {fileID: 1223146258043919, guid: edbab21cfc2f0594082a886fee1fa79c, type: 2}
+    key: -466132481
+    name: PhraxOnDeathVFX
+  - vfx: {fileID: 1544430483759781, guid: 12a094cb21d227048899c8cca923554c, type: 2}
+    key: -1032613304
+    name: VoidCreeperExplosionVFX
+  - vfx: {fileID: 1599068421995009, guid: 24b2277a379af3d488edb21aa6588de2, type: 2}
+    key: 60155657
+    name: ShieldRushOnDeathVFX Void
+  - vfx: {fileID: 1822473439643017, guid: aefcdb8eebc2c3447bbb165cc316f16f, type: 2}
+    key: 1976371744
+    name: CinderStrHit02VFX Polearm 1
+  - vfx: {fileID: 1173080984254376, guid: d69cc5f791cad6e42a6566b731679caf, type: 2}
+    key: -1073426789
+    name: CinderStrHit02VFX Polearm 2
+  - vfx: {fileID: 1765766967191919, guid: 4b8fae1142f34ac44955b837b35d2627, type: 2}
+    key: -153929994
+    name: ManaStrikeVFXnew Polearm
+  - vfx: {fileID: 1116035382538362, guid: c59bd0f6f9e6dd44ab905d7c282f7e01, type: 2}
+    key: 1769094608
+    name: Multistrike vfx polearm
+  - vfx: {fileID: 1485813403868539, guid: c0af90f95d1815f408f9cdecec0b53c0, type: 2}
+    key: 464470734
+    name: Swamp Fiend Leap Slam VFX
+  - vfx: {fileID: 1972652438981291, guid: a03f58170abdd9b4eb4c9d014bef0be2, type: 2}
+    key: 1630373102
+    name: Swamp Fiend Bone Spikes VFX
+  - vfx: {fileID: 1710090299996813, guid: b92a81ec6bbec01478a078bda68055d2, type: 2}
+    key: -926872507
+    name: Swamp Fiend Undead Leap Slam VFX
+  - vfx: {fileID: 1441781147316116, guid: 0f7d282c8fddacf4b985fa26595bedb6, type: 2}
+    key: 537840267
+    name: VoidbombCreeper Explosion VFX
+  - vfx: {fileID: 1055971413063402, guid: dc2bee9a33530b043b4c7bac06259614, type: 2}
+    key: -1665635007
+    name: Swamp Fiend Void AoE VFX
+  - vfx: {fileID: 1995927476348942, guid: 91b2db8aff3e7554da28e7107eb926fd, type: 2}
+    key: 267117128
+    name: Void Death SwampFiend vfx
+  - vfx: {fileID: 1875392289732204, guid: ae0e2682779431044a865021a6dcb850, type: 2}
+    key: 848948110
+    name: Blood Death SwampFiend VFX
+  - vfx: {fileID: 1725591769160286, guid: f64c281ef76aef643b43152f32bb2c3f, type: 2}
+    key: -1320504090
+    name: Quill Hog Digging Start VFX
+  - vfx: {fileID: 1994312412566966, guid: 1f6fc9fdbeacb7f41b8f4b2fb9499c58, type: 2}
+    key: -1143606095
+    name: Quill Hog Digging End VFX
+  - vfx: {fileID: 1195707449857939, guid: c81482357f32c014c83749f12a13aca5, type: 2}
+    key: 1123979561
+    name: RockGolemRockShockwaveOnDeathVFX
+  - vfx: {fileID: 1977803221452502, guid: 8d078eb5218120944811d9713ecf0548, type: 2}
+    key: -2099305180
+    name: Rock Golem Slam
+  - vfx: {fileID: 1342415007570209, guid: 8bfae21bbc8670e49a69d0eb3199c9df, type: 2}
+    key: -1036304529
+    name: v_Upheaval Physical
+  - vfx: {fileID: 1550116000660480, guid: aedbc84dc02c1e644a30e48071e9e3f9, type: 2}
+    key: 2030102898
+    name: RotflyOnDeathVFX
+  - vfx: {fileID: 1451798972749886, guid: c2cfdf2db07d3204fbd9f9119f48c652, type: 2}
+    key: 726018526
+    name: ArmoredPhoenixFeathersExplosionVFX
+  - vfx: {fileID: 1121495315966120, guid: b668e80c2e66f994baa23130cf4d1b73, type: 2}
+    key: -973392229
+    name: Abomination Fire Stomp VFX
+  - vfx: {fileID: 1746502399600028, guid: f547faa9b92cb524abe01529aea937a3, type: 2}
+    key: -861098266
+    name: MTX Pet Despawning Dust
+  - vfx: {fileID: 1498954421377695, guid: 7b6f24213a652d64a82629dee168388a, type: 2}
+    key: 1413533648
+    name: ShiftBeginningVFX
+  - vfx: {fileID: 1398436457063022, guid: 318f7ba1e3bc0f74aa1adf4c398dce20, type: 2}
+    key: -1932658694
+    name: Forged Soldier Fire Spin Indicator
+  - vfx: {fileID: 1085933712412218, guid: fb518670e072d7b4a98339d985bcb955, type: 2}
+    key: -333762442
+    name: Forged Soldier 05 Lobbed Projectile AoE VFX
+  - vfx: {fileID: 1006866391103049, guid: 6d9971a6e707e0b4ab9d9f7444862b37, type: 2}
+    key: -328994429
+    name: ShrapnelVFX
+  - vfx: {fileID: 1586977664812594, guid: 144be4d467841664a8cf949e558de772, type: 2}
+    key: 1411479788
+    name: NatureCastVFX
+  - vfx: {fileID: 1326410125290428, guid: 0e3ef62e2193e714587f02b1c05b727e, type: 2}
+    key: -525352064
+    name: HolyEruptionVFX - osprix vanguard
+  - vfx: {fileID: 1664548091481278, guid: 45fb55c3eafae56438fa10e06d406db6, type: 2}
+    key: 552146716
+    name: OsprixVolcanicOrbCastVFX
+  - vfx: {fileID: 1640612217145991, guid: aa757dcd2ed552b4ba77aab5c075bd32, type: 2}
+    key: 558806179
+    name: SapphireNagasa 03.2 WaterOrbExplosion vfx
+  - vfx: {fileID: 1644703125451197, guid: 51d611e71a69a4544be3fde7de9ccba4, type: 2}
+    key: -1131692708
+    name: ShadowCascadeVFX - poison version
+  - vfx: {fileID: 1588512141073692, guid: 87eb0d97b1fbdb142a6795939255c2eb, type: 2}
+    key: -2078644267
+    name: ShadowCascadeVFX - only daggers poison
+  - vfx: {fileID: 1982015806187344, guid: 46533129fdb061549b931379117206e0, type: 2}
+    key: -1515875297
+    name: fx_LessDamageTakenFromDistantEnemies_mod
+  - vfx: {fileID: 1364315983288914, guid: 07b83c877bf6e2e4486f588818555db1, type: 2}
+    key: 1540905676
+    name: Amalgamation slash VFX
+  - vfx: {fileID: 1587920344488992, guid: 001b84aa9dec4b346abb20894750cf27, type: 2}
+    key: -819889494
+    name: TempleBeastLightningExplosionVFX
+  - vfx: {fileID: 1203123449715761, guid: 638407a1f415b5940b3077033caa444d, type: 2}
+    key: 1975559876
+    name: Sacred Bloom Flurry 1
+  - vfx: {fileID: 1684034007027531, guid: 4ba7e527b86e79e45a6d26d4ab7bd40a, type: 2}
+    key: 529227430
+    name: Sacred Bloom explosion
+  - vfx: {fileID: 1757521070940743, guid: 8091211d41d2b3a4b9ab1b29cd35d8cf, type: 2}
+    key: 1975805029
+    name: Sacred Bloom Flurry 2
+  - vfx: {fileID: 1442484098993902, guid: 52f5db53c825a5e4aa2dbc7b44c5f2f5, type: 2}
+    key: 2122531930
+    name: v_bolroth 02 stomp
+  - vfx: {fileID: 1602075714039615, guid: 7c497d040bc45da4bb87e251e4819abc, type: 2}
+    key: 798378830
+    name: Armored Phoenix Death Explosion VFX
+  - vfx: {fileID: 1964505339245248, guid: a4967c6507b378c41a02f621c7b0028b, type: 2}
+    key: 336568492
+    name: RahyehSoldierSiegeEngineerMeleeVFX
+  - vfx: {fileID: 1079383345518176, guid: 97e28fdf8d1add240a1bec3e165e1367, type: 2}
+    key: -943728222
+    name: RahyehSoldierEngineer Summon VFX
+  - vfx: {fileID: 1409663878141071, guid: 1b3868a32db6a254eb77d53606ee701e, type: 2}
+    key: -525218331
+    name: Rahyeh Soldier Arrow Rain Impact VFX
+  - vfx: {fileID: 1503580886950801, guid: 3b3238efd449ccd44a0787fcdf9bc79d, type: 2}
+    key: -782084906
+    name: RahyehSoldierRangedShoutVFX
+  - vfx: {fileID: 1422249963180666, guid: 148897d40fb00064583d943e2c53058d, type: 2}
+    key: 345434006
+    name: Rahyeh Soldier Melee Firestab VFX
+  - vfx: {fileID: 1145801770804092, guid: 4138bce9f864a79409572ab5e8b04019, type: 2}
+    key: 190863134
+    name: Rahyeh Soldier Melee Firestab Charge VFX
+  - vfx: {fileID: 1761769998135916, guid: ea0bec3b6a24c34428b17210c9a47055, type: 2}
+    key: -835946386
+    name: v_RahyehSoldierRanged 03 RainingArrows
+  - vfx: {fileID: 1640402235592479, guid: 2b4af0e1bc4925947a8d7457a099f3c9, type: 2}
+    key: 1683050164
+    name: v_RahyehSoldierRanged 01 BowAttack
+  - vfx: {fileID: 1578489231196063, guid: 5fa45eff0b2052e45b76344b6a2fed17, type: 2}
+    key: -1547144452
+    name: v_RahyehSoldier SiegeEngineer 02 HammerThrow
+  - vfx: {fileID: 1678437288546515, guid: 875aabc2152fdbf4bbea60813f8dec99, type: 2}
+    key: -1525001934
+    name: RahyehFactionSwarmerMelee Catapulted Impact VFX
+  - vfx: {fileID: 1352692682037337, guid: 41cdce160a3f9e34b8b45a486774365a, type: 2}
+    key: -721140615
+    name: Chaos Bolts NecroticFire Impact VFX
+  - vfx: {fileID: 1100950201759043, guid: af582f9a1a871b94c916aa727d7182ed, type: 2}
+    key: 2141589224
+    name: Chaos Bolts NecroticFire Casting VFX
+  - vfx: {fileID: 1445117565549750, guid: 3dfc0fc4e77396a4ba6ddcf8db744685, type: 2}
+    key: 1068659604
+    name: Bone Golem Single Slam blood
+  - vfx: {fileID: 1053057279890573, guid: 9e4a1a4cc7355e0479550f9e00fee056, type: 2}
+    key: 26059243
+    name: Ice Bone Golem Single Slam
+  - vfx: {fileID: 1450498877461484, guid: aaf89849f5f2b7342a6da4ed6b1cfd24, type: 2}
+    key: -754795940
+    name: Miniboss Ice Golem Ice Crack Cast VFX Indicator
+  - vfx: {fileID: 1339035917127712, guid: 55ca082dfdcc7574ba8aa3641d7f139c, type: 2}
+    key: -1301821802
+    name: Fire Bone Golem Single Slam
+  - vfx: {fileID: 1699995527325649, guid: 9caf4dabf10b3154984196b207b2d245, type: 2}
+    key: -1570340101
+    name: Golem Small Hits Explosion vfx
+  - vfx: {fileID: 1140204484552570, guid: ebea7772859e2a54db6fbdb0b615673d, type: 2}
+    key: 334599697
+    name: Ice golem cast vfx
+  - vfx: {fileID: 1438158401000514, guid: b3f21ac7ef0441a4c87fdb2a2a18457b, type: 2}
+    key: -2054196428
+    name: CapsuleMan cast vfx
+  - vfx: {fileID: 1788602781170175, guid: 152431d196b1d434f8eec7d29d4f9af7, type: 2}
+    key: 815829394
+    name: CapsuleMan 08 Basic Explosion VFX
+  - vfx: {fileID: 1631970422989130, guid: 563fca2107586a642ad1a608052d4bea, type: 2}
+    key: -1666901373
+    name: CapsuleMan 03.1 Small Explosion VFX
+  - vfx: {fileID: 1032816122941670, guid: cc987ab1e6ef6644bafecd03372370ce, type: 2}
+    key: -1942885568
+    name: CapsuleMan cast indicator cast vfx
+  - vfx: {fileID: 1940638349240369, guid: 90ac1e5c28313004d8cd2c2b144f4c5d, type: 2}
+    key: -1205572099
+    name: Glyph of Dominion Lightning VFX
+  - vfx: {fileID: 1571604630879145, guid: c22ae329aefe5c441b8cef3171d899fb, type: 2}
+    key: 605215281
+    name: Chaos Bolts Fire Impact VFX
+  - vfx: {fileID: 1430294124589115, guid: 47355373fabad5c46936683f8672532b, type: 2}
+    key: -298636107
+    name: Chaos Bolts Cold Impact VFX
+  - vfx: {fileID: 1716969252818382, guid: ef243cf2cfd01324ca2713907ff0bb6b, type: 2}
+    key: 869861281
+    name: Chaos Bolts Lightning Impact VFX
+  - vfx: {fileID: 1977928730327506, guid: a6228eeef286dcd4780cb63cd6ca294d, type: 2}
+    key: 901077183
+    name: Runebolt Fire Cast vfx
+  - vfx: {fileID: 1017081319616755, guid: 2c781e3c000d1e94cad3bd3e37df22cf, type: 2}
+    key: 1578488919
+    name: Runebolt Cold Cast vfx
+  - vfx: {fileID: 1125953625304365, guid: 356b9837265db074cb3d77fdadb39a49, type: 2}
+    key: -562605233
+    name: Runebolt Lightning Cast vfx
+  - vfx: {fileID: 1571604630879145, guid: c22ae329aefe5c441b8cef3171d899fb, type: 2}
+    key: -1026683998
+    name: Runic Invocation Fire Impact VFX
+  - vfx: {fileID: 1740091831331651, guid: 9ee99ef16a3a3064bacff2c933367a9d, type: 2}
+    key: -1912102148
+    name: Runic Invocation Large Explosion Fire VFX
+  - vfx: {fileID: 1094051359746243, guid: e04fa1ea4cd89ed49a136c0078eea0bd, type: 2}
+    key: -1372987526
+    name: Runic Invocation Large Explosion Lightning VFX
+  - vfx: {fileID: 1320454034968349, guid: 71b4115ca1cd271479592eb57beefdcf, type: 2}
+    key: 297725594
+    name: Runic Invocation Large Explosion Cold VFX
+  - vfx: {fileID: 1148216200505072, guid: 6462ef97f46e88b4c86ce02122c81080, type: 2}
+    key: -299939812
+    name: LifeDrainVFX
+  - vfx: {fileID: 1030335955672937, guid: 34ddf069e516d3b47a91197b28d0b7dc, type: 2}
+    key: -630381731
+    name: Bone Golem 09 Blood Orb blood line vfx
+  - vfx: {fileID: 1391031483851462, guid: dcf7be69f8556ed46aa549d133d0a12c, type: 2}
+    key: -8015090
+    name: FamiliarRageResurrectVFX
+  - vfx: {fileID: 1538512991711572, guid: 65b03afb557388a49bb0685b602410ee, type: 2}
+    key: -72128424
+    name: fx_FamiliarRage_mod
+  - vfx: {fileID: 1846090039919768, guid: 55c0095cf755bea46a256dab1c33673e, type: 2}
+    key: -966608780
+    name: fx_Twinned_mod
+  - vfx: {fileID: 1578270612799404, guid: e3763589653fa4c4d95147b335f9202d, type: 2}
+    key: 60010528
+    name: TwinnedModVFX
+  - vfx: {fileID: 1300854364607935, guid: d2e5982a837060843a7a17cded65e35f, type: 2}
+    key: -87925714
+    name: Summon Vfx Burst
+  - vfx: {fileID: 1244416860465624, guid: 16affebbf0c0fe840864168384c151bf, type: 2}
+    key: -657387346
+    name: v_Balthas Actor 03 Single Energy Blast
+  - vfx: {fileID: 1909680543436041, guid: 5d63fe70936bd864c96af0d85efa6dc4, type: 2}
+    key: 906265135
+    name: v_Balthas Actor 02 Energy Blast
+  - vfx: {fileID: 1171718288678772, guid: d971b809f928ce94c9ab36b3fd312339, type: 2}
+    key: -1069994251
+    name: v_Balthas Actor 01 beam
+  - vfx: {fileID: 1976813878517446, guid: fb37b9ef8e7008142bf1ba57e4633aba, type: 2}
+    key: -900868500
+    name: Reaper AfterTransform VFX
+  - vfx: {fileID: 1220029578910977, guid: 4085fddc3dbc20345bd3f4737db94b49, type: 2}
+    key: 1489935077
+    name: WeaversWillConsumedVFX
+  - vfx: {fileID: 1026406925781871, guid: b141ed113a29c604ea5d02035a4f5c59, type: 2}
+    key: 1046620629
+    name: v_FrozenWolf 03 IceBreath
+  - vfx: {fileID: 1524536610912795, guid: 42bfb98972eb5cd47964f378c06937bc, type: 2}
+    key: -394843249
+    name: Quill Hog Digging Start VFX 1
+  - vfx: {fileID: 1630113732608365, guid: 68e35f1c5864a0f498fde2025109e87f, type: 2}
+    key: -557284337
+    name: Balthas Actor 02.1 Energy Blast Damage VFX
+  - vfx: {fileID: 1337829701598921, guid: 2f4c938cf2c6f224f90fd3de713714d9, type: 2}
+    key: -733871994
+    name: GraelIceSlash
+  - vfx: {fileID: 1662886263591443, guid: ec24f6f3d8eb02142a0b4aa0422638f9, type: 2}
+    key: 1105365018
+    name: WoollyBoar Stomp VFX
+  - vfx: {fileID: 1515289755981713, guid: 3094022238bd71b4eaf510136ec6922a, type: 2}
+    key: -1425703515
+    name: WoollyBoarShieldRushOnDeathVFX
+  - vfx: {fileID: 1192447412453066, guid: ad7a52257dbf3304ab7c0a7ed763b935, type: 2}
+    key: -899675160
+    name: VoidAreaIndicator8x8
+  - vfx: {fileID: 1564130776380099, guid: a2c64dccf90270047a0a6ce552b15b50, type: 2}
+    key: 1106022575
+    name: Meteor_Indicator_Normal
+  - vfx: {fileID: 1040602638619167, guid: c05aa70268da4f641a8e5b2fa2553003, type: 2}
+    key: 1717601509
+    name: Blood Death vfx 01 Short
+  - vfx: {fileID: 1254364497868760, guid: ad73eb6d7bb8ef844bdf5c54d2a7f7a0, type: 2}
+    key: 1542809022
+    name: Holy Fire Slash VFX 1
+  - vfx: {fileID: 1499602746047197, guid: 148114421a0d477419d6a6bd3546e8b6, type: 2}
+    key: 654827426
+    name: SoulCage Ground Slam Indicator VFX
+  - vfx: {fileID: 1964742343172314, guid: dcddd548c16fb394caaf32a4b93281e5, type: 2}
+    key: -1964229275
+    name: SoulWardenProjectileExplosionVFX
+  - vfx: {fileID: 1633492617070638, guid: e0f90e25dd19eed429308876c6eb25aa, type: 2}
+    key: -1984516160
+    name: Fire SoulCage Ground Slam Indicator VFX
+  - vfx: {fileID: 1378761851667319, guid: e01a4865321257b4eb6be0a6be4683ea, type: 2}
+    key: -1093762325
+    name: Fire SoulCage Ground Slam VFX
+  - vfx: {fileID: 1763617187491115, guid: 1fe6a33b83642b945ab8e028748194f6, type: 2}
+    key: 1798078275
+    name: Flamedash Explosion VFX
+  - vfx: {fileID: 1907566995231189, guid: 7c2ee294fb27be0439fe4734db9da4a8, type: 2}
+    key: -2064126984
+    name: Mega Lightning Bolt VFX
+  - vfx: {fileID: 1637301902306331, guid: 5e947b472cee6c447875b1c09fff22e3, type: 2}
+    key: 1848649727
+    name: Runemaster 15 FireLightning Cone VFX
+  - vfx: {fileID: 1600227099445609, guid: 36ed188c6d793b342a42692b3329dc4e, type: 2}
+    key: 1553793702
+    name: Runic Invocation Medium Explosion Cold VFX
+  - vfx: {fileID: 1459154381798774, guid: 088ca84e0ad386e4480e2806c2692459, type: 2}
+    key: 1868398196
+    name: Mega Elemental Nova VFX
+  - vfx: {fileID: 1286780907190783, guid: 740086c048284224b8fb707b1b981836, type: 2}
+    key: 1352370772
+    name: Flamedash Start VFX
+  - vfx: {fileID: 1806319562635315, guid: 77ba8501c4cbf1f4a8e85a586b9ea4e5, type: 2}
+    key: 588612342
+    name: Cold NonDirectional On-Hit vfx real big
+  - vfx: {fileID: 1099363910743257, guid: de6d374e6fd154b4489ae46f07777fd1, type: 2}
+    key: 2065654737
+    name: Lightning Fire Burst VFX
+  - vfx: {fileID: 1630830450426860, guid: f32a56923bf575048b95ba6e654d568a, type: 2}
+    key: 1380449309
+    name: Runic Invocation XL Explosion Fire VFX
+  - vfx: {fileID: 1753794660699007, guid: 7347c3ab782288e458c109b7ae614aef, type: 2}
+    key: 359323045
+    name: Static Field VFX
+  - vfx: {fileID: 1319426905346009, guid: 7713703d509a591469ac7262a2e66e49, type: 2}
+    key: 475772368
+    name: Ice Spike R VFX
+  - vfx: {fileID: 1728428902051542, guid: f897bdd707083114a834b1d8fd783981, type: 2}
+    key: -442254530
+    name: Ice Spike L VFX
+  - vfx: {fileID: 1076560040906723, guid: af6b372bd7b5d8c4aabe4910423e383a, type: 2}
+    key: 1729769285
+    name: Runebolt Fire Explosion VFX
+  - vfx: {fileID: 1511494264295442, guid: dc47aa70df31c3447adf3e2a9bd38fc6, type: 2}
+    key: -1513437319
+    name: Runebolt Cold Explosion VFX
+  - vfx: {fileID: 1394244553832927, guid: 2f7a87f6ba5c5324fba826400bdbac60, type: 2}
+    key: -1294368451
+    name: Runebolt Lightning Explosion VFX
+  - vfx: {fileID: 1713088808504149, guid: 562d2e3931acbae428e969808e4a9da6, type: 2}
+    key: -1837555036
+    name: Runebolt 05.1 Tri-Elemental Explosion VFX
+  - vfx: {fileID: 1622625983448345, guid: dfb76c2f2824ba74e8ef4ffbf7ae68dd, type: 2}
+    key: 800389740
+    name: Small Rune Meteor VFX
+  - vfx: {fileID: 1539520339817409, guid: 2a98ef3e400c9034cb5cf0be70058bfd, type: 2}
+    key: 2086491306
+    name: Lightning Zap VFX
+  - vfx: {fileID: 1545439549263491, guid: 216b519a7dd174f4ca9673b5b0d795e0, type: 2}
+    key: 874778348
+    name: Discharging Snap VFX
+  - vfx: {fileID: 1999653561285566, guid: fea30b16cbe2fef488c6b63981a9e032, type: 2}
+    key: 616440199
+    name: Rune Lightning Blast VFX
+  - vfx: {fileID: 1979158190081345, guid: 7ed62897fb6ce954b9d7893f3cbb7019, type: 2}
+    key: 174161411
+    name: Casting VFX Lightning Large
+  - vfx: {fileID: 1734068587703924, guid: d60ef124e5c69f1458a078755bf0c931, type: 2}
+    key: 1512261325
+    name: Casting VFX Cold Large Non-Directional
+  - vfx: {fileID: 1885809457032461, guid: 03565f783f93f874792f2f20444064c5, type: 2}
+    key: -1656150956
+    name: Rune Lightning Blast VFX for buffs
+  - vfx: {fileID: 1288174262325086, guid: 8973b4e6c84adce4f9d0671b27510c4f, type: 2}
+    key: -250377981
+    name: Casting VFX Cold Large Directional
+  - vfx: {fileID: 1427598630547320, guid: 20ca9f79a3a057747ba70e288162452d, type: 2}
+    key: -575425879
+    name: Glyph of Dominion Fire Explosion VFX
+  - vfx: {fileID: 1750569171184880, guid: 3b8391ed6f04ad84797bfcc46e292afa, type: 2}
+    key: 386587577
+    name: Casting VFX Cold Small Directional
+  - vfx: {fileID: 1692100147347752, guid: 90f32b95fb69fb040b77f5264b43d6da, type: 2}
+    key: 1147772747
+    name: Casting VFX Fire Large Directional
+  - vfx: {fileID: 1228772741695061, guid: ebe7f16471d15c945a6af73256c102d6, type: 2}
+    key: -389096895
+    name: Casting VFX Fire Large Non-Directional
+  - vfx: {fileID: 1452056053467128, guid: f6149d69f664ca04d843cf5e6be99e83, type: 2}
+    key: -1758846969
+    name: Casting VFX Fire Medium Directional
+  - vfx: {fileID: 1032766581883816, guid: 42aa71695fc04a045912f0405a276a6f, type: 2}
+    key: -919219067
+    name: Casting VFX Fire Medium Non-Directional
+  - vfx: {fileID: 1603570526298719, guid: 1067851fdb9541d4aaea82c6f8699502, type: 2}
+    key: 1808330183
+    name: Casting VFX Lightning Medium Directional
+  - vfx: {fileID: 1007821806018502, guid: b697bac9256543d4bae9e515bc2b82df, type: 2}
+    key: -33093664
+    name: Casting VFX Lightning Large Directional 1
+  - vfx: {fileID: 1066911502251641, guid: 256d69c55c7760f45a7d6614e00fa2e9, type: 2}
+    key: -1482379961
+    name: Casting VFX Tri-Elemental Directional
+  - vfx: {fileID: 1604946501087701, guid: 2f3cc6e9a193b3d45a25fe6984af1c2b, type: 2}
+    key: 1192099845
+    name: Casting VFX Tri-Elemental Non-Directional
+  - vfx: {fileID: 1539819922198075, guid: 9cef8f3975f656c4a8abe1925abeeba4, type: 2}
+    key: 1743834092
+    name: Casting VFX Lightning-Fire Large Directional
+  - vfx: {fileID: 1923732699113597, guid: c4a4eb40301dc2a4a97ba33109f68aee, type: 2}
+    key: 1829202034
+    name: Casting VFX Cold-Fire Medium Directional
+  - vfx: {fileID: 1931496227370193, guid: 90f6642c8683a3040906a003a1ad0f55, type: 2}
+    key: -841007390
+    name: Casting VFX Cold-Lightning Medium Directional
+  - vfx: {fileID: 1868338384279590, guid: b4ef908704cd44b4d83f73eb47a2cdc8, type: 2}
+    key: 229048162
+    name: Runemaster 28 Indicator VFX
+  - vfx: {fileID: 1648478519414846, guid: 2c1f5ff89a67d044691563d4dc6948a9, type: 2}
+    key: -980955944
+    name: Runemaster 06 Flame Rush Start VFX Cold
+  - vfx: {fileID: 1609769397370838, guid: 707731a948c15d04fad1f68c67381668, type: 2}
+    key: 254871368
+    name: Runemaster 06 Flame Rush Start VFX Lightning
+  - vfx: {fileID: 1205720582618501, guid: 93386483ded37d04ca19eaf38c9303dc, type: 2}
+    key: -2086877847
+    name: Runemaster 06 Flame Rush Explosion VFX Cold
+  - vfx: {fileID: 1933659511059378, guid: 6cf4925010ec04f498130d7899df08dd, type: 2}
+    key: -1930435975
+    name: Runemaster 06 Flame Rush Explosion VFX Lightning
+  - vfx: {fileID: 1442737541958714, guid: b39ac8baf8028174d9082325f62dbfd9, type: 2}
+    key: 193488159
+    name: Runic Invocation Small Explosion Lightning No Decals VFX
+  - vfx: {fileID: 1375432418270357, guid: f824aff29122f9e4a8ed32adf35f8e95, type: 2}
+    key: 1117865820
+    name: Casting VFX Ward
+  - vfx: {fileID: 1218436624790258, guid: a0acf51f32880e94e8a646dac2381c67, type: 2}
+    key: 956506934
+    name: Rune Lightning Blast VFX 1
+  - vfx: {fileID: 1362526610177575, guid: 50febc92397fbf544bb1a1a58764a7da, type: 2}
+    key: -132634951
+    name: FrostWallDetonation VFX
+  - vfx: {fileID: 1050131624614375, guid: c446923e1c873ad4ea863d6e475b36d0, type: 2}
+    key: -622802655
+    name: FrostWallDetonation VFX Fire
+  - vfx: {fileID: 1207452669340792, guid: 4fdb775eb50c77f44a454f4a906044c9, type: 2}
+    key: 213960741
+    name: FrostWallDetonation VFX Lightning
+  - vfx: {fileID: 1649533464948326, guid: 2f8da447e8e7733479cee4b08f6efc6c, type: 2}
+    key: -1938781486
+    name: v_Runemaster 14.1 initial impact
+  - vfx: {fileID: 1601470720600891, guid: c6ab912d74c4eb44b852cbc183781611, type: 2}
+    key: 1960013859
+    name: Runic Invocation Large Explosion Cold VFX Variant
+  - vfx: {fileID: 1611471882629547, guid: a5c29f47888e9d5478e37a76ccbf05f8, type: 2}
+    key: -881984183
+    name: Runemaster 28 Meteor Pelting Explosion VFX
+  - vfx: {fileID: 1513749042745493, guid: 2120919d63163ce499edaeb52c22120a, type: 2}
+    key: 2125687236
+    name: Runemaster 47 Rune Lightning Web VFX
+  - vfx: {fileID: 1875307340399158, guid: bfca6b9ad5e4ad74a9edc63b436c35d4, type: 2}
+    key: 123407090
+    name: Runemaster 48 Rune Lightning Buff VFX
+  - vfx: {fileID: 1486167771852335, guid: 3d78335e976cda94a95c653f5325893a, type: 2}
+    key: -1212593773
+    name: RunicBurst VFX
+  - vfx: {fileID: 1987227820523192, guid: 746426ecdcfd69741aca813a6902c7bb, type: 2}
+    key: 1471635015
+    name: Runemaster 33 Triple Ignite Burst LightningBlastVFX
+  - vfx: {fileID: 1879272693886482, guid: c35676bed6a042343b5b86b10e765ee5, type: 2}
+    key: 1542438813
+    name: NonPlayerLightningCastVFX
+  - vfx: {fileID: 1546177050490316, guid: f22b12a8df264964fa8450d2fac09ed8, type: 2}
+    key: -1071662715
+    name: NonPlayerColdCastVFX
+  - vfx: {fileID: 1553891873909722, guid: ea1f9769ad198f24f961dc1414d6c5e7, type: 2}
+    key: -1192113670
+    name: Runemaster 23 Small Cold Explosion VFX
+  - vfx: {fileID: 1515099707013117, guid: ecda46f64b9e0764caf1609f68134edd, type: 2}
+    key: 139875037
+    name: Runemaster Base 23 Small Explosion Fire VFX
+  - vfx: {fileID: 1575763756222257, guid: 0f10a2acb161d764a9dec210ca9a29b1, type: 2}
+    key: 1300438316
+    name: Runemaster 23 Small Lightning Explosion VFX
+  - vfx: {fileID: 1781321691574739, guid: 450855097b84b634594cf4d2e310770e, type: 2}
+    key: -1209910641
+    name: Runemaster 34.1 Lightning Zaps VFX
+  - vfx: {fileID: 1838029432842388, guid: 5b7517c47f21abc4e8e884784f7ce932, type: 2}
+    key: -1596389364
+    name: Runemaster 45 Antipode Mega Nova VFX
+  - vfx: {fileID: 1778598717907154, guid: b0ba0380fa98f6046a6a887263d7474f, type: 2}
+    key: -1206271078
+    name: v_Runemaster 30 Hit VFX
+  - vfx: {fileID: 1067404911111368, guid: fadcdf876bd99c34d824b936857a8ac2, type: 2}
+    key: 1482931046
+    name: SummonedFireBeeOnDeathVFX
+  - vfx: {fileID: 1498612006099702, guid: 8043fba7b3b75a94aace8fc0c9db5f3b, type: 2}
+    key: 1718167832
+    name: SummonedColdBeeOnDeathVFX
+  - vfx: {fileID: 1636439867968885, guid: 099d71eee8361eb4ba67479dcddddbb9, type: 2}
+    key: -1497320314
+    name: SummonedLightningBeeOnDeathVFX
+  - vfx: {fileID: 1853740576073009, guid: a8443c5cb9fbf3848b7b5e35d6951b51, type: 2}
+    key: 2141161112
+    name: v_Runemaster Invocation Floating
+  - vfx: {fileID: 1445897842807021, guid: ded337f0a75ec964899da775bf559a87, type: 2}
+    key: 1461352449
+    name: Runemaster 05.3 Runestone OnDeath VFX
+  - vfx: {fileID: 1679859326009363, guid: d0127245a41cfaf43ad9a19abdec3cc1, type: 2}
+    key: -541718653
+    name: Impact 03 - Dynamic Fading
+  - vfx: {fileID: 1230025365760340, guid: b4a0eb0c6f4da71448b257cd57d4b644, type: 2}
+    key: -1381629983
+    name: NecroticCastVFX
+  - vfx: {fileID: 1180310114164279, guid: 66eff18b6060f204a8b391010138f01d, type: 2}
+    key: 1005389478
+    name: CrowNecroticExplosionVFX
+  - vfx: {fileID: 1362099502007456, guid: 40703c0a83cf3d648adc32b161bdbd34, type: 2}
+    key: -1841144475
+    name: CrowNecroticCastVFX 1
+  - vfx: {fileID: 1958878283950979, guid: 13ed018491aec164796232fe95808f91, type: 2}
+    key: -2127606761
+    name: ImperialEraEnemy01 01 Spin VFX
+  - vfx: {fileID: 1033339772282298, guid: 9f0ffdb1c302f374999534c93f342368, type: 2}
+    key: -510816803
+    name: ImperialEraEnemy01TauntVFX
+  - vfx: {fileID: 1824714124025442, guid: 45e838f07a94e464dbea32831253e0bd, type: 2}
+    key: -1166868914
+    name: ImperialEraEnemy02LeapVFX
+  - vfx: {fileID: 1557822397964994, guid: 38a13f9434bd89c48b6a500cce0596f6, type: 2}
+    key: 956756137
+    name: ImperialEraEnemy02Melee01VFX
+  - vfx: {fileID: 1984303509355207, guid: cfc55de8cbb9fd74694ac86761cb36ec, type: 2}
+    key: -1276425076
+    name: Imperial Era Enemy 04 Cast VFX
+  - vfx: {fileID: 1875458147823854, guid: a7074de395ccfad498155cb5ead9e7d4, type: 2}
+    key: -288946533
+    name: ImperialEraEnemy 04 BloodRune VFX
+  - vfx: {fileID: 1310604778430973, guid: 10d0dd1416e996f4faa90216b6304879, type: 2}
+    key: -1707023238
+    name: ResurrectMonsterVFX
+  - vfx: {fileID: 1054360312514235, guid: e323b9969b6729148a3b2c5057b386d4, type: 2}
+    key: -2047172737
+    name: Disable Falcon
+  - vfx: {fileID: 1121689132231368, guid: a2e8abc6a87c3334f986288399bc428a, type: 2}
+    key: 1408709243
+    name: Dive Bomb Impact VFX
+  - vfx: {fileID: 1313182900461766, guid: be2e9d1af6186e24aad5e0e6e2202ad4, type: 2}
+    key: 335825013
+    name: Falcon Starting Featherstorm VFX
+  - vfx: {fileID: 1870557363492407, guid: 89781157ff9ef9d4ab98439b82e3820b, type: 2}
+    key: -95556057
+    name: ShockwaveOnDeathVFX
+  - vfx: {fileID: 1710567902627191, guid: baa4545d9975daa4ebde185dc73781b0, type: 2}
+    key: -437572798
+    name: Net On Characters VFX
+  - vfx: {fileID: 1793250621045360, guid: c0e1e8abc51c60c42900223cf7f91be3, type: 2}
+    key: 269634736
+    name: Dive Bomb starting VFX
+  - vfx: {fileID: 1702520767473372, guid: 2fe760820b70bf340bb9035b657fd444, type: 2}
+    key: -1522643182
+    name: Falcon Motion Blur Prefab
+  - vfx: {fileID: 1773156169132539, guid: b7a6badeb3378dd4d8807c611594418e, type: 2}
+    key: -277928402
+    name: Enable Falcon
+  - vfx: {fileID: 1074022698480991, guid: d8ccc6312bd63ef4fb71ee6ab7e847f4, type: 2}
+    key: 822295901
+    name: Poison Shot Impact 1
+  - vfx: {fileID: 1272636468319128, guid: d77c8d81bca02f7488222a0e4b63aecb, type: 2}
+    key: 843700858
+    name: Blood Shot Impact
+  - vfx: {fileID: 1160372213519370, guid: 76838c8bdad3f41468c7f1597dd06763, type: 2}
+    key: -1943506111
+    name: PoisonNovaOnDeathVFX 1
+  - vfx: {fileID: 1672634067696046, guid: 76630b62ae3704848a9784e0ef3f7f92, type: 2}
+    key: 2041824443
+    name: ImprisonedMage 02 Lightning Beam VFX
+  - vfx: {fileID: 1295915893442354, guid: 524f463af13afd547bee8697450698bf, type: 2}
+    key: -505292496
+    name: ImprisonedMage 02 Lightning Beam Cast VFX
+  - vfx: {fileID: 1051144059832717, guid: 61d56c77da2ae024990ce6ff508b5423, type: 2}
+    key: 1466510284
+    name: ScorpionPoisonNovaVFX
+  - vfx: {fileID: 1670865870681754, guid: b9d75a267a8ef9440bddcc7e5ace5f96, type: 2}
+    key: 285684425
+    name: PunctureVFX
+  - vfx: {fileID: 1191952419428879, guid: c9ee1c48f3b7c1042a63a01ef58a90cf, type: 2}
+    key: -924300202
+    name: CorruptedVoidCultistRanged 02 Melee VFX
+  - vfx: {fileID: 1506928767352507, guid: 8a17b79d0c30fca4d92438b536ab5d39, type: 2}
+    key: -1162573343
+    name: SacrificeOnDeathNecroticVFX
+  - vfx: {fileID: 1051231187228169, guid: fc15e96e45ab1e64cb63b5caf9b4df2b, type: 2}
+    key: -1649815625
+    name: TransplantAbsorbingBodyTogetherNecroticVFX
+  - vfx: {fileID: 1163328557126324, guid: e360152fa25f6f64d8de328cb581136f, type: 2}
+    key: -962061141
+    name: BallLightning_LightningBlastVFX
+  - vfx: {fileID: 1201016101935760, guid: 00162ed2fad2fb844b66dccf8f066d7d, type: 2}
+    key: 1820802439
+    name:
+  - vfx: {fileID: 1257822518910774, guid: fb2132a8f2f6c254cbc6c0c643179129, type: 2}
+    key: -1363279518
+    name:
+  - vfx: {fileID: 1534378712527229, guid: 4f8cdabbd7b323b48b75b9020c0c059d, type: 2}
+    key: -95401383
+    name:
+  - vfx: {fileID: 1419238193363317, guid: 07df8b726a64bfa4790cf4d263bc11cf, type: 2}
+    key: -1569908923
+    name:
+  - vfx: {fileID: 1539100636190568, guid: bc6821767dac46a46b3c201de3bf9e26, type: 2}
+    key: 570160674
+    name: Gathering Storm Melee VFX
+  - vfx: {fileID: 1791686941681078, guid: 7970e3f2c0973a54eb47e10e4194a16b, type: 2}
+    key: -1278707319
+    name: Chaos Bolts Casting VFX 1
+  - vfx: {fileID: 1111454194626254, guid: 9ed9c34b6e4c89443ac837fedd552a99, type: 2}
+    key: -1364254245
+    name: Chaos Bolts PhysicalFire Impact VFX
+  - vfx: {fileID: 1635808338219205, guid: 15dc647a2bc61a4499cd702d87b0037d, type: 2}
+    key: -908925406
+    name: Chaos Bolts PhysicalFire Casting VFX
+  - vfx: {fileID: 1805406382952333, guid: 50b32b24e898e8341869f14fb167b11b, type: 2}
+    key: -826084685
+    name: Chaos Bolts PhysicalCold Impact VFX
+  - vfx: {fileID: 1558905954193437, guid: 54813057fd6b2704aa64b4219a5bc507, type: 2}
+    key: 1827506900
+    name: Chaos Bolts PhysicalCold Casting VFX
+  - vfx: {fileID: 1334086931394752, guid: 173883f0570efd544ae8c9a3f0c9fa66, type: 2}
+    key: -519538483
+    name: Chaos Bolts NecroticCold Impact VFX
+  - vfx: {fileID: 1826448073716616, guid: 2662012697f61c24a9895f88058966a5, type: 2}
+    key: 1436638002
+    name: Chaos Bolts NecroticCold Casting VFX
+  - vfx: {fileID: 1539100636190568, guid: bc6821767dac46a46b3c201de3bf9e26, type: 2}
+    key: -1816532066
+    name: Gathering Storm VFX
+  - vfx: {fileID: 1779997557150381, guid: b5a728f9dd8c96944a272049e93417e7, type: 2}
+    key: 332619421
+    name: HarvestWraithVFX
+  - vfx: {fileID: 1058157642041330, guid: 7559a83f57868704a8d0659aedb7afbf, type: 2}
+    key: 42957174
+    name: HarvestWraithVFX Physical
+  - vfx: {fileID: 1418177366394967, guid: b4313abaccd2fb144b6c29bc8a7f4e21, type: 2}
+    key: 1377062251
+    name: StygianBeamVFX
+  - vfx: {fileID: 1530446567828906, guid: 0f65022315fe55249bac6216a3743ded, type: 2}
+    key: -1656851585
+    name: Warlock 02.2 Ghostflame Screech VFX
+  - vfx: {fileID: 1039529903105579, guid: 0eb055a331565dc49bfc5c2126041375, type: 2}
+    key: -956085289
+    name: Profane Form Fire Orb
+  - vfx: {fileID: 1505687687921352, guid: 7f3e610c11082364d8bc13f70e82f923, type: 2}
+    key: 1674585511
+    name: SoulFeastCastingVFX
+  - vfx: {fileID: 1275463222598126, guid: 482a4d86c6b0ad64fbafbff136412e31, type: 2}
+    key: -936574512
+    name: CoagulatedBloodExplosionFire vfx 1
+  - vfx: {fileID: 1015307887725270, guid: 9418e9b5d43f04b49ba7e1ba3d60c858, type: 2}
+    key: -985063640
+    name: Featherstorm Burst VFX
+  - vfx: {fileID: 1171474709691253, guid: 789f6ca612c60c148a2642638081b962, type: 2}
+    key: 1370559970
+    name: Feather Fall VFX
+  - vfx: {fileID: 1603721706768656, guid: ae41903a859363342957aacf04744fde, type: 2}
+    key: 1382675153
+    name: Dive Bomb Shadow Falcon starting VFX
+  - vfx: {fileID: 1803553724328486, guid: f2de86e748d152049818a1d9f6f6a639, type: 2}
+    key: 106556477
+    name: Explosive Trap VFX
+  - vfx: {fileID: 1968753971769794, guid: ba665307dbb7f6942911f2134a2d12a9, type: 2}
+    key: 1771484849
+    name: Net Hitting Ground VFX
+  - vfx: {fileID: 1250834201504860, guid: a619feac4635df944aa05b0030443ea2, type: 2}
+    key: 2038420911
+    name: NecroticExplosionVFX
+  - vfx: {fileID: 1751430271874457, guid: 09ed8e377b0525a43a1a6e6cc81d3550, type: 2}
+    key: -1695578389
+    name: Chthonic Fissure Casting VFX blood
+  - vfx: {fileID: 1233885505304650, guid: 8171e789af355eb4186c6962d0d1e1b5, type: 2}
+    key: 131739701
+    name: Chthonic Fissure Casting VFX poison
+  - vfx: {fileID: 1751454911992829, guid: 712d32c038a2b58489a2b9ea135041a9, type: 2}
+    key: -76743687
+    name: Explosive Trap Cold VFX
+  - vfx: {fileID: 1208034653696268, guid: bb40da6763d89b44a8486a891b4f5e4b, type: 2}
+    key: 738551633
+    name: Explosive Trap Lightning VFX
+  - vfx: {fileID: 1407462069339734, guid: 8dceb582db8a0e442801658ee78cd0ea, type: 2}
+    key: -149025668
+    name: v_Warlock 03.1 SoulFeastReturning Phys
+  - vfx: {fileID: 1155286552361126, guid: b0ed694b5571c9e46bf294feaa3e6bf1, type: 2}
+    key: 919958888
+    name: SoulFeastCastingVFX Phys 1
+  - vfx: {fileID: 1329762125453097, guid: 17c63c8594fbf8c4bb6ac73ef3fd2924, type: 2}
+    key: 1571114672
+    name: Falconer 00.2 Screech VFX
+  - vfx: {fileID: 1766720775792684, guid: 736aa9562c441894ea63a3e25f9d80c9, type: 2}
+    key: -269558211
+    name: Net Hitting Ground Lightning VFX
+  - vfx: {fileID: 1896788685066881, guid: 15ff829e4754fc64bbfe36f12e6ee406, type: 2}
+    key: 1068279292
+    name: Net On Characters Lightning VFX
+  - vfx: {fileID: 1794246075352568, guid: a61601608c26c5b41b6dc33bde916dd3, type: 2}
+    key: 948366778
+    name: Blood Absorbing on Death vfx
+  - vfx: {fileID: 1893775375427531, guid: 3323f8084523e654fa1a447d7b8e0c6f, type: 2}
+    key: -214550591
+    name: Fire Whip VFX
+  - vfx: {fileID: 1879401444445143, guid: 1e3843280d093fa469617e7df688237b, type: 2}
+    key: 1946851195
+    name: Falconer Net Hitting Ground Poison
+  - vfx: {fileID: 1185867728260661, guid: a747464557bf4d040b0b77dd9d9d5371, type: 2}
+    key: -2144781426
+    name: Vampiric Pool VFX
+  - vfx: {fileID: 1117371517327033, guid: 4eb4a98089f3a644d96dfd3f6c2490b8, type: 2}
+    key: 1879787837
+    name: Gathering Storm Cast VFX
+  - vfx: {fileID: 1458029760329881, guid: 2fd8f0f90c4ba434e9f6fcdc7cea027f, type: 2}
+    key: 377725996
+    name: Falconer Net On Characters Poison VFX
+  - vfx: {fileID: 1765480777126529, guid: 32f3a474c967e604eb1a4215966e3954, type: 2}
+    key: -272075801
+    name: ImperialEraEnemy03 Miniboss Glyph of Dominion Explosion VFX
+  - vfx: {fileID: 1883463752742589, guid: 04b0a3311a643e54389f9d2216bd3f80, type: 2}
+    key: 1706640019
+    name: LightningSkeletonCaster Casting VFX
+  - vfx: {fileID: 1741755881344344, guid: 0b2888c15bf93564198a7d1307bd2ad3, type: 2}
+    key: -855713068
+    name: PaladinvoidCultist indicator
+  - vfx: {fileID: 1453665109260990, guid: c234440826244e346a3970bdfa75b2da, type: 2}
+    key: -1866143299
+    name: PaladinVoidCultist Spawner
+  - vfx: {fileID: 1523133921983207, guid: 4f9a8456917dc6947a8c7d7f9c0d7b22, type: 2}
+    key: 1997623877
+    name: Void Grub Slash VFX 1
+  - vfx: {fileID: 1973512162181782, guid: 509861eb294f648419c723e61c19cafa, type: 2}
+    key: -1422686946
+    name: PaladinVoidCultist Slam
+  - vfx: {fileID: 1815516519834639, guid: 6b5d94f25fea10947adea1f6d1e8fcb3, type: 2}
+    key: 1996562665
+    name: v_PaladinVoidCultist 07.1 ExplosionDelayer
+  - vfx: {fileID: 1645221459002450, guid: 1abe859bccf9139458a2468a81ada78c, type: 2}
+    key: -374181622
+    name: PaladinVoidCultist Projectile impact
+  - vfx: {fileID: 1218083208119591, guid: e156d68a9dbd99945baf74d91104b842, type: 2}
+    key: 123115600
+    name: CorruptedVoidCultist_Melee_Cleaver_Slash_01
+  - vfx: {fileID: 1019301622450552, guid: 76ee84a823fa15e47941a79c1730b43c, type: 2}
+    key: -287083542
+    name: CorruptedVoidCultist_Melee_Sword_Slash_01
+  - vfx: {fileID: 1688949589625951, guid: 7b68ef0c3ba197b4c977798c81f65463, type: 2}
+    key: 802795324
+    name: RahyehSoldier FlamePaladin 05 EarthenEruption
+  - vfx: {fileID: 1129006384349198, guid: 21ea75dccf719e34685f109f02e9ca40, type: 2}
+    key: 1415065190
+    name: RahyehSoldierFlamePaladin FlameWave VFX
+  - vfx: {fileID: 1450268277335639, guid: 26b285d0c15c27e48895d7ed5eb789b0, type: 2}
+    key: 273256966
+    name: CapsuleMan 08 Basic Explosion VFX Flame Paladin
+  - vfx: {fileID: 1310375691292074, guid: 95c3bbe80d3e8d44c9b5f624de0d21b0, type: 2}
+    key: -357934179
+    name: RahyehSoldier FlamePaladin 04.1 Big Slash
+  - vfx: {fileID: 1657512240527539, guid: 27e6b9b4fef2b0d47b2823eb55197982, type: 2}
+    key: 32166596
+    name: FlamePaladinMeleeVFX
+  - vfx: {fileID: 1521256731125200, guid: 7523a9845de615e4683d8bae9fbcd69a, type: 2}
+    key: 1246520887
+    name: MutantCockroachTailAttack01VFX
+  - vfx: {fileID: 1313528012919025, guid: a5813914b9d39324197fe70b8f6de019, type: 2}
+    key: 1159532627
+    name: InquisitorCaptain 01 GroundSlam Indicator VFX
+  - vfx: {fileID: 1129668327733711, guid: e7706a7ad71505546afc73551f5014d6, type: 2}
+    key: -2115650064
+    name: LightningLich02 LightningBolt Cast VFX
+  - vfx: {fileID: 1577434540086271, guid: e2dd250d198bb3f4cbe4ffb5bb9729da, type: 2}
+    key: -950567514
+    name: LightningLich02 LightningBolt Explosion VFX
+  - vfx: {fileID: 1912722673476614, guid: 81585bc740d25f54f9e382b1e0b98b0f, type: 2}
+    key: 50213533
+    name: LightningLich 03 Novas Indicator VFX
+  - vfx: {fileID: 1097452463319012, guid: 7b8ffa956b5c83140a92634097fcae42, type: 2}
+    key: -1399802522
+    name: LightningLich 03 Novas On Character VFX
+  - vfx: {fileID: 1000042485280608, guid: a7fa90ffeadda5d46a5b9838a7e80736, type: 2}
+    key: -1608553735
+    name: PrecursorStatueHeavyAttack VFX
+  - vfx: {fileID: 1506427126363441, guid: d807bd56c13427b448e648f2c1485f79, type: 2}
+    key: -366716405
+    name: PaladinVoidCultist 07.2 Explosion VFX
+  - vfx: {fileID: 1061005026761906, guid: d09fd16cb97e76d4388f9705c6e7227d, type: 2}
+    key: -581790173
+    name: Void Paladin Death VFX
+  - vfx: {fileID: 1357254294316358, guid: 18d120d5bd54d01479f9336ad272a1ba, type: 2}
+    key: 1776611016
+    name: DrownedDevouredHusk01StabVFX
+  - vfx: {fileID: 1205407855323331, guid: 524f39ae37593a64d99d79f8d56b196b, type: 2}
+    key: 496502324
+    name: DrownedDevouredHusk01SlamVFX
+  - vfx: {fileID: 1704364621953928, guid: f72765149da7d1645888b1ac1d083929, type: 2}
+    key: -1945035949
+    name: Gathering Storm Melee VFX Variant
+  - vfx: {fileID: 1565189784410894, guid: ff78f2af4fe37ce458340ca0ee5cf5ae, type: 2}
+    key: -764628180
+    name: Gathering Storm Cast VFX Variant
+  - vfx: {fileID: 1968489577513851, guid: 21eea0c108e01a84abc2fd7270202245, type: 2}
+    key: -1310048484
+    name: Gathering Storm Melee VFX Cold
+  - vfx: {fileID: 1478607595891802, guid: b8e322c71ae11a747807544ca920dbdb, type: 2}
+    key: 1456983757
+    name: Gathering Storm Melee VFX Physical
+  - vfx: {fileID: 1954021549741699, guid: 19d27d94fd293f6438f2d8f12db05bb7, type: 2}
+    key: -1109883729
+    name: Gathering Storm Melee VFX Cold Variant
+  - vfx: {fileID: 1658214746415825, guid: 335b93a3aa041b344a64d7192f691f3c, type: 2}
+    key: -502490246
+    name: Gathering Storm Melee VFX Physical Variant
+  - vfx: {fileID: 1480335695575685, guid: 07ba4e24ae7d4ae4da73d49b5070735b, type: 2}
+    key: 422920913
+    name: Gathering Storm Cast VFX cold
+  - vfx: {fileID: 1829367116284056, guid: b6146c71a9a73844fb63390ccf23cf65, type: 2}
+    key: 656760478
+    name: Gathering Storm Cast VFX Physical
+  - vfx: {fileID: 1828159579494392, guid: a470731c935e81b4ea5dca565e6e41e5, type: 2}
+    key: 512538488
+    name: Gathering Storm Cast VFX cold Variant
+  - vfx: {fileID: 1208085106910733, guid: 2f76452be5c62ee4eb4770107c22d311, type: 2}
+    key: -1907071177
+    name: Gathering Storm Cast VFX Physical Variant
+  - vfx: {fileID: 1353028733396420, guid: bff40f4bacd371e468d2b27157e31e49, type: 2}
+    key: 1924731602
+    name: StormBoltCold VFX
+  - vfx: {fileID: 1365323649440677, guid: 103a77857c353bd4190eedc4c3f55cee, type: 2}
+    key: -1805697795
+    name: StormBoltPhysical VFX
+  - vfx: {fileID: 1789988376757942, guid: d026af9003f372b49a377dbd5e139e33, type: 2}
+    key: 1642721870
+    name: Falcon Strike Falcon Moving VFX
+  - vfx: {fileID: 1343572593592403, guid: c295637161bd6504f8dec17bc74bc694, type: 2}
+    key: 34335080
+    name: Aerial Assault Falcon VFX
+  - vfx: {fileID: 1666625810268283, guid: b295f8773ca3c714692704194c28d274, type: 2}
+    key: -1066303493
+    name: Falconer 03.2 Shadow Dive Bomb Impact VFX
+  - vfx: {fileID: 1673097825921871, guid: 1585d968ec1e5e243ab30f80a8962ea7, type: 2}
+    key: 498560092
+    name: Mana Strike Updated VFX
+  - vfx: {fileID: 1648629136434466, guid: 4d01c13ff7b93a445b2a90f74ccbb49b, type: 2}
+    key: 137170118
+    name: Mana Strike Cold VFX
+  - vfx: {fileID: 1880797212668369, guid: aa0a4dd18592a85468b44b874e36216f, type: 2}
+    key: -334792696
+    name: ManaStrikeVFXnew Polearm Cold
+  - vfx: {fileID: 1846333066962020, guid: f63ccd2f5d5b310408c505277532b518, type: 2}
+    key: -1146586416
+    name: SoulWardenMiniboss 05 GroundSlam Indicator VFX
+  - vfx: {fileID: 1537997232204006, guid: 6581439426e465d45b8cb698265b4949, type: 2}
+    key: 666956657
+    name: ZerrickAssassin SkeletonApparition
+  - vfx: {fileID: 1361950599445672, guid: 2846103a35f962a45ac66b3b4215af5b, type: 2}
+    key: -1163809409
+    name: HealingHandsMeleeVFX
+  - vfx: {fileID: 1041341721888877, guid: b3366960c8dc45b46aa85b07312db5ff, type: 2}
+    key: -779777443
+    name: Fury Leap Cast Vfx
+  - vfx: {fileID: 1094210416755184, guid: 0eddd2df0e2d1ec4f9d7557d8f6bc493, type: 2}
+    key: -330055830
+    name: FuryLeapColdOnDeathVFX
+  - vfx: {fileID: 1420576794087345, guid: 7ecd0904e1f481442a7e42f966b0db20, type: 2}
+    key: 552140572
+    name: AcidFlaskExplosionColdVFX
+  - vfx: {fileID: 1106042419073045, guid: e46fc9ae49610d74f8a9609ddbb5e311, type: 2}
+    key: 443538543
+    name: BallistaBoltExplosionVFX
+  - vfx: {fileID: 1098026672674771, guid: 1223067e329aacf4e88860533a742774, type: 2}
+    key: -1334728315
+    name: ThrallRushOnDeathVFX
+  - vfx: {fileID: 1840447681536382, guid: 1ba3d99f5a09a1d4f9e8d1d4dcbd44fb, type: 2}
+    key: 400869359
+    name: IceBeast_AvalancheImpactVFX
+  - vfx: {fileID: 1035503041120084, guid: cebbc3415c88e6840bc14083a31d5066, type: 2}
+    key: -2090787784
+    name: ImperialEraEnemy03 04 ResurrectMonsterVFX
+  - vfx: {fileID: 1331980793971484, guid: 7526050a8014f374e931b7c080cd18f6, type: 2}
+    key: 2044338757
+    name: NatureCastVFX cold
+  - vfx: {fileID: 1098542756967783, guid: b26f795bef82ccb4ea7792a9caa56051, type: 2}
+    key: 1769735814
+    name: FrozenDryad 03 ChargeImpactVFX
+  - vfx: {fileID: 1952918174593583, guid: 4d5d133e68e79174984575c9c28dafd5, type: 2}
+    key: 1728621197
+    name: FrostSpriggan 01 Explosion VFX
+  - vfx: {fileID: 1888264799883115, guid: 67ed7cb1d532712478dd9be00dc0f7d7, type: 2}
+    key: 2147161123
+    name: Hail of Arrows Cast VFX physical channeled
+  - vfx: {fileID: 1499909285869430, guid: ea6cc8acbac7cb84195f2afb6710e2ef, type: 2}
+    key: -1900160310
+    name: Hail of Arrows Cast VFX fire channeled
+  - vfx: {fileID: 1247279271251439, guid: 169cdb6e12e67b04e890038fd1622ffc, type: 2}
+    key: -1165736660
+    name: Hail of Arrows Cast VFX cold channeled
+  - vfx: {fileID: 1928543342014318, guid: 484bc64d20bf8434498580d7b18a0be1, type: 2}
+    key: 1706571814
+    name: Hail of Arrows Cast VFX poison channeled
+  - vfx: {fileID: 1246225668638533, guid: f5a64ff0110d11a41825655c0b86f6b6, type: 2}
+    key: 1798556992
+    name: Lightning Blast cast vfx
+  - vfx: {fileID: 1624017905100250, guid: bb68f5c0234090a44a018a855d9c46bb, type: 2}
+    key: 1604060148
+    name: Lightning Blast cold cast vfx
+  - vfx: {fileID: 1681484247010059, guid: 8b7a412da6935ca438c6eb7ee4621d66, type: 2}
+    key: 11119744
+    name: Armored Phoenix Flamethrower cast vfx
+  - vfx: {fileID: 1441733114530123, guid: 58bafa32a4f73cc43b7f8b578cbc16ae, type: 2}
+    key: -1669205294
+    name: Lightning Blast channeled cast vfx
+  - vfx: {fileID: 1376605209563144, guid: ed301e1d1a6db494a94fa1151fca6def, type: 2}
+    key: 1730345350
+    name: Lightning Blast cold channeled cast vfx
+  - vfx: {fileID: 1887691357963358, guid: 96b816f9ccaecb9458f217ffaaf16ed6, type: 2}
+    key: -1751835625
+    name: WispNecroticNovaCastVFX
+  - vfx: {fileID: 1636089351604534, guid: 7ae145ca23e535a42a58ea7d9380d7d0, type: 2}
+    key: 1693281524
+    name: StormWispMeleeWaterExplosionVFX
+  - vfx: {fileID: 1856638823060716, guid: a46a5b2b8e47f044c9a1a7fbcdc27d78, type: 2}
+    key: 580637784
+    name: FireNovaOnDeathVFX_ElementalNova
+  - vfx: {fileID: 1708463397088308, guid: 7fcfddea93e738d478d7a918957ee6cb, type: 2}
+    key: 911943237
+    name: IceNovaOnDeathVFX_ElementalNova
+  - vfx: {fileID: 1190616273269494, guid: b97852ff7c2e3f04cba5e21ca42b3d0d, type: 2}
+    key: -1670173424
+    name: ProfaneOblationOnDeathVFX
+  - vfx: {fileID: 1169422968791945, guid: efa746b50f194f041a77c71b523a9253, type: 2}
+    key: -729088312
+    name: FireExplosionBloodVFX
+  - vfx: {fileID: 1922448821576011, guid: 6954e40574914b840add0cc1891badd9, type: 2}
+    key: -1123565055
+    name: AdmiralHarton 05 LightningStabCastVFX
+  - vfx: {fileID: 1432691945012072, guid: 2ee3f11ca797fa6439c48c3ddce6bdb4, type: 2}
+    key: -2074507210
+    name: Falconer Net Casting VFX
+  - vfx: {fileID: 1284521767897964, guid: 6466a4be907c82447890e051121a0c28, type: 2}
+    key: -225109865
+    name: Bow start vfx large as casting vfx
+  - vfx: {fileID: 1636301449303645, guid: f922cef93f7201f43b39bf03abc2a4b2, type: 2}
+    key: -1186733615
+    name: DrainLife_NecroticExplosionVFX
+  - vfx: {fileID: 1099991024565169, guid: bce36d8f651e159498d8f8e16093f482, type: 2}
+    key: -1510131336
+    name: DrainLife_PoisonExplosionVFX
+  - vfx: {fileID: 1478222393952840, guid: 19e3e824b2a8e1e47bbac110c5a5ec1f, type: 2}
+    key: 1254418266
+    name: Poison NonDirectional On-Hit vfx
+  - vfx: {fileID: 1911112156034412, guid: 58f0eb8dc44a6534f8a20e63e7055266, type: 2}
+    key: -301150708
+    name: Falconer Net Casting VFX lightning
+  - vfx: {fileID: 1539263953576732, guid: 67666ea225a60fc4783b7d29c5757f08, type: 2}
+    key: -919199542
+    name: Falconer Net Casting VFX poison
+  - vfx: {fileID: 1716945354122801, guid: 92652f1fc191b1e4ebac25b1a6ef1ffb, type: 2}
+    key: 1236578143
+    name: Falconer 03.1 Dive Bomb Impact VFX Shadow Variant
+  - vfx: {fileID: 1239461892218393, guid: 008a721506fa13944b61f98906a0c6b2, type: 2}
+    key: -1113782383
+    name: HarvestVFx_Phys
+  - vfx: {fileID: 1077833191939902, guid: b47835f0d79a49343b22c307181b7813, type: 2}
+    key: 547461723
+    name: ShieldThrowMetalPiecesHitVFX
+  - vfx: {fileID: 1754568177309599, guid: 349855ba06b6e3846b5bd323f07340a0, type: 2}
+    key: -447894699
+    name: StompPlant_AcidFlaskExplosionVFX
+  - vfx: {fileID: 1958115943001901, guid: cae2d33df1b8b2946b767f286ca71b76, type: 2}
+    key: -1490563648
+    name: Zerrick_AcidFlaskExplosionVFX 1
+  - vfx: {fileID: 1934626462941474, guid: 62dc2e2b1525416489610abb834eb2c1, type: 2}
+    key: 1308431518
+    name: MortalHunter_AcidFlaskExplosionVFX
+  - vfx: {fileID: 1578505002610159, guid: 754b913cac3eab244972695078b2ef24, type: 2}
+    key: -1115392077
+    name: Skullen Shaman 02 LightningBlastVFX
+  - vfx: {fileID: 1232107608923403, guid: 7d9cd153e137d294e851b32ad34228b8, type: 2}
+    key: -1484965141
+    name: Shade of Orobyss 07.2 Spike Explosion VFX
+  - vfx: {fileID: 1800154516424019, guid: f25e4631735792c41bb2ea4f043c69a2, type: 2}
+    key: 2113763644
+    name: VoidExplosionOnDeathTeemingHuskVFX
+  - vfx: {fileID: 1848403863341888, guid: a5a9682cd5670e54ab7412b5b2a1ae9f, type: 2}
+    key: -552688971
+    name: Wraithlord 01 Stygian Beams VFX
+  skillLevelUp:
+    key: 1563828058
+  passivePointFromQuest:
+    key: 1465850361
+  blessingChosen:
+    key: 1465850361
+  experienceTomePickup:
+    key: -1
+  stunnedVFX:
+    key: 1424941845
+  voidKnightEcho:
+    key: 1383970952
+  redHarvestVFX:
+    key: 543424403
+  coldThornTotemPoisonBurst:
+    key: 1596861413
+  staticSmallChargeGain:
+    key: -825358427
+  staticMaxChargeGain:
+    key: -825113274
+  werebearLightningSwipe:
+    key: -1592343486
+  reverseWerebearLightningSwipe:
+    key: 1468103680
+  cinderStrikeSpearBig:
+    key: 1976371744
+  cinderStrikeSpearNormal:
+    key: -1073426789
+  manaStrikeSpear:
+    key: -153929994
+  vengeanceSpear:
+    key: 1525927824
+  vengeance2HAxeMace:
+    key: -907409288
+  vengeance2HSword:
+    key: -907409288
+  petDespawnVfx:
+    key: -861098266
+  weaversWillConsumed:
+    key: 1489935077
+  squirrelIceBite:
+    key: -698066142
+  meteorLightningIndicator:
+    key: 1572069995
+  meteorFireIndicator:
+    key: 1106022575
+  glyphOfDominionExplosionFire:
+    key: -575425879
+  flameRushExplosionCold:
+    key: -2086877847
+  flameRushExplosionLightning:
+    key: -1930435975
+  frostWallDetonationFire:
+    key: -622802655
+  frostWallDetonationLightning:
+    key: 213960741
+  nonPlayerLightningCastVFX:
+    key: 1542438813
+  nonPlayerColdCastVFX:
+    key: -1071662715
+  leapVFX:
+    key: 2141161112
+  oneShotCacheFirstOpenVFX:
+    key: 1465850361
+  fireFrostClawExplosionVFX:
+    key: -1026683998
+  lightningFrostClawExplosionVFX:
+    key: 869861281
+  transplantNecrotic:
+    key: -1162573343
+  transplantEndNecrotic:
+    key: -1649815625
+  chaosBoltsPhysicalFire:
+    key: -1364254245
+  chaosBoltsPhysicalCold:
+    key: -826084685
+  chaosBoltsNecroticCold:
+    key: -519538483
+  harvestWraith:
+    key: 332619421
+  harvestWraithPhysical:
+    key: 42957174
+  coagulatedBloodExplosionNecrotic:
+    key: -778006059
+  coagulatedBloodExplosionFire:
+    key: -936574512
+  soulFeastCone:
+    key: -475232019
+  soulFeastBloodCone:
+    key: -1105665097
+  soulFeastBlood:
+    key: 919958888
+  profaneVeilConsumedMinion:
+    key: -2144781426
+  explosiveTrapLightning:
+    key: 738551633
+  explosiveTrapCold:
+    key: -76743687
+  acidFlaskExplosionFire:
+    key: 67265490
+  acidFlaskExplosionCold:
+    key: 552140572
+  gatheringStormMeleeCold:
+    key: -1310048484
+  gatheringStormMeleePhys:
+    key: 1456983757
+  gatheringStormMeleeColdVariant:
+    key: -1109883729
+  gatheringStormMeleePhysVariant:
+    key: -502490246
+  stormBoltCold:
+    key: 1924731602
+  stormBoltPhysical:
+    key: -1805697795
+  manaStrikeCold:
+    key: 137170118
+  manaStrikeColdSpear:
+    key: -334792696
+  healingHandsMelee:
+    key: -1163809409
+  falconResummonDeparture:
+    key: -1522643182
+  infernalShadePhysicalExplosion:
+    key: -729088312
+  wraithlordConsumeMinionVFX:
+    key: 1377062251
+  twinnedMonsterModProc:
+    key: 60010528
+  resurrectsSelfMonsterModStart:
+    key: -1687407247

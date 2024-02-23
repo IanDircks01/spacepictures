@@ -1,0 +1,1732 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 487115383, guid: 5d05e6cf052ebe03378bb63449ec7ba6, type: 3}
+  m_Name: ShardDropTable
+  m_EditorClassIdentifier:
+  combinedWeight: 287175
+  shardList:
+  - name: Added Armor
+    affixID: 31
+    weight: 12000
+    levelRequirement: 0
+  - name: Health Gained on Block
+    affixID: 41
+    weight: 1000
+    levelRequirement: 15
+  - name: Added Block Chance
+    affixID: 3
+    weight: 4000
+    levelRequirement: 0
+  - name: Added Block Effectiveness
+    affixID: 81
+    weight: 3000
+    levelRequirement: 0
+  - name: Cold Resistance
+    affixID: 17
+    weight: 5000
+    levelRequirement: 8
+  - name: Added Critical Strike Multiplier
+    affixID: 6
+    weight: 1000
+    levelRequirement: 20
+  - name: Added Dodge Rating
+    affixID: 8
+    weight: 10000
+    levelRequirement: 0
+  - name: Elemental Resistance
+    affixID: 80
+    weight: 8000
+    levelRequirement: 27
+  - name: Fire Resistance
+    affixID: 13
+    weight: 5000
+    levelRequirement: 0
+  - name: Added Health
+    affixID: 25
+    weight: 14500
+    levelRequirement: 0
+  - name: Lightning Resistance
+    affixID: 24
+    weight: 5000
+    levelRequirement: 0
+  - name: Added Mana
+    affixID: 34
+    weight: 3000
+    levelRequirement: 0
+  - name: Added Melee Cold Damage
+    affixID: 78
+    weight: 1000
+    levelRequirement: 0
+  - name: Added Melee Crit Chance
+    affixID: 62
+    weight: 2000
+    levelRequirement: 0
+  - name: Added Melee Fire Damage
+    affixID: 77
+    weight: 1000
+    levelRequirement: 0
+  - name: Added Melee Lightning Damage
+    affixID: 79
+    weight: 1000
+    levelRequirement: 0
+  - name: Added Melee Physical Damage
+    affixID: 63
+    weight: 1500
+    levelRequirement: 0
+  - name: Added Melee Void Damage
+    affixID: 76
+    weight: 1000
+    levelRequirement: 0
+  - name: Necrotic Resistance
+    affixID: 10
+    weight: 10000
+    levelRequirement: 19
+  - name: Poison Resistance
+    affixID: 19
+    weight: 10000
+    levelRequirement: 10
+  - name: Added Stun Avoidance
+    affixID: 51
+    weight: 2150
+    levelRequirement: 13
+  - name: Void Resistance
+    affixID: 7
+    weight: 10000
+    levelRequirement: 6
+  - name: All Attributes
+    affixID: 50
+    weight: 2000
+    levelRequirement: 13
+  - name: Attunement
+    affixID: 504
+    weight: 7000
+    levelRequirement: 5
+  - name: Added Spell Damage For Swords
+    affixID: 49
+    weight: 600
+    levelRequirement: 15
+  - name: Chance To Bleed
+    affixID: 68
+    weight: 1500
+    levelRequirement: 0
+  - name: Chance To Blind
+    affixID: 60
+    weight: 1000
+    levelRequirement: 5
+  - name: Chance To Chill
+    affixID: 56
+    weight: 1500
+    levelRequirement: 0
+  - name: Chance To Chill Attackers
+    affixID: 47
+    weight: 1000
+    levelRequirement: 16
+  - name: Chance To Ignite
+    affixID: 55
+    weight: 1500
+    levelRequirement: 0
+  - name: Chance To Poison
+    affixID: 54
+    weight: 1750
+    levelRequirement: 13
+  - name: Chance To Shock
+    affixID: 85
+    weight: 1500
+    levelRequirement: 20
+  - name: Chance To Shock Attackers
+    affixID: 94
+    weight: 400
+    levelRequirement: 33
+  - name: Chance To Slow
+    affixID: 57
+    weight: 1500
+    levelRequirement: 0
+  - name: Chance To Slow Attackers
+    affixID: 48
+    weight: 1000
+    levelRequirement: 16
+  - name: Critical Strike Avoidance
+    affixID: 97
+    weight: 2000
+    levelRequirement: 36
+  - name: Damage Dealt To Mana
+    affixID: 53
+    weight: 200
+    levelRequirement: 40
+  - name: Dexterity
+    affixID: 503
+    weight: 8000
+    levelRequirement: 0
+  - name: Freeze Rate Multiplier
+    affixID: 11
+    weight: 2440
+    levelRequirement: 10
+  - name: Health On Kill
+    affixID: 20
+    weight: 2500
+    levelRequirement: 0
+  - name: Health On Melee Hit
+    affixID: 44
+    weight: 2500
+    levelRequirement: 0
+  - name: Health Regen
+    affixID: 90
+    weight: 3000
+    levelRequirement: 0
+  - name: Increased Armour
+    affixID: 1
+    weight: 1000
+    levelRequirement: 14
+  - name: All Resistances
+    affixID: 46
+    weight: 125
+    levelRequirement: 55
+  - name: Increased Cast Speed
+    affixID: 4
+    weight: 1200
+    levelRequirement: 0
+  - name: Increased Chance To Find Potions
+    affixID: 65
+    weight: 1000
+    levelRequirement: 5
+  - name: Increased Cold Damage
+    affixID: 16
+    weight: 1000
+    levelRequirement: 0
+  - name: Increased Cooldown Recovery Speed
+    affixID: 27
+    weight: 700
+    levelRequirement: 6
+  - name: Increased Critical Strike Chance
+    affixID: 5
+    weight: 1000
+    levelRequirement: 0
+  - name: Increased Damage Over Time
+    affixID: 72
+    weight: 1000
+    levelRequirement: 0
+  - name: Increased Dodge Rating
+    affixID: 59
+    weight: 1000
+    levelRequirement: 16
+  - name: Increased Elemental Damage
+    affixID: 9
+    weight: 3400
+    levelRequirement: 8
+  - name: Increased Fire Damage
+    affixID: 12
+    weight: 2000
+    levelRequirement: 0
+  - name: Increased Healing Effectiveness
+    affixID: 43
+    weight: 1000
+    levelRequirement: 15
+  - name: Increased Health
+    affixID: 52
+    weight: 500
+    levelRequirement: 25
+  - name: Increased Health Regen
+    affixID: 22
+    weight: 2000
+    levelRequirement: 0
+  - name: Increased Lightning Damage
+    affixID: 23
+    weight: 2000
+    levelRequirement: 0
+  - name: Increased Mana Regen
+    affixID: 330
+    weight: 2750
+    levelRequirement: 0
+  - name: Increased Melee Attack Speed
+    affixID: 2
+    weight: 1200
+    levelRequirement: 0
+  - name: Increased Melee Damage
+    affixID: 89
+    weight: 2500
+    levelRequirement: 0
+  - name: Increased Melee Stun Chance
+    affixID: 91
+    weight: 1000
+    levelRequirement: 0
+  - name: Increased Minion Damage
+    affixID: 26
+    weight: 3000
+    levelRequirement: 0
+  - name: Increased Movement Speed
+    affixID: 28
+    weight: 1000
+    levelRequirement: 0
+  - name: Increased Necrotic Damage
+    affixID: 18
+    weight: 2000
+    levelRequirement: 6
+  - name: Necrotic Penetration
+    affixID: 93
+    weight: 100
+    levelRequirement: 42
+  - name: Increased Physical Damage
+    affixID: 30
+    weight: 4000
+    levelRequirement: 0
+  - name: Increased Poison Damage
+    affixID: 61
+    weight: 2000
+    levelRequirement: 11
+  - name: Poison Penetration
+    affixID: 37
+    weight: 100
+    levelRequirement: 42
+  - name: Armour Shred Chance
+    affixID: 86
+    weight: 1000
+    levelRequirement: 27
+  - name: Increased Spell Crit Chance
+    affixID: 84
+    weight: 1000
+    levelRequirement: 15
+  - name: Increased Spell Damage
+    affixID: 38
+    weight: 3000
+    levelRequirement: 0
+  - name: Increased Stun Chance
+    affixID: 58
+    weight: 2000
+    levelRequirement: 0
+  - name: Added Throwing Damage
+    affixID: 88
+    weight: 3580
+    levelRequirement: 0
+  - name: Increased Throwing Attack Speed
+    affixID: 87
+    weight: 1000
+    levelRequirement: 17
+  - name: Increased Void Damage
+    affixID: 15
+    weight: 2000
+    levelRequirement: 15
+  - name: Void Penetration
+    affixID: 0
+    weight: 100
+    levelRequirement: 42
+  - name: Intelligence
+    affixID: 502
+    weight: 8000
+    levelRequirement: 0
+  - name: Primalist Added Spell Damage With Tempest Strike
+    affixID: 21
+    weight: 15
+    levelRequirement: 26
+  - name: Melee Health Leech
+    affixID: 69
+    weight: 1400
+    levelRequirement: 10
+  - name: Minion Dodge Rating
+    affixID: 71
+    weight: 1000
+    levelRequirement: 30
+  - name: Minion Health
+    affixID: 70
+    weight: 3000
+    levelRequirement: 6
+  - name: Minion Health Regen
+    affixID: 73
+    weight: 1000
+    levelRequirement: 13
+  - name: Percent Damage Reflected
+    affixID: 96
+    weight: 2000
+    levelRequirement: 23
+  - name: Potion Health Converted to Ward
+    affixID: 83
+    weight: 2800
+    levelRequirement: 35
+  - name: Less Damage Taken on Block
+    affixID: 74
+    weight: 1000
+    levelRequirement: 0
+  - name: Physical Penetration
+    affixID: 33
+    weight: 100
+    levelRequirement: 42
+  - name: Fire Penetration
+    affixID: 32
+    weight: 100
+    levelRequirement: 42
+  - name: Cold Penetration
+    affixID: 35
+    weight: 100
+    levelRequirement: 42
+  - name: Lightning Penetration
+    affixID: 39
+    weight: 100
+    levelRequirement: 42
+  - name: Strength
+    affixID: 501
+    weight: 8000
+    levelRequirement: 0
+  - name: Thorns
+    affixID: 95
+    weight: 1000
+    levelRequirement: 4
+  - name: Vitality
+    affixID: 505
+    weight: 6025
+    levelRequirement: 0
+  - name: Ward On Potion Use
+    affixID: 66
+    weight: 2200
+    levelRequirement: 10
+  - name: Increased Minion Damage Over Time
+    affixID: 98
+    weight: 500
+    levelRequirement: 48
+  - name: Ward Gained on Kill
+    affixID: 99
+    weight: 100
+    levelRequirement: 40
+  - name: Increased Elemental Damage Over Time
+    affixID: 100
+    weight: 500
+    levelRequirement: 50
+  - name: Damage While Channelling
+    affixID: 103
+    weight: 500
+    levelRequirement: 38
+  - name: All Resistances While Channelling
+    affixID: 104
+    weight: 500
+    levelRequirement: 46
+  - name: Endurance
+    affixID: 92
+    weight: 1700
+    levelRequirement: 19
+  - name: Physical Resistance
+    affixID: 45
+    weight: 5647
+    levelRequirement: 0
+  - name: Increased Mana
+    affixID: 331
+    weight: 200
+    levelRequirement: 0
+  - name: Primalist Totem Added Spell Damage
+    affixID: 334
+    weight: 15
+    levelRequirement: 53
+  - name: Primalist Cooldown Recovery Speed While Transformed
+    affixID: 335
+    weight: 15
+    levelRequirement: 43
+  - name: Primalist Minion Crit Multiplier
+    affixID: 336
+    weight: 15
+    levelRequirement: 36
+  - name: Primalist Minion Spell Crit Chance
+    affixID: 337
+    weight: 15
+    levelRequirement: 41
+  - name: Primalist Criti Multi While Transformed
+    affixID: 338
+    weight: 15
+    levelRequirement: 48
+  - name: Mage Cold Penetration With Frostbite
+    affixID: 339
+    weight: 15
+    levelRequirement: 34
+  - name: Freeze Rate Per Stack of Chill
+    affixID: 341
+    weight: 15
+    levelRequirement: 42
+  - name: Primalist Totem Increased Cast Speed
+    affixID: 342
+    weight: 15
+    levelRequirement: 27
+  - name: Primalist Minion Melee Leech
+    affixID: 346
+    weight: 15
+    levelRequirement: 29
+  - name: Primalist Minion Chance To Bleed On Hit
+    affixID: 347
+    weight: 15
+    levelRequirement: 36
+  - name: Primalist Minion Melee Crit Chance
+    affixID: 348
+    weight: 15
+    levelRequirement: 46
+  - name: Primalist Melee Damage While Transformed
+    affixID: 349
+    weight: 15
+    levelRequirement: 28
+  - name: Primalist Spell Damage While Transformed
+    affixID: 350
+    weight: 15
+    levelRequirement: 39
+  - name: Primalist Damage Over Time While Transformed
+    affixID: 351
+    weight: 15
+    levelRequirement: 41
+  - name: 'Primalist Increased Totem Crit Chance '
+    affixID: 352
+    weight: 15
+    levelRequirement: 57
+  - name: Primalist Increased Aspect Of The Shark Effect
+    affixID: 353
+    weight: 15
+    levelRequirement: 29
+  - name: Primalist Increased Aspect Of The Boar Duration
+    affixID: 354
+    weight: 15
+    levelRequirement: 36
+  - name: Primalist Increased Aspect Of The Viper Effect
+    affixID: 355
+    weight: 15
+    levelRequirement: 46
+  - name: Primalist Increased Aspect Of The Lynx Effect
+    affixID: 356
+    weight: 15
+    levelRequirement: 51
+  - name: Primalist Increased Totem Damage
+    affixID: 357
+    weight: 15
+    levelRequirement: 30
+  - name: Sentinel Physical Penetration With Bleed
+    affixID: 358
+    weight: 15
+    levelRequirement: 50
+  - name: Sentinel Melee Physical Damage If Wielding A Sword
+    affixID: 359
+    weight: 15
+    levelRequirement: 48
+  - name: Sentinel Chance To Bleed If Wielding An Axe
+    affixID: 363
+    weight: 15
+    levelRequirement: 41
+  - name: Sentinel Melee Physical Damage If Wielding A Mace
+    affixID: 364
+    weight: 15
+    levelRequirement: 57
+  - name: Sentinel Void Damage Taken As Physical
+    affixID: 365
+    weight: 15
+    levelRequirement: 34
+  - name: Sentinel Necrotic Damage Taken As Physical
+    affixID: 366
+    weight: 15
+    levelRequirement: 34
+  - name: Sentinel Poison Damage Taken As Physical
+    affixID: 367
+    weight: 15
+    levelRequirement: 34
+  - name: Sentinel Increased Throwing Attack Crit Chance
+    affixID: 368
+    weight: 15
+    levelRequirement: 48
+  - name: Sentinel Reduced Channel Cost
+    affixID: 369
+    weight: 15
+    levelRequirement: 36
+  - name: Sentinel Armor Shred Effect
+    affixID: 370
+    weight: 15
+    levelRequirement: 55
+  - name: Sentinel Increased Fire Damage Over Time
+    affixID: 371
+    weight: 15
+    levelRequirement: 32
+  - name: Sentinel Increased Void Damage Over Time
+    affixID: 372
+    weight: 15
+    levelRequirement: 32
+  - name: Sentinel Increased Echo Damage When A Skill Echoes
+    affixID: 373
+    weight: 15
+    levelRequirement: 60
+  - name: Sentinel Increased Abyssal Decay Duration
+    affixID: 374
+    weight: 15
+    levelRequirement: 43
+  - name: Sentinel Mana Gained On Vengeance Hit
+    affixID: 375
+    weight: 15
+    levelRequirement: 12
+  - name: Sentinel Mana Gained On Rive Hit
+    affixID: 376
+    weight: 15
+    levelRequirement: 12
+  - name: Sentinel Mana Gained On Smite Use
+    affixID: 377
+    weight: 15
+    levelRequirement: 23
+  - name: Sentinel Increased Hammer Throw Damage
+    affixID: 378
+    weight: 15
+    levelRequirement: 4
+  - name: Sentinel Increased Shield Throw Crit Chance
+    affixID: 379
+    weight: 15
+    levelRequirement: 18
+  - name: Sentinel Increased Smelters Wrath Damage
+    affixID: 380
+    weight: 15
+    levelRequirement: 50
+  - name: Mage Spell Crit Doubled Over 300 Max Mana
+    affixID: 381
+    weight: 15
+    levelRequirement: 48
+  - name: Ward Per Second
+    affixID: 382
+    weight: 1000
+    levelRequirement: 22
+  - name: Mage Added Spell Damage While Channelling
+    affixID: 383
+    weight: 15
+    levelRequirement: 43
+  - name: Acolyte Minion Freeze Rate
+    affixID: 384
+    weight: 15
+    levelRequirement: 53
+  - name: Mage Lightning Crit Multi
+    affixID: 385
+    weight: 15
+    levelRequirement: 60
+  - name: Mage Spell Damage Leeched While Channelling
+    affixID: 386
+    weight: 15
+    levelRequirement: 46
+  - name: Mage Chance To Apply Frostbite With Cold Skills
+    affixID: 387
+    weight: 15
+    levelRequirement: 27
+  - name: Mage Increased Cold Damage Over Time
+    affixID: 388
+    weight: 15
+    levelRequirement: 25
+  - name: Mage Increased Fire Damage Over Time
+    affixID: 389
+    weight: 15
+    levelRequirement: 25
+  - name: Mage Increased Melee Elemental Damage
+    affixID: 390
+    weight: 15
+    levelRequirement: 36
+  - name: Mage Chance To Ignite With Fire Skills
+    affixID: 391
+    weight: 15
+    levelRequirement: 41
+  - name: Mage Chance To Shock With Lightning Skills
+    affixID: 392
+    weight: 15
+    levelRequirement: 41
+  - name: Mage Chance To Cast Fire Aura On Crit
+    affixID: 393
+    weight: 15
+    levelRequirement: 57
+  - name: Mage Increased Fire Aura Damage
+    affixID: 394
+    weight: 15
+    levelRequirement: 29
+  - name: Mage Chance To Gain Lightning Aegis When Hit
+    affixID: 395
+    weight: 15
+    levelRequirement: 43
+  - name: Mage Chance To Cast Fire Aura When Hit
+    affixID: 396
+    weight: 15
+    levelRequirement: 27
+  - name: Mage Chance To Cast Fire Aura On Kill With A Fire Skill
+    affixID: 398
+    weight: 15
+    levelRequirement: 29
+  - name: Mage Chance to Apply a Spark Charge on Melee Hit
+    affixID: 399
+    weight: 15
+    levelRequirement: 32
+  - name: Mage Mana Spent Gained as Ward
+    affixID: 400
+    weight: 15
+    levelRequirement: 39
+  - name: Acolyte Physical Damage While Transformed
+    affixID: 401
+    weight: 15
+    levelRequirement: 25
+  - name: Acolyte Necrotic Damage While Transformed
+    affixID: 402
+    weight: 15
+    levelRequirement: 25
+  - name: Acolyte Increased Skeletal Mage Damage
+    affixID: 410
+    weight: 15
+    levelRequirement: 45
+  - name: Acolyte Mana Gained On Harvest Use
+    affixID: 411
+    weight: 15
+    levelRequirement: 13
+  - name: Acolyte Leech With Harvest
+    affixID: 412
+    weight: 15
+    levelRequirement: 6
+  - name: Acolyte Minion Reflect
+    affixID: 413
+    weight: 15
+    levelRequirement: 25
+  - name: Acolyte Chance To Gain 20 Ward On Kill With Hungering Souls
+    affixID: 415
+    weight: 15
+    levelRequirement: 8
+  - name: Acolyte Spell Damage Per Skeletal Mage
+    affixID: 420
+    weight: 15
+    levelRequirement: 25
+  - name: Acolyte Chance To Apply Damned On Hit
+    affixID: 421
+    weight: 15
+    levelRequirement: 34
+  - name: Acolyte Damage Leeched As Health While Transformed
+    affixID: 422
+    weight: 15
+    levelRequirement: 27
+  - name: Acolyte Reduced Health Cost Of Spells
+    affixID: 423
+    weight: 15
+    levelRequirement: 13
+  - name: Acolyte Physical Spell Critical Strike Chance
+    affixID: 424
+    weight: 15
+    levelRequirement: 41
+  - name: Endurance Threshold
+    affixID: 425
+    weight: 1100
+    levelRequirement: 24
+  - name: Less Bonus Damage Taken from Critical Strikes
+    affixID: 427
+    weight: 1500
+    levelRequirement: 36
+  - name: Melee Frailty Chance
+    affixID: 428
+    weight: 1000
+    levelRequirement: 25
+  - name: Frailty Chance
+    affixID: 429
+    weight: 1000
+    levelRequirement: 25
+  - name: Increased Bow Damage
+    affixID: 431
+    weight: 3500
+    levelRequirement: 0
+  - name: Increased Bow Attack Speed
+    affixID: 432
+    weight: 2000
+    levelRequirement: 0
+  - name: Added Bow Physical Damage
+    affixID: 433
+    weight: 1750
+    levelRequirement: 0
+  - name: Added Bow Fire Damage
+    affixID: 434
+    weight: 745
+    levelRequirement: 0
+  - name: Acolyte Chance To Cast Marrow Shards When You Cast Transplant
+    affixID: 435
+    weight: 15
+    levelRequirement: 13
+  - name: Rogue Ward Gained when you create a Shadow
+    affixID: 437
+    weight: 15
+    levelRequirement: 18
+  - name: Rogue Increased Damage of Shadows
+    affixID: 439
+    weight: 15
+    levelRequirement: 35
+  - name: Rogue Health Gained on Glancing Blow
+    affixID: 440
+    weight: 15
+    levelRequirement: 32
+  - name: Rogue Dodge Rating if Hit Recently
+    affixID: 442
+    weight: 15
+    levelRequirement: 25
+  - name: Rogue Crimson Shroud Chance on Melee Hit
+    affixID: 443
+    weight: 15
+    levelRequirement: 48
+  - name: Rogue Increased Critical Strike Chance per Equipped Sword
+    affixID: 446
+    weight: 15
+    levelRequirement: 41
+  - name: Rogue Increased Critical Strike Chance per Equipped Dagger
+    affixID: 448
+    weight: 15
+    levelRequirement: 41
+  - name: Rogue Chance to gain Dusk Shroud When Hit
+    affixID: 449
+    weight: 15
+    levelRequirement: 43
+  - name: Rogue Bleed Chance per Equipped Sword
+    affixID: 451
+    weight: 15
+    levelRequirement: 27
+  - name: Rogue Poison Chance per Equipped Dagger
+    affixID: 453
+    weight: 15
+    levelRequirement: 27
+  - name: Rogue Dusk Shroud Chance on Melee Hit
+    affixID: 454
+    weight: 15
+    levelRequirement: 36
+  - name: Rogue Added Physical Throwing Damage while dual wielding
+    affixID: 457
+    weight: 15
+    levelRequirement: 55
+  - name: Rogue Increased damage while wielding a sword
+    affixID: 459
+    weight: 15
+    levelRequirement: 29
+  - name: Rogue Increased damage while wielding a dagger
+    affixID: 461
+    weight: 15
+    levelRequirement: 29
+  - name: Rogue Increased damage while wielding a bow
+    affixID: 463
+    weight: 15
+    levelRequirement: 29
+  - name: Rogue Fire Penetration With Ignite
+    affixID: 468
+    weight: 15
+    levelRequirement: 55
+  - name: Rogue Increased Poison Duration
+    affixID: 469
+    weight: 15
+    levelRequirement: 55
+  - name: Rogue Increased Throwing Physical Damage
+    affixID: 471
+    weight: 15
+    levelRequirement: 41
+  - name: Rogue Chance to Shred Armour on Throwing Hit
+    affixID: 473
+    weight: 15
+    levelRequirement: 50
+  - name: Rogue Chance to Shred Armour on Melee Hit
+    affixID: 475
+    weight: 15
+    levelRequirement: 50
+  - name: Rogue Chance to Shred Armour on Bow Hit
+    affixID: 477
+    weight: 15
+    levelRequirement: 27
+  - name: Rogue Armour Shred Effect
+    affixID: 479
+    weight: 15
+    levelRequirement: 27
+  - name: Rogue Increased Armour Shred Duration
+    affixID: 481
+    weight: 15
+    levelRequirement: 27
+  - name: Rogue Chance to Ignite on Bow Hit
+    affixID: 483
+    weight: 15
+    levelRequirement: 55
+  - name: Rogue Chance to Slow on Bow Hit
+    affixID: 485
+    weight: 15
+    levelRequirement: 57
+  - name: Rogue Physical Penetration With Shadow Daggers
+    affixID: 487
+    weight: 15
+    levelRequirement: 55
+  - name: Rogue Increased Bow Elemental Damage
+    affixID: 489
+    weight: 15
+    levelRequirement: 27
+  - name: Rogue Chance to Bleed on Bow Hit
+    affixID: 494
+    weight: 15
+    levelRequirement: 27
+  - name: Rogue Increased Area with Cinder Strike's First Strike
+    affixID: 496
+    weight: 15
+    levelRequirement: 10
+  - name: Rogue Increased crit chance with Flurry
+    affixID: 498
+    weight: 15
+    levelRequirement: 4
+  - name: Rogue Physical penetration with Puncture
+    affixID: 500
+    weight: 15
+    levelRequirement: 5
+  - name: Rogue Increased Area with Detonating Arrow
+    affixID: 509
+    weight: 15
+    levelRequirement: 25
+  - name: Rogue Increased damage per arrow with Multishot
+    affixID: 511
+    weight: 15
+    levelRequirement: 25
+  - name: Rogue Increased Hail of Arrows Duration
+    affixID: 513
+    weight: 15
+    levelRequirement: 50
+  - name: Rogue Increased damage per active Shadow with Shadow Cascade
+    affixID: 515
+    weight: 15
+    levelRequirement: 25
+  - name: Rogue Bleed Chance with Shurikens
+    affixID: 517
+    weight: 15
+    levelRequirement: 14
+  - name: Rogue Increased Acid Flask Area
+    affixID: 521
+    weight: 15
+    levelRequirement: 4
+  - name: Rogue Increased Dancing Strikes Area
+    affixID: 524
+    weight: 15
+    levelRequirement: 25
+  - name: Rogue Mana efficiency with Synchronised Strike
+    affixID: 526
+    weight: 15
+    levelRequirement: 30
+  - name: Rogue Mana efficiency with Decoy
+    affixID: 528
+    weight: 15
+    levelRequirement: 13
+  - name: Rogue Ward gained on use with Smoke Bomb
+    affixID: 530
+    weight: 15
+    levelRequirement: 8
+  - name: Rogue Ward gained on use with Shift
+    affixID: 532
+    weight: 15
+    levelRequirement: 4
+  - name: Primalist Storm Crow Added Spell Damage
+    affixID: 648
+    weight: 15
+    levelRequirement: 36
+  - name: Leech Rate
+    affixID: 40
+    weight: 200
+    levelRequirement: 0
+  - name: Sentinel Added Lightning Throwing Damage with Javelin
+    affixID: 655
+    weight: 15
+    levelRequirement: 22
+  - name: Sentinel Endurance While Warpathing
+    affixID: 656
+    weight: 15
+    levelRequirement: 5
+  - name: Primalist Armour Shred Chance for Locusts
+    affixID: 663
+    weight: 15
+    levelRequirement: 49
+  - name: Primalist Upheaval Shockwave Chance
+    affixID: 665
+    weight: 15
+    levelRequirement: 38
+  - name: Primalist Attack and Cast Speed for Summoned Vines
+    affixID: 666
+    weight: 15
+    levelRequirement: 33
+  - name: Primalist Critical Strike Chance with Rampage
+    affixID: 667
+    weight: 15
+    levelRequirement: 42
+  - name: Increased Area for Area Skills
+    affixID: 101
+    weight: 120
+    levelRequirement: 32
+  - name: Added Bow Lightning Damage
+    affixID: 669
+    weight: 540
+    levelRequirement: 8
+  - name: Added Bow Cold Damage
+    affixID: 670
+    weight: 540
+    levelRequirement: 0
+  - name: Area for Melee Area Skills
+    affixID: 671
+    weight: 120
+    levelRequirement: 30
+  - name: Mage Ward per Second on Glyph of Dominion
+    affixID: 687
+    weight: 15
+    levelRequirement: 49
+  - name: Mage Flame Rush Speed
+    affixID: 688
+    weight: 15
+    levelRequirement: 26
+  - name: Mage Mana on Runebolt or Fireball Cast
+    affixID: 690
+    weight: 15
+    levelRequirement: 17
+  - name: Mage Ward per Rune consumed with Runic Invocation
+    affixID: 691
+    weight: 15
+    levelRequirement: 29
+  - name: Parry Chance
+    affixID: 717
+    weight: 1000
+    levelRequirement: 24
+  - name: Primalist Chance to Gain Additional Storm Stack
+    affixID: 737
+    weight: 15
+    levelRequirement: 26
+  - name: Acolyte Additional Projectile Chance with Chaos Bolts
+    affixID: 747
+    weight: 15
+    levelRequirement: 41
+  - name: Acolyte Increased Spirit Frequency with Chthonic Fissure
+    affixID: 748
+    weight: 15
+    levelRequirement: 13
+  - name: Acolyte Added Spell Damage for Curses
+    affixID: 749
+    weight: 15
+    levelRequirement: 26
+  - name: Extra Potion Slot And Potion Health
+    affixID: 82
+    weight: 200
+    levelRequirement: 15
+  - name: Freeze Rate Multiplier and Cold Resistance
+    affixID: 14
+    weight: 1850
+    levelRequirement: 15
+  - name: Health and Stun Avoidance
+    affixID: 29
+    weight: 143
+    levelRequirement: 46
+  - name: Lightning Damage And Leech
+    affixID: 42
+    weight: 500
+    levelRequirement: 18
+  - name: Spell Damage and Reduced Mana Cost
+    affixID: 506
+    weight: 2355
+    levelRequirement: 0
+  - name: Throwing Damage and Reduced Mana Cost
+    affixID: 507
+    weight: 2000
+    levelRequirement: 6
+  - name: Hybrid Health
+    affixID: 36
+    weight: 120
+    levelRequirement: 45
+  - name: Primalist Armour And Minion Armour
+    affixID: 332
+    weight: 15
+    levelRequirement: 27
+  - name: Primalist Shared Lightning Damage
+    affixID: 333
+    weight: 15
+    levelRequirement: 48
+  - name: Primalist Shared Cold Damage
+    affixID: 340
+    weight: 15
+    levelRequirement: 36
+  - name: Primalist Shared Bleed Duration
+    affixID: 343
+    weight: 15
+    levelRequirement: 34
+  - name: Primalist Shared Increased Spell Damage
+    affixID: 344
+    weight: 15
+    levelRequirement: 27
+  - name: Primalist Shared Increased Melee Damage
+    affixID: 345
+    weight: 15
+    levelRequirement: 48
+  - name: Sentinel Increased Physical Damage And Bleed Duration
+    affixID: 360
+    weight: 15
+    levelRequirement: 60
+  - name: Sentinel Increased Fire Damage And Ignite Duration
+    affixID: 361
+    weight: 15
+    levelRequirement: 55
+  - name: Sentinel Increased Void Damage And Added Spell Void Damage
+    affixID: 362
+    weight: 15
+    levelRequirement: 53
+  - name: Flame Ward Charge and Added Ward
+    affixID: 397
+    weight: 15
+    levelRequirement: 60
+  - name: Acolyte Shared Increased Fire Damage
+    affixID: 404
+    weight: 15
+    levelRequirement: 36
+  - name: Acolyte Shared Increased Necrotic Damage
+    affixID: 405
+    weight: 15
+    levelRequirement: 36
+  - name: Acolyte Shared Bleed Chance
+    affixID: 406
+    weight: 15
+    levelRequirement: 57
+  - name: Acolyte Shared Increased Bleed Duration
+    affixID: 407
+    weight: 15
+    levelRequirement: 57
+  - name: Acolyte Shared Physical Penetration With Bleed
+    affixID: 408
+    weight: 15
+    levelRequirement: 57
+  - name: Acolyte Shared Physical Leech
+    affixID: 409
+    weight: 15
+    levelRequirement: 60
+  - name: Acolyte Poison Damage And Poison Resistance
+    affixID: 414
+    weight: 15
+    levelRequirement: 32
+  - name: Acolyte Shared Increased Crit Chance
+    affixID: 416
+    weight: 15
+    levelRequirement: 29
+  - name: Acolyte Increased Projectile Speed With Marrow Shards And Bone Nova
+    affixID: 417
+    weight: 15
+    levelRequirement: 45
+  - name: Acolyte Increased Damage With Rip Blood And Blood Splatter
+    affixID: 418
+    weight: 15
+    levelRequirement: 45
+  - name: Acolyte Critical Strike Chance For Skeletons And Skeletal Mages
+    affixID: 419
+    weight: 15
+    levelRequirement: 25
+  - name: Acolyte +1 Skeleton and Increased Skeleton Damage
+    affixID: 192
+    weight: 15
+    levelRequirement: 60
+  - name: Rogue Black Arrows dropped by Dark Quiver and Increased Bow Damage
+    affixID: 534
+    weight: 15
+    levelRequirement: 35
+  - name: Rogue Max Ballista and Increased Ballista Attack Speed
+    affixID: 536
+    weight: 15
+    levelRequirement: 18
+  - name: Rogue Mirages and Mana Efficiency with Lethal Mirage
+    affixID: 537
+    weight: 15
+    levelRequirement: 50
+  - name: Block Chance and Effectiveness
+    affixID: 426
+    weight: 1300
+    levelRequirement: 13
+  - name: Primalist Level of Swipe
+    affixID: 539
+    weight: 15
+    levelRequirement: 6
+  - name: Primalist Level of Summon Wolf
+    affixID: 540
+    weight: 10
+    levelRequirement: 4
+  - name: Primalist Level of Tornado
+    affixID: 541
+    weight: 10
+    levelRequirement: 25
+  - name: Primalist Level of Fury Leap
+    affixID: 542
+    weight: 10
+    levelRequirement: 4
+  - name: Primalist Level of Summon Thorn Totem
+    affixID: 543
+    weight: 10
+    levelRequirement: 4
+  - name: Primalist Level of Summon Spriggan
+    affixID: 544
+    weight: 10
+    levelRequirement: 30
+  - name: Primalist Level of Summon Frenzy Totem
+    affixID: 545
+    weight: 10
+    levelRequirement: 35
+  - name: Mage Level of Elemental Nova
+    affixID: 546
+    weight: 10
+    levelRequirement: 4
+  - name: Mage Level of Mana Strike
+    affixID: 547
+    weight: 10
+    levelRequirement: 6
+  - name: Mage Fireball Pierce Chance
+    affixID: 548
+    weight: 15
+    levelRequirement: 18
+  - name: Mage Level of Fireball
+    affixID: 549
+    weight: 10
+    levelRequirement: 7
+  - name: Mage Level of Glacier
+    affixID: 550
+    weight: 10
+    levelRequirement: 7
+  - name: Mage Level of Meteor
+    affixID: 551
+    weight: 10
+    levelRequirement: 25
+  - name: Mage Level of Teleport
+    affixID: 552
+    weight: 10
+    levelRequirement: 12
+  - name: Mage Level of Volcanic Orb
+    affixID: 553
+    weight: 10
+    levelRequirement: 17
+  - name: Mage Level of Black Hole
+    affixID: 554
+    weight: 10
+    levelRequirement: 50
+  - name: Primalist Level of Summon Bear
+    affixID: 555
+    weight: 10
+    levelRequirement: 25
+  - name: Mage Level of Static Orb
+    affixID: 556
+    weight: 10
+    levelRequirement: 4
+  - name: Mage Level of Lightning Blast
+    affixID: 557
+    weight: 10
+    levelRequirement: 4
+  - name: Primalist Level of Serpent Strike
+    affixID: 558
+    weight: 10
+    levelRequirement: 22
+  - name: Primalist Level of Entangling Roots
+    affixID: 559
+    weight: 10
+    levelRequirement: 25
+  - name: Sentinel Level of Anomaly
+    affixID: 560
+    weight: 10
+    levelRequirement: 50
+  - name: Sentinel Level of Warpath
+    affixID: 561
+    weight: 10
+    levelRequirement: 4
+  - name: Sentinel Level of Devouring Orb
+    affixID: 562
+    weight: 10
+    levelRequirement: 35
+  - name: Sentinel Level of Rive
+    affixID: 563
+    weight: 10
+    levelRequirement: 6
+  - name: Sentinel Level of Hammer Throw
+    affixID: 564
+    weight: 10
+    levelRequirement: 4
+  - name: Sentinel Level of Shield Rush
+    affixID: 565
+    weight: 10
+    levelRequirement: 12
+  - name: Sentinel Level of Volatile Reversal
+    affixID: 566
+    weight: 10
+    levelRequirement: 25
+  - name: Sentinel Level of Abyssal Echoes
+    affixID: 567
+    weight: 10
+    levelRequirement: 30
+  - name: Sentinel Level of Erasing Strike
+    affixID: 568
+    weight: 10
+    levelRequirement: 25
+  - name: Sentinel Level of Vengeance
+    affixID: 569
+    weight: 10
+    levelRequirement: 4
+  - name: Sentinel Level of Shield Throw
+    affixID: 570
+    weight: 10
+    levelRequirement: 17
+  - name: Acolyte Level of Summon Skeleton
+    affixID: 572
+    weight: 10
+    levelRequirement: 4
+  - name: Acolyte Level of Infernal Shade
+    affixID: 573
+    weight: 10
+    levelRequirement: 22
+  - name: Acolyte Level of Sacrifice
+    affixID: 574
+    weight: 10
+    levelRequirement: 30
+  - name: Mage Level of Focus
+    affixID: 575
+    weight: 10
+    levelRequirement: 22
+  - name: Acolyte Level of Aura Of Decay
+    affixID: 576
+    weight: 10
+    levelRequirement: 30
+  - name: Acolyte Level of Hungering Souls
+    affixID: 577
+    weight: 10
+    levelRequirement: 7
+  - name: Acolyte Level of Rip Blood
+    affixID: 578
+    weight: 10
+    levelRequirement: 4
+  - name: Acolyte Level of Summon Wraith
+    affixID: 579
+    weight: 10
+    levelRequirement: 25
+  - name: Acolyte Level of Summon Bone Golem
+    affixID: 580
+    weight: 10
+    levelRequirement: 12
+  - name: Acolyte Level of Wandering Spirits
+    affixID: 581
+    weight: 10
+    levelRequirement: 4
+  - name: Acolyte Level of Marrow Shards
+    affixID: 582
+    weight: 10
+    levelRequirement: 4
+  - name: Acolyte Level of Transplant
+    affixID: 583
+    weight: 10
+    levelRequirement: 13
+  - name: Mage Level of Flame Reave
+    affixID: 584
+    weight: 10
+    levelRequirement: 25
+  - name: Primalist Level of Summon Storm Totem
+    affixID: 585
+    weight: 10
+    levelRequirement: 25
+  - name: Acolyte Level of Soul Feast
+    affixID: 586
+    weight: 10
+    levelRequirement: 35
+  - name: Mage Level of Snap Freeze
+    affixID: 587
+    weight: 10
+    levelRequirement: 4
+  - name: Sentinel Level of Lunge
+    affixID: 588
+    weight: 10
+    levelRequirement: 4
+  - name: Sentinel Level of Rebuke
+    affixID: 589
+    weight: 10
+    levelRequirement: 7
+  - name: Primalist Level of Summon Sabertooth
+    affixID: 590
+    weight: 10
+    levelRequirement: 12
+  - name: Primalist Level of Summon Scorpion
+    affixID: 591
+    weight: 10
+    levelRequirement: 30
+  - name: Sentinel Level of Ring Of Shields
+    affixID: 592
+    weight: 10
+    levelRequirement: 25
+  - name: Acolyte Level of Harvest
+    affixID: 594
+    weight: 10
+    levelRequirement: 6
+  - name: Primalist Level of Eterra's Blessing
+    affixID: 595
+    weight: 10
+    levelRequirement: 7
+  - name: Sentinel Level of Judgement
+    affixID: 596
+    weight: 10
+    levelRequirement: 50
+  - name: Mage Level of Shatter Strike
+    affixID: 597
+    weight: 10
+    levelRequirement: 25
+  - name: Mage Level of Enchant Weapon
+    affixID: 598
+    weight: 10
+    levelRequirement: 30
+  - name: Primalist Level of Avalanche
+    affixID: 599
+    weight: 10
+    levelRequirement: 40
+  - name: Sentinel Level of Sigils Of Hope
+    affixID: 600
+    weight: 10
+    levelRequirement: 35
+  - name: Sentinel Level of Holy Aura
+    affixID: 601
+    weight: 10
+    levelRequirement: 25
+  - name: Primalist Level of Werebear Form
+    affixID: 602
+    weight: 10
+    levelRequirement: 25
+  - name: Sentinel Level of Smite
+    affixID: 603
+    weight: 10
+    levelRequirement: 22
+  - name: Sentinel Level of Manifest Armor
+    affixID: 604
+    weight: 10
+    levelRequirement: 35
+  - name: Sentinel Level of Forge Strike
+    affixID: 605
+    weight: 10
+    levelRequirement: 25
+  - name: Primalist Level of Spriggan Form
+    affixID: 606
+    weight: 10
+    levelRequirement: 35
+  - name: Acolyte Level of Reaper Form
+    affixID: 607
+    weight: 10
+    levelRequirement: 25
+  - name: Rogue Level of Acid Flask
+    affixID: 608
+    weight: 10
+    levelRequirement: 4
+  - name: Rogue Level of Shadow Cascade
+    affixID: 609
+    weight: 10
+    levelRequirement: 25
+  - name: Rogue Level of Flurry
+    affixID: 610
+    weight: 10
+    levelRequirement: 4
+  - name: Rogue Level of Shurikens
+    affixID: 611
+    weight: 10
+    levelRequirement: 4
+  - name: Rogue Level of Dancing Strikes
+    affixID: 612
+    weight: 10
+    levelRequirement: 25
+  - name: Rogue Level of Multishot
+    affixID: 613
+    weight: 10
+    levelRequirement: 25
+  - name: Rogue Level of Puncture
+    affixID: 614
+    weight: 10
+    levelRequirement: 5
+  - name: Rogue Level of Decoy
+    affixID: 615
+    weight: 10
+    levelRequirement: 12
+  - name: Rogue Level of Cinder Strike
+    affixID: 616
+    weight: 10
+    levelRequirement: 10
+  - name: Rogue Level of Detonating Arrow
+    affixID: 617
+    weight: 10
+    levelRequirement: 25
+  - name: Rogue Level of Hail of Arrows
+    affixID: 618
+    weight: 10
+    levelRequirement: 50
+  - name: Rogue Level of Shift
+    affixID: 619
+    weight: 10
+    levelRequirement: 4
+  - name: Rogue Level of Synchronized Strike
+    affixID: 620
+    weight: 10
+    levelRequirement: 30
+  - name: Primalist Level of Tempest Strike
+    affixID: 621
+    weight: 10
+    levelRequirement: 10
+  - name: Primalist Level of Gathering Storm
+    affixID: 622
+    weight: 10
+    levelRequirement: 4
+  - name: Acolyte Level of Summon Skeletal Mage
+    affixID: 623
+    weight: 10
+    levelRequirement: 25
+  - name: Mage Level of Static
+    affixID: 624
+    weight: 10
+    levelRequirement: 40
+  - name: Mage Level of Disintegrate
+    affixID: 625
+    weight: 10
+    levelRequirement: 35
+  - name: Primalist Level of Maelstrom
+    affixID: 626
+    weight: 10
+    levelRequirement: 17
+  - name: Primalist Level of Summon Raptor
+    affixID: 627
+    weight: 10
+    levelRequirement: 25
+  - name: Mage Level of Flame Ward
+    affixID: 628
+    weight: 10
+    levelRequirement: 9
+  - name: Primalist Level of Earthquake
+    affixID: 629
+    weight: 10
+    levelRequirement: 30
+  - name: Mage Level of Arcane Ascendance
+    affixID: 630
+    weight: 10
+    levelRequirement: 40
+  - name: Sentinel Level of Smelter's Wrath
+    affixID: 631
+    weight: 10
+    levelRequirement: 50
+  - name: Acolyte Level of Drain Life
+    affixID: 632
+    weight: 10
+    levelRequirement: 25
+  - name: Acolyte Level of Assemble Abomination
+    affixID: 633
+    weight: 10
+    levelRequirement: 60
+  - name: Acolyte Level of Spirit Plague
+    affixID: 634
+    weight: 10
+    levelRequirement: 17
+  - name: Acolyte Level of Bone Curse
+    affixID: 635
+    weight: 10
+    levelRequirement: 8
+  - name: Acolyte Level of Death Seal
+    affixID: 636
+    weight: 10
+    levelRequirement: 50
+  - name: Mage Level of Ice Barrage
+    affixID: 637
+    weight: 10
+    levelRequirement: 25
+  - name: Rogue Level of Dark Quiver
+    affixID: 638
+    weight: 10
+    levelRequirement: 35
+  - name: Sentinel Level of Shield Bash
+    affixID: 639
+    weight: 10
+    levelRequirement: 8
+  - name: Acolyte Level of Dread Shade
+    affixID: 571
+    weight: 10
+    levelRequirement: 50
+  - name: Mage Level of Firebrand
+    affixID: 593
+    weight: 10
+    levelRequirement: 50
+  - name: Rogue Level of Ballista
+    affixID: 640
+    weight: 10
+    levelRequirement: 17
+  - name: Rogue Level of Lethal Mirage
+    affixID: 641
+    weight: 10
+    levelRequirement: 50
+  - name: Rogue Level of Smoke Bomb
+    affixID: 642
+    weight: 10
+    levelRequirement: 7
+  - name: Primalist Level of Warcry
+    affixID: 644
+    weight: 10
+    levelRequirement: 14
+  - name: Mage Level of Surge
+    affixID: 645
+    weight: 10
+    levelRequirement: 55
+  - name: Primalist Level of Summon Storm Crow
+    affixID: 646
+    weight: 10
+    levelRequirement: 20
+  - name: Acolyte Level of Summon Volatile Zombie
+    affixID: 647
+    weight: 10
+    levelRequirement: 20
+  - name: Acolyte Volatile Zombie Speed and Damage
+    affixID: 649
+    weight: 15
+    levelRequirement: 28
+  - name: Freeze Rate and Freezing Concoction on Potion Use
+    affixID: 67
+    weight: 150
+    levelRequirement: 35
+  - name: Ward and Ailment Cleansing on Potion Use
+    affixID: 75
+    weight: 150
+    levelRequirement: 31
+  - name: Sentinel Level of Multistrike
+    affixID: 652
+    weight: 10
+    levelRequirement: 17
+  - name: Sentinel Level of Void Cleave
+    affixID: 653
+    weight: 10
+    levelRequirement: 19
+  - name: Sentinel Level of Javelin
+    affixID: 654
+    weight: 10
+    levelRequirement: 17
+  - name: Primalist Level of Swarmblade Form
+    affixID: 660
+    weight: 10
+    levelRequirement: 43
+  - name: Primalist Level of Upheaval
+    affixID: 661
+    weight: 10
+    levelRequirement: 15
+  - name: Rogue Level of Umbral Blades
+    affixID: 662
+    weight: 10
+    levelRequirement: 16
+  - name: Rogue Lightning Damage with Shurikens
+    affixID: 519
+    weight: 15
+    levelRequirement: 4
+  - name: Crit Chance and Bow Attack Speed
+    affixID: 672
+    weight: 150
+    levelRequirement: 44
+  - name: Mage Level of Flame Rush
+    affixID: 680
+    weight: 10
+    levelRequirement: 23
+  - name: Mage Level of Runebolt
+    affixID: 681
+    weight: 10
+    levelRequirement: 40
+  - name: Mage Level of Runic Invocation
+    affixID: 682
+    weight: 10
+    levelRequirement: 20
+  - name: Mage Level of Frostwall
+    affixID: 683
+    weight: 10
+    levelRequirement: 35
+  - name: Mage Level of Glyph of Dominion
+    affixID: 684
+    weight: 10
+    levelRequirement: 49
+  - name: Mage Penetration with Fire Invocations
+    affixID: 693
+    weight: 15
+    levelRequirement: 39
+  - name: Mage Penetration with Cold Invocations
+    affixID: 694
+    weight: 15
+    levelRequirement: 39
+  - name: Mage Frost Wall Duration and Frostbite Chance
+    affixID: 695
+    weight: 15
+    levelRequirement: 35
+  - name: Mage Penetration with Lightning Invocations
+    affixID: 696
+    weight: 15
+    levelRequirement: 39
+  - name: Mage Level of Frost Claw
+    affixID: 709
+    weight: 10
+    levelRequirement: 49
+  - name: Armour and Reduced Bonus Damage from Crits
+    affixID: 715
+    weight: 150
+    levelRequirement: 40
+  - name: Mana and Mana Regen
+    affixID: 718
+    weight: 1000
+    levelRequirement: 36
+  - name: Minion Melee and Bow Damage
+    affixID: 64
+    weight: 500
+    levelRequirement: 20
+  - name: Minion Spell and Bow Damage
+    affixID: 102
+    weight: 1000
+    levelRequirement: 22
+  - name: Minion Melee and Spell Damage
+    affixID: 643
+    weight: 1000
+    levelRequirement: 18
+  - name: Physical Penetration and Minion Physical Penetration
+    affixID: 719
+    weight: 145
+    levelRequirement: 60
+  - name: Fire Penetration and Minion Fire Penetration
+    affixID: 720
+    weight: 145
+    levelRequirement: 60
+  - name: Cold Penetration and Minion Cold Penetration
+    affixID: 721
+    weight: 145
+    levelRequirement: 60
+  - name: Lightning Penetration and Minion Lightning Penetration
+    affixID: 722
+    weight: 145
+    levelRequirement: 60
+  - name: Void Penetration and Minion Void Penetration
+    affixID: 723
+    weight: 140
+    levelRequirement: 60
+  - name: Necrotic Penetration and Minion Necrotic Penetration
+    affixID: 724
+    weight: 140
+    levelRequirement: 60
+  - name: Poison Penetration and Minion Poison Penetration
+    affixID: 725
+    weight: 140
+    levelRequirement: 60
+  - name: Sentinel Level of Healing Hands
+    affixID: 726
+    weight: 10
+    levelRequirement: 23
+  - name: Rogue Level of Falconry
+    affixID: 727
+    weight: 10
+    levelRequirement: 20
+  - name: Rogue Level of Dive Bomb
+    affixID: 728
+    weight: 10
+    levelRequirement: 20
+  - name: Rogue Level of Explosive Trap
+    affixID: 729
+    weight: 10
+    levelRequirement: 50
+  - name: Rogue Level of Aerial Assault
+    affixID: 730
+    weight: 10
+    levelRequirement: 25
+  - name: Rogue Level of Net
+    affixID: 731
+    weight: 10
+    levelRequirement: 25
+  - name: Acolyte Level of Profane Veil
+    affixID: 732
+    weight: 10
+    levelRequirement: 25
+  - name: Acolyte Level of Chthonic Fissure
+    affixID: 733
+    weight: 10
+    levelRequirement: 23
+  - name: Acolyte Level of Chaos Bolts
+    affixID: 734
+    weight: 10
+    levelRequirement: 50
+  - name: Acolyte Level of Ghostflame
+    affixID: 735
+    weight: 10
+    levelRequirement: 50
+  - name: Rogue Damage and Area with Dive Bomb
+    affixID: 739
+    weight: 15
+    levelRequirement: 48

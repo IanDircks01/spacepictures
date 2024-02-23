@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fx_CosmicSet_Smoke
+  m_Shader: {fileID: 4800000, guid: a7fd314bc809f7842872130cb1bbfc1f, type: 3}
+  m_ShaderKeywords: USE_ALPHA_MASK USE_CUTOUT_THRESHOLD USE_FRESNEL_FADING USE_NOISE_DISTORTION _BLENDMODE_BLEND _FADING_ON _MASKENABLE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMaskTex:
+        m_Texture: {fileID: 2800000, guid: cbb3b34cf4b72b34a9529b675c1a5815, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CutoutTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e8b0b1f1123dc4447a18c4f910aa8b1f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MotionVectorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 97318158176905f4b934f250cc89e77a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertOffsetTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlendMode: 1
+    - _BumpScale: 1
+    - _Cull: 0
+    - _CullMode: 0
+    - _Cutoff: 0.5
+    - _Cutout: 0
+    - _CutoutThreshold: 0.263
+    - _DetailNormalMapScale: 1
+    - _DisolveCustomStream: 0
+    - _DissolveAmount: 0
+    - _DistortMainTex: 0
+    - _DistortMask: 0
+    - _DistortionAmount: 0
+    - _DistortionVS: 0
+    - _DstBlend: 10
+    - _DstMode: 10
+    - _FresnelFadeFactor: 3
+    - _FresnelMask: 0
+    - _FresnelPow: 5
+    - _FresnelPower: 0
+    - _FresnelR0: 0.04
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GradientMappingOn: 0
+    - _InvFade: 0.5
+    - _MaskEnable: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _MotionVectorScale: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SoftInverted: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _SrcMode: 5
+    - _UVSec: 0
+    - _UseAlphaMask: 1
+    - _UseAlphaTest: 0
+    - _UseCutout: 0
+    - _UseCutoutTex: 0
+    - _UseCutoutThreshold: 1
+    - _UseFrameBlending: 0
+    - _UseFresnel: 0
+    - _UseFresnelFading: 1
+    - _UseNoiseDistortion: 1
+    - _UseParticlesAlphaCutout: 1
+    - _UseSoft: 1
+    - _UseSoftCutout: 1
+    - _UseUVScroll: 0
+    - _UseVertexOffset: 0
+    - _UseVertexStreamRandom: 0
+    - _VertOffsetAmount: 0.5
+    - _VertOffsetPower: 1
+    - _VertOffsetTexXSpeed: 0.1
+    - _VertOffsetTexYSpeed: 0.1
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteMode: 0
+    m_Colors:
+    - _Color: {r: 2, g: 2, b: 2, a: 1}
+    - _CutoutColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DistortionScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _DistortionSpeedScale: {r: -2, g: -2, b: 0.05, a: -0.05}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FogColorMultiplier: {r: 0, g: 0, b: 0, a: 0}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainTexScroll: {r: 0.2, g: 1, b: 0, a: 0}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _TintColor: {r: 1.972437, g: 2.0832691, b: 2.0907834, a: 0.4509804}
+    - _UVScrollSpeed: {r: -1, g: -2, b: 0, a: 0}
